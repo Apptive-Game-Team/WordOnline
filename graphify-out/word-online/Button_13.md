@@ -1,0 +1,18 @@
+---
+source_file: "client/Assets/Scripts/TutorialScene/MagicBookTutorialController.cs"
+type: "code"
+community: "Community 115"
+location: "L16"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_115
+---
+
+# Button
+
+## Connections
+- [[MagicBookTutorialController]] - `references` [EXTRACTED]
+- [[MagicBookTutorialController.cs]] - `imports` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_115

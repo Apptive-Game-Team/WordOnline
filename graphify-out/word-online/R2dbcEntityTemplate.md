@@ -1,0 +1,18 @@
+---
+source_file: "account/src/main/java/com/wordonline/account/config/database/AccountDbConfig.java"
+type: "code"
+community: "Community 376"
+location: "L40"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_376
+---
+
+# R2dbcEntityTemplate
+
+## Connections
+- [[.accountEntityTemplate()]] - `references` [EXTRACTED]
+- [[AccountDbConfig.java]] - `imports` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_376

@@ -1,0 +1,17 @@
+---
+source_file: "game/src/main/java/com/wordonline/server/game/repository/ParameterRepository.java"
+type: "code"
+community: "Community 520"
+location: "L28"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_520
+---
+
+# String
+
+## Connections
+- [[.getParameterValue()_1]] - `references` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_520

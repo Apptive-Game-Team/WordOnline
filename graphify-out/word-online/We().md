@@ -1,0 +1,19 @@
+---
+source_file: "admin/src/main/resources/static/js/bootstrap.min.js"
+type: "code"
+community: "Community 184"
+location: "L6"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_184
+---
+
+# we()
+
+## Connections
+- [[bootstrap.min.js]] - `contains` [EXTRACTED]
+- [[e()]] - `calls` [EXTRACTED]
+- [[i()_1]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_184

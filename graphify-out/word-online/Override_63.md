@@ -1,0 +1,18 @@
+---
+source_file: "game/src/main/java/com/wordonline/server/game/domain/object/component/magic/RazorGale.java"
+type: "code"
+community: "Community 75"
+location: "L28"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_75
+---
+
+# Override
+
+## Connections
+- [[.start()_33]] - `references` [EXTRACTED]
+- [[.update()_32]] - `references` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_75

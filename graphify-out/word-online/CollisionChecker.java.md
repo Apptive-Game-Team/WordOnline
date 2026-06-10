@@ -1,0 +1,18 @@
+---
+source_file: "game/src/main/java/com/wordonline/server/game/util/CollisionChecker.java"
+type: "code"
+community: "Community 15"
+location: "L1"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_15
+---
+
+# CollisionChecker.java
+
+## Connections
+- [[CollisionChecker]] - `contains` [EXTRACTED]
+- [[GameObject_239]] - `imports` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_15

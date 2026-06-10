@@ -1,0 +1,3514 @@
+# Graph Report - .  (2026-06-10)
+
+## Corpus Check
+- cluster-only mode — file stats not available
+
+## Summary
+- 9080 nodes · 14907 edges · 1157 communities (721 shown, 436 thin omitted)
+- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 1144 edges (avg confidence: 0.8)
+- Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `d79c7551`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
+
+## Community Hubs (Navigation)
+- [[_COMMUNITY_Community 0|Community 0]]
+- [[_COMMUNITY_Community 1|Community 1]]
+- [[_COMMUNITY_Community 2|Community 2]]
+- [[_COMMUNITY_Community 3|Community 3]]
+- [[_COMMUNITY_Community 4|Community 4]]
+- [[_COMMUNITY_Community 5|Community 5]]
+- [[_COMMUNITY_Community 6|Community 6]]
+- [[_COMMUNITY_Community 7|Community 7]]
+- [[_COMMUNITY_Community 8|Community 8]]
+- [[_COMMUNITY_Community 9|Community 9]]
+- [[_COMMUNITY_Community 10|Community 10]]
+- [[_COMMUNITY_Community 11|Community 11]]
+- [[_COMMUNITY_Community 12|Community 12]]
+- [[_COMMUNITY_Community 13|Community 13]]
+- [[_COMMUNITY_Community 14|Community 14]]
+- [[_COMMUNITY_Community 15|Community 15]]
+- [[_COMMUNITY_Community 16|Community 16]]
+- [[_COMMUNITY_Community 17|Community 17]]
+- [[_COMMUNITY_Community 18|Community 18]]
+- [[_COMMUNITY_Community 19|Community 19]]
+- [[_COMMUNITY_Community 20|Community 20]]
+- [[_COMMUNITY_Community 21|Community 21]]
+- [[_COMMUNITY_Community 22|Community 22]]
+- [[_COMMUNITY_Community 23|Community 23]]
+- [[_COMMUNITY_Community 24|Community 24]]
+- [[_COMMUNITY_Community 25|Community 25]]
+- [[_COMMUNITY_Community 26|Community 26]]
+- [[_COMMUNITY_Community 27|Community 27]]
+- [[_COMMUNITY_Community 28|Community 28]]
+- [[_COMMUNITY_Community 29|Community 29]]
+- [[_COMMUNITY_Community 30|Community 30]]
+- [[_COMMUNITY_Community 31|Community 31]]
+- [[_COMMUNITY_Community 32|Community 32]]
+- [[_COMMUNITY_Community 33|Community 33]]
+- [[_COMMUNITY_Community 34|Community 34]]
+- [[_COMMUNITY_Community 35|Community 35]]
+- [[_COMMUNITY_Community 36|Community 36]]
+- [[_COMMUNITY_Community 37|Community 37]]
+- [[_COMMUNITY_Community 38|Community 38]]
+- [[_COMMUNITY_Community 39|Community 39]]
+- [[_COMMUNITY_Community 40|Community 40]]
+- [[_COMMUNITY_Community 41|Community 41]]
+- [[_COMMUNITY_Community 42|Community 42]]
+- [[_COMMUNITY_Community 43|Community 43]]
+- [[_COMMUNITY_Community 44|Community 44]]
+- [[_COMMUNITY_Community 45|Community 45]]
+- [[_COMMUNITY_Community 46|Community 46]]
+- [[_COMMUNITY_Community 47|Community 47]]
+- [[_COMMUNITY_Community 48|Community 48]]
+- [[_COMMUNITY_Community 49|Community 49]]
+- [[_COMMUNITY_Community 50|Community 50]]
+- [[_COMMUNITY_Community 51|Community 51]]
+- [[_COMMUNITY_Community 52|Community 52]]
+- [[_COMMUNITY_Community 53|Community 53]]
+- [[_COMMUNITY_Community 54|Community 54]]
+- [[_COMMUNITY_Community 55|Community 55]]
+- [[_COMMUNITY_Community 56|Community 56]]
+- [[_COMMUNITY_Community 57|Community 57]]
+- [[_COMMUNITY_Community 58|Community 58]]
+- [[_COMMUNITY_Community 59|Community 59]]
+- [[_COMMUNITY_Community 60|Community 60]]
+- [[_COMMUNITY_Community 61|Community 61]]
+- [[_COMMUNITY_Community 62|Community 62]]
+- [[_COMMUNITY_Community 63|Community 63]]
+- [[_COMMUNITY_Community 64|Community 64]]
+- [[_COMMUNITY_Community 65|Community 65]]
+- [[_COMMUNITY_Community 66|Community 66]]
+- [[_COMMUNITY_Community 67|Community 67]]
+- [[_COMMUNITY_Community 68|Community 68]]
+- [[_COMMUNITY_Community 69|Community 69]]
+- [[_COMMUNITY_Community 70|Community 70]]
+- [[_COMMUNITY_Community 71|Community 71]]
+- [[_COMMUNITY_Community 72|Community 72]]
+- [[_COMMUNITY_Community 73|Community 73]]
+- [[_COMMUNITY_Community 74|Community 74]]
+- [[_COMMUNITY_Community 75|Community 75]]
+- [[_COMMUNITY_Community 76|Community 76]]
+- [[_COMMUNITY_Community 77|Community 77]]
+- [[_COMMUNITY_Community 78|Community 78]]
+- [[_COMMUNITY_Community 79|Community 79]]
+- [[_COMMUNITY_Community 80|Community 80]]
+- [[_COMMUNITY_Community 81|Community 81]]
+- [[_COMMUNITY_Community 82|Community 82]]
+- [[_COMMUNITY_Community 83|Community 83]]
+- [[_COMMUNITY_Community 84|Community 84]]
+- [[_COMMUNITY_Community 85|Community 85]]
+- [[_COMMUNITY_Community 86|Community 86]]
+- [[_COMMUNITY_Community 87|Community 87]]
+- [[_COMMUNITY_Community 88|Community 88]]
+- [[_COMMUNITY_Community 89|Community 89]]
+- [[_COMMUNITY_Community 90|Community 90]]
+- [[_COMMUNITY_Community 91|Community 91]]
+- [[_COMMUNITY_Community 92|Community 92]]
+- [[_COMMUNITY_Community 93|Community 93]]
+- [[_COMMUNITY_Community 94|Community 94]]
+- [[_COMMUNITY_Community 95|Community 95]]
+- [[_COMMUNITY_Community 96|Community 96]]
+- [[_COMMUNITY_Community 97|Community 97]]
+- [[_COMMUNITY_Community 98|Community 98]]
+- [[_COMMUNITY_Community 99|Community 99]]
+- [[_COMMUNITY_Community 100|Community 100]]
+- [[_COMMUNITY_Community 101|Community 101]]
+- [[_COMMUNITY_Community 102|Community 102]]
+- [[_COMMUNITY_Community 103|Community 103]]
+- [[_COMMUNITY_Community 104|Community 104]]
+- [[_COMMUNITY_Community 105|Community 105]]
+- [[_COMMUNITY_Community 106|Community 106]]
+- [[_COMMUNITY_Community 107|Community 107]]
+- [[_COMMUNITY_Community 108|Community 108]]
+- [[_COMMUNITY_Community 109|Community 109]]
+- [[_COMMUNITY_Community 110|Community 110]]
+- [[_COMMUNITY_Community 111|Community 111]]
+- [[_COMMUNITY_Community 112|Community 112]]
+- [[_COMMUNITY_Community 113|Community 113]]
+- [[_COMMUNITY_Community 114|Community 114]]
+- [[_COMMUNITY_Community 115|Community 115]]
+- [[_COMMUNITY_Community 116|Community 116]]
+- [[_COMMUNITY_Community 117|Community 117]]
+- [[_COMMUNITY_Community 118|Community 118]]
+- [[_COMMUNITY_Community 119|Community 119]]
+- [[_COMMUNITY_Community 120|Community 120]]
+- [[_COMMUNITY_Community 121|Community 121]]
+- [[_COMMUNITY_Community 122|Community 122]]
+- [[_COMMUNITY_Community 123|Community 123]]
+- [[_COMMUNITY_Community 124|Community 124]]
+- [[_COMMUNITY_Community 125|Community 125]]
+- [[_COMMUNITY_Community 126|Community 126]]
+- [[_COMMUNITY_Community 127|Community 127]]
+- [[_COMMUNITY_Community 128|Community 128]]
+- [[_COMMUNITY_Community 129|Community 129]]
+- [[_COMMUNITY_Community 130|Community 130]]
+- [[_COMMUNITY_Community 131|Community 131]]
+- [[_COMMUNITY_Community 132|Community 132]]
+- [[_COMMUNITY_Community 133|Community 133]]
+- [[_COMMUNITY_Community 134|Community 134]]
+- [[_COMMUNITY_Community 135|Community 135]]
+- [[_COMMUNITY_Community 136|Community 136]]
+- [[_COMMUNITY_Community 137|Community 137]]
+- [[_COMMUNITY_Community 138|Community 138]]
+- [[_COMMUNITY_Community 139|Community 139]]
+- [[_COMMUNITY_Community 140|Community 140]]
+- [[_COMMUNITY_Community 141|Community 141]]
+- [[_COMMUNITY_Community 142|Community 142]]
+- [[_COMMUNITY_Community 143|Community 143]]
+- [[_COMMUNITY_Community 144|Community 144]]
+- [[_COMMUNITY_Community 145|Community 145]]
+- [[_COMMUNITY_Community 146|Community 146]]
+- [[_COMMUNITY_Community 147|Community 147]]
+- [[_COMMUNITY_Community 148|Community 148]]
+- [[_COMMUNITY_Community 149|Community 149]]
+- [[_COMMUNITY_Community 150|Community 150]]
+- [[_COMMUNITY_Community 151|Community 151]]
+- [[_COMMUNITY_Community 152|Community 152]]
+- [[_COMMUNITY_Community 153|Community 153]]
+- [[_COMMUNITY_Community 154|Community 154]]
+- [[_COMMUNITY_Community 155|Community 155]]
+- [[_COMMUNITY_Community 156|Community 156]]
+- [[_COMMUNITY_Community 157|Community 157]]
+- [[_COMMUNITY_Community 158|Community 158]]
+- [[_COMMUNITY_Community 159|Community 159]]
+- [[_COMMUNITY_Community 160|Community 160]]
+- [[_COMMUNITY_Community 161|Community 161]]
+- [[_COMMUNITY_Community 162|Community 162]]
+- [[_COMMUNITY_Community 163|Community 163]]
+- [[_COMMUNITY_Community 164|Community 164]]
+- [[_COMMUNITY_Community 165|Community 165]]
+- [[_COMMUNITY_Community 166|Community 166]]
+- [[_COMMUNITY_Community 167|Community 167]]
+- [[_COMMUNITY_Community 168|Community 168]]
+- [[_COMMUNITY_Community 169|Community 169]]
+- [[_COMMUNITY_Community 170|Community 170]]
+- [[_COMMUNITY_Community 171|Community 171]]
+- [[_COMMUNITY_Community 172|Community 172]]
+- [[_COMMUNITY_Community 173|Community 173]]
+- [[_COMMUNITY_Community 174|Community 174]]
+- [[_COMMUNITY_Community 175|Community 175]]
+- [[_COMMUNITY_Community 176|Community 176]]
+- [[_COMMUNITY_Community 177|Community 177]]
+- [[_COMMUNITY_Community 178|Community 178]]
+- [[_COMMUNITY_Community 179|Community 179]]
+- [[_COMMUNITY_Community 180|Community 180]]
+- [[_COMMUNITY_Community 181|Community 181]]
+- [[_COMMUNITY_Community 182|Community 182]]
+- [[_COMMUNITY_Community 183|Community 183]]
+- [[_COMMUNITY_Community 184|Community 184]]
+- [[_COMMUNITY_Community 185|Community 185]]
+- [[_COMMUNITY_Community 186|Community 186]]
+- [[_COMMUNITY_Community 187|Community 187]]
+- [[_COMMUNITY_Community 188|Community 188]]
+- [[_COMMUNITY_Community 189|Community 189]]
+- [[_COMMUNITY_Community 190|Community 190]]
+- [[_COMMUNITY_Community 191|Community 191]]
+- [[_COMMUNITY_Community 192|Community 192]]
+- [[_COMMUNITY_Community 193|Community 193]]
+- [[_COMMUNITY_Community 194|Community 194]]
+- [[_COMMUNITY_Community 195|Community 195]]
+- [[_COMMUNITY_Community 196|Community 196]]
+- [[_COMMUNITY_Community 197|Community 197]]
+- [[_COMMUNITY_Community 198|Community 198]]
+- [[_COMMUNITY_Community 199|Community 199]]
+- [[_COMMUNITY_Community 200|Community 200]]
+- [[_COMMUNITY_Community 201|Community 201]]
+- [[_COMMUNITY_Community 202|Community 202]]
+- [[_COMMUNITY_Community 203|Community 203]]
+- [[_COMMUNITY_Community 204|Community 204]]
+- [[_COMMUNITY_Community 205|Community 205]]
+- [[_COMMUNITY_Community 206|Community 206]]
+- [[_COMMUNITY_Community 207|Community 207]]
+- [[_COMMUNITY_Community 208|Community 208]]
+- [[_COMMUNITY_Community 209|Community 209]]
+- [[_COMMUNITY_Community 210|Community 210]]
+- [[_COMMUNITY_Community 211|Community 211]]
+- [[_COMMUNITY_Community 212|Community 212]]
+- [[_COMMUNITY_Community 213|Community 213]]
+- [[_COMMUNITY_Community 214|Community 214]]
+- [[_COMMUNITY_Community 215|Community 215]]
+- [[_COMMUNITY_Community 216|Community 216]]
+- [[_COMMUNITY_Community 217|Community 217]]
+- [[_COMMUNITY_Community 218|Community 218]]
+- [[_COMMUNITY_Community 219|Community 219]]
+- [[_COMMUNITY_Community 220|Community 220]]
+- [[_COMMUNITY_Community 221|Community 221]]
+- [[_COMMUNITY_Community 222|Community 222]]
+- [[_COMMUNITY_Community 223|Community 223]]
+- [[_COMMUNITY_Community 224|Community 224]]
+- [[_COMMUNITY_Community 225|Community 225]]
+- [[_COMMUNITY_Community 226|Community 226]]
+- [[_COMMUNITY_Community 227|Community 227]]
+- [[_COMMUNITY_Community 228|Community 228]]
+- [[_COMMUNITY_Community 229|Community 229]]
+- [[_COMMUNITY_Community 230|Community 230]]
+- [[_COMMUNITY_Community 231|Community 231]]
+- [[_COMMUNITY_Community 232|Community 232]]
+- [[_COMMUNITY_Community 233|Community 233]]
+- [[_COMMUNITY_Community 234|Community 234]]
+- [[_COMMUNITY_Community 235|Community 235]]
+- [[_COMMUNITY_Community 236|Community 236]]
+- [[_COMMUNITY_Community 237|Community 237]]
+- [[_COMMUNITY_Community 238|Community 238]]
+- [[_COMMUNITY_Community 239|Community 239]]
+- [[_COMMUNITY_Community 240|Community 240]]
+- [[_COMMUNITY_Community 241|Community 241]]
+- [[_COMMUNITY_Community 242|Community 242]]
+- [[_COMMUNITY_Community 243|Community 243]]
+- [[_COMMUNITY_Community 244|Community 244]]
+- [[_COMMUNITY_Community 245|Community 245]]
+- [[_COMMUNITY_Community 246|Community 246]]
+- [[_COMMUNITY_Community 247|Community 247]]
+- [[_COMMUNITY_Community 248|Community 248]]
+- [[_COMMUNITY_Community 249|Community 249]]
+- [[_COMMUNITY_Community 250|Community 250]]
+- [[_COMMUNITY_Community 251|Community 251]]
+- [[_COMMUNITY_Community 252|Community 252]]
+- [[_COMMUNITY_Community 253|Community 253]]
+- [[_COMMUNITY_Community 254|Community 254]]
+- [[_COMMUNITY_Community 255|Community 255]]
+- [[_COMMUNITY_Community 256|Community 256]]
+- [[_COMMUNITY_Community 257|Community 257]]
+- [[_COMMUNITY_Community 258|Community 258]]
+- [[_COMMUNITY_Community 259|Community 259]]
+- [[_COMMUNITY_Community 260|Community 260]]
+- [[_COMMUNITY_Community 261|Community 261]]
+- [[_COMMUNITY_Community 262|Community 262]]
+- [[_COMMUNITY_Community 263|Community 263]]
+- [[_COMMUNITY_Community 264|Community 264]]
+- [[_COMMUNITY_Community 265|Community 265]]
+- [[_COMMUNITY_Community 266|Community 266]]
+- [[_COMMUNITY_Community 267|Community 267]]
+- [[_COMMUNITY_Community 268|Community 268]]
+- [[_COMMUNITY_Community 269|Community 269]]
+- [[_COMMUNITY_Community 270|Community 270]]
+- [[_COMMUNITY_Community 271|Community 271]]
+- [[_COMMUNITY_Community 272|Community 272]]
+- [[_COMMUNITY_Community 273|Community 273]]
+- [[_COMMUNITY_Community 274|Community 274]]
+- [[_COMMUNITY_Community 275|Community 275]]
+- [[_COMMUNITY_Community 276|Community 276]]
+- [[_COMMUNITY_Community 277|Community 277]]
+- [[_COMMUNITY_Community 278|Community 278]]
+- [[_COMMUNITY_Community 279|Community 279]]
+- [[_COMMUNITY_Community 280|Community 280]]
+- [[_COMMUNITY_Community 281|Community 281]]
+- [[_COMMUNITY_Community 282|Community 282]]
+- [[_COMMUNITY_Community 283|Community 283]]
+- [[_COMMUNITY_Community 284|Community 284]]
+- [[_COMMUNITY_Community 285|Community 285]]
+- [[_COMMUNITY_Community 286|Community 286]]
+- [[_COMMUNITY_Community 287|Community 287]]
+- [[_COMMUNITY_Community 288|Community 288]]
+- [[_COMMUNITY_Community 289|Community 289]]
+- [[_COMMUNITY_Community 290|Community 290]]
+- [[_COMMUNITY_Community 291|Community 291]]
+- [[_COMMUNITY_Community 292|Community 292]]
+- [[_COMMUNITY_Community 293|Community 293]]
+- [[_COMMUNITY_Community 294|Community 294]]
+- [[_COMMUNITY_Community 295|Community 295]]
+- [[_COMMUNITY_Community 296|Community 296]]
+- [[_COMMUNITY_Community 297|Community 297]]
+- [[_COMMUNITY_Community 298|Community 298]]
+- [[_COMMUNITY_Community 299|Community 299]]
+- [[_COMMUNITY_Community 300|Community 300]]
+- [[_COMMUNITY_Community 301|Community 301]]
+- [[_COMMUNITY_Community 302|Community 302]]
+- [[_COMMUNITY_Community 303|Community 303]]
+- [[_COMMUNITY_Community 304|Community 304]]
+- [[_COMMUNITY_Community 305|Community 305]]
+- [[_COMMUNITY_Community 306|Community 306]]
+- [[_COMMUNITY_Community 307|Community 307]]
+- [[_COMMUNITY_Community 308|Community 308]]
+- [[_COMMUNITY_Community 309|Community 309]]
+- [[_COMMUNITY_Community 310|Community 310]]
+- [[_COMMUNITY_Community 311|Community 311]]
+- [[_COMMUNITY_Community 312|Community 312]]
+- [[_COMMUNITY_Community 313|Community 313]]
+- [[_COMMUNITY_Community 314|Community 314]]
+- [[_COMMUNITY_Community 315|Community 315]]
+- [[_COMMUNITY_Community 316|Community 316]]
+- [[_COMMUNITY_Community 317|Community 317]]
+- [[_COMMUNITY_Community 318|Community 318]]
+- [[_COMMUNITY_Community 319|Community 319]]
+- [[_COMMUNITY_Community 320|Community 320]]
+- [[_COMMUNITY_Community 321|Community 321]]
+- [[_COMMUNITY_Community 322|Community 322]]
+- [[_COMMUNITY_Community 323|Community 323]]
+- [[_COMMUNITY_Community 324|Community 324]]
+- [[_COMMUNITY_Community 325|Community 325]]
+- [[_COMMUNITY_Community 326|Community 326]]
+- [[_COMMUNITY_Community 327|Community 327]]
+- [[_COMMUNITY_Community 328|Community 328]]
+- [[_COMMUNITY_Community 329|Community 329]]
+- [[_COMMUNITY_Community 330|Community 330]]
+- [[_COMMUNITY_Community 331|Community 331]]
+- [[_COMMUNITY_Community 332|Community 332]]
+- [[_COMMUNITY_Community 333|Community 333]]
+- [[_COMMUNITY_Community 334|Community 334]]
+- [[_COMMUNITY_Community 335|Community 335]]
+- [[_COMMUNITY_Community 336|Community 336]]
+- [[_COMMUNITY_Community 337|Community 337]]
+- [[_COMMUNITY_Community 338|Community 338]]
+- [[_COMMUNITY_Community 339|Community 339]]
+- [[_COMMUNITY_Community 340|Community 340]]
+- [[_COMMUNITY_Community 341|Community 341]]
+- [[_COMMUNITY_Community 342|Community 342]]
+- [[_COMMUNITY_Community 343|Community 343]]
+- [[_COMMUNITY_Community 344|Community 344]]
+- [[_COMMUNITY_Community 345|Community 345]]
+- [[_COMMUNITY_Community 346|Community 346]]
+- [[_COMMUNITY_Community 347|Community 347]]
+- [[_COMMUNITY_Community 348|Community 348]]
+- [[_COMMUNITY_Community 349|Community 349]]
+- [[_COMMUNITY_Community 350|Community 350]]
+- [[_COMMUNITY_Community 351|Community 351]]
+- [[_COMMUNITY_Community 352|Community 352]]
+- [[_COMMUNITY_Community 353|Community 353]]
+- [[_COMMUNITY_Community 354|Community 354]]
+- [[_COMMUNITY_Community 355|Community 355]]
+- [[_COMMUNITY_Community 356|Community 356]]
+- [[_COMMUNITY_Community 357|Community 357]]
+- [[_COMMUNITY_Community 358|Community 358]]
+- [[_COMMUNITY_Community 359|Community 359]]
+- [[_COMMUNITY_Community 360|Community 360]]
+- [[_COMMUNITY_Community 361|Community 361]]
+- [[_COMMUNITY_Community 362|Community 362]]
+- [[_COMMUNITY_Community 363|Community 363]]
+- [[_COMMUNITY_Community 364|Community 364]]
+- [[_COMMUNITY_Community 365|Community 365]]
+- [[_COMMUNITY_Community 366|Community 366]]
+- [[_COMMUNITY_Community 367|Community 367]]
+- [[_COMMUNITY_Community 368|Community 368]]
+- [[_COMMUNITY_Community 369|Community 369]]
+- [[_COMMUNITY_Community 370|Community 370]]
+- [[_COMMUNITY_Community 371|Community 371]]
+- [[_COMMUNITY_Community 372|Community 372]]
+- [[_COMMUNITY_Community 373|Community 373]]
+- [[_COMMUNITY_Community 374|Community 374]]
+- [[_COMMUNITY_Community 375|Community 375]]
+- [[_COMMUNITY_Community 376|Community 376]]
+- [[_COMMUNITY_Community 377|Community 377]]
+- [[_COMMUNITY_Community 378|Community 378]]
+- [[_COMMUNITY_Community 379|Community 379]]
+- [[_COMMUNITY_Community 380|Community 380]]
+- [[_COMMUNITY_Community 381|Community 381]]
+- [[_COMMUNITY_Community 382|Community 382]]
+- [[_COMMUNITY_Community 383|Community 383]]
+- [[_COMMUNITY_Community 384|Community 384]]
+- [[_COMMUNITY_Community 385|Community 385]]
+- [[_COMMUNITY_Community 386|Community 386]]
+- [[_COMMUNITY_Community 387|Community 387]]
+- [[_COMMUNITY_Community 388|Community 388]]
+- [[_COMMUNITY_Community 389|Community 389]]
+- [[_COMMUNITY_Community 390|Community 390]]
+- [[_COMMUNITY_Community 391|Community 391]]
+- [[_COMMUNITY_Community 392|Community 392]]
+- [[_COMMUNITY_Community 393|Community 393]]
+- [[_COMMUNITY_Community 394|Community 394]]
+- [[_COMMUNITY_Community 395|Community 395]]
+- [[_COMMUNITY_Community 396|Community 396]]
+- [[_COMMUNITY_Community 397|Community 397]]
+- [[_COMMUNITY_Community 398|Community 398]]
+- [[_COMMUNITY_Community 399|Community 399]]
+- [[_COMMUNITY_Community 400|Community 400]]
+- [[_COMMUNITY_Community 401|Community 401]]
+- [[_COMMUNITY_Community 402|Community 402]]
+- [[_COMMUNITY_Community 403|Community 403]]
+- [[_COMMUNITY_Community 404|Community 404]]
+- [[_COMMUNITY_Community 405|Community 405]]
+- [[_COMMUNITY_Community 406|Community 406]]
+- [[_COMMUNITY_Community 407|Community 407]]
+- [[_COMMUNITY_Community 408|Community 408]]
+- [[_COMMUNITY_Community 409|Community 409]]
+- [[_COMMUNITY_Community 410|Community 410]]
+- [[_COMMUNITY_Community 411|Community 411]]
+- [[_COMMUNITY_Community 412|Community 412]]
+- [[_COMMUNITY_Community 413|Community 413]]
+- [[_COMMUNITY_Community 414|Community 414]]
+- [[_COMMUNITY_Community 415|Community 415]]
+- [[_COMMUNITY_Community 416|Community 416]]
+- [[_COMMUNITY_Community 417|Community 417]]
+- [[_COMMUNITY_Community 418|Community 418]]
+- [[_COMMUNITY_Community 419|Community 419]]
+- [[_COMMUNITY_Community 420|Community 420]]
+- [[_COMMUNITY_Community 421|Community 421]]
+- [[_COMMUNITY_Community 422|Community 422]]
+- [[_COMMUNITY_Community 423|Community 423]]
+- [[_COMMUNITY_Community 424|Community 424]]
+- [[_COMMUNITY_Community 425|Community 425]]
+- [[_COMMUNITY_Community 426|Community 426]]
+- [[_COMMUNITY_Community 427|Community 427]]
+- [[_COMMUNITY_Community 428|Community 428]]
+- [[_COMMUNITY_Community 429|Community 429]]
+- [[_COMMUNITY_Community 430|Community 430]]
+- [[_COMMUNITY_Community 431|Community 431]]
+- [[_COMMUNITY_Community 432|Community 432]]
+- [[_COMMUNITY_Community 433|Community 433]]
+- [[_COMMUNITY_Community 434|Community 434]]
+- [[_COMMUNITY_Community 435|Community 435]]
+- [[_COMMUNITY_Community 436|Community 436]]
+- [[_COMMUNITY_Community 437|Community 437]]
+- [[_COMMUNITY_Community 438|Community 438]]
+- [[_COMMUNITY_Community 439|Community 439]]
+- [[_COMMUNITY_Community 440|Community 440]]
+- [[_COMMUNITY_Community 441|Community 441]]
+- [[_COMMUNITY_Community 442|Community 442]]
+- [[_COMMUNITY_Community 443|Community 443]]
+- [[_COMMUNITY_Community 444|Community 444]]
+- [[_COMMUNITY_Community 445|Community 445]]
+- [[_COMMUNITY_Community 446|Community 446]]
+- [[_COMMUNITY_Community 447|Community 447]]
+- [[_COMMUNITY_Community 448|Community 448]]
+- [[_COMMUNITY_Community 449|Community 449]]
+- [[_COMMUNITY_Community 450|Community 450]]
+- [[_COMMUNITY_Community 451|Community 451]]
+- [[_COMMUNITY_Community 452|Community 452]]
+- [[_COMMUNITY_Community 453|Community 453]]
+- [[_COMMUNITY_Community 454|Community 454]]
+- [[_COMMUNITY_Community 455|Community 455]]
+- [[_COMMUNITY_Community 456|Community 456]]
+- [[_COMMUNITY_Community 457|Community 457]]
+- [[_COMMUNITY_Community 458|Community 458]]
+- [[_COMMUNITY_Community 459|Community 459]]
+- [[_COMMUNITY_Community 460|Community 460]]
+- [[_COMMUNITY_Community 461|Community 461]]
+- [[_COMMUNITY_Community 462|Community 462]]
+- [[_COMMUNITY_Community 463|Community 463]]
+- [[_COMMUNITY_Community 464|Community 464]]
+- [[_COMMUNITY_Community 465|Community 465]]
+- [[_COMMUNITY_Community 466|Community 466]]
+- [[_COMMUNITY_Community 467|Community 467]]
+- [[_COMMUNITY_Community 468|Community 468]]
+- [[_COMMUNITY_Community 469|Community 469]]
+- [[_COMMUNITY_Community 470|Community 470]]
+- [[_COMMUNITY_Community 471|Community 471]]
+- [[_COMMUNITY_Community 472|Community 472]]
+- [[_COMMUNITY_Community 473|Community 473]]
+- [[_COMMUNITY_Community 474|Community 474]]
+- [[_COMMUNITY_Community 475|Community 475]]
+- [[_COMMUNITY_Community 476|Community 476]]
+- [[_COMMUNITY_Community 477|Community 477]]
+- [[_COMMUNITY_Community 478|Community 478]]
+- [[_COMMUNITY_Community 479|Community 479]]
+- [[_COMMUNITY_Community 480|Community 480]]
+- [[_COMMUNITY_Community 481|Community 481]]
+- [[_COMMUNITY_Community 482|Community 482]]
+- [[_COMMUNITY_Community 483|Community 483]]
+- [[_COMMUNITY_Community 484|Community 484]]
+- [[_COMMUNITY_Community 485|Community 485]]
+- [[_COMMUNITY_Community 486|Community 486]]
+- [[_COMMUNITY_Community 487|Community 487]]
+- [[_COMMUNITY_Community 488|Community 488]]
+- [[_COMMUNITY_Community 489|Community 489]]
+- [[_COMMUNITY_Community 490|Community 490]]
+- [[_COMMUNITY_Community 491|Community 491]]
+- [[_COMMUNITY_Community 492|Community 492]]
+- [[_COMMUNITY_Community 493|Community 493]]
+- [[_COMMUNITY_Community 494|Community 494]]
+- [[_COMMUNITY_Community 495|Community 495]]
+- [[_COMMUNITY_Community 496|Community 496]]
+- [[_COMMUNITY_Community 497|Community 497]]
+- [[_COMMUNITY_Community 498|Community 498]]
+- [[_COMMUNITY_Community 499|Community 499]]
+- [[_COMMUNITY_Community 500|Community 500]]
+- [[_COMMUNITY_Community 501|Community 501]]
+- [[_COMMUNITY_Community 502|Community 502]]
+- [[_COMMUNITY_Community 503|Community 503]]
+- [[_COMMUNITY_Community 504|Community 504]]
+- [[_COMMUNITY_Community 505|Community 505]]
+- [[_COMMUNITY_Community 506|Community 506]]
+- [[_COMMUNITY_Community 507|Community 507]]
+- [[_COMMUNITY_Community 508|Community 508]]
+- [[_COMMUNITY_Community 509|Community 509]]
+- [[_COMMUNITY_Community 510|Community 510]]
+- [[_COMMUNITY_Community 511|Community 511]]
+- [[_COMMUNITY_Community 512|Community 512]]
+- [[_COMMUNITY_Community 513|Community 513]]
+- [[_COMMUNITY_Community 514|Community 514]]
+- [[_COMMUNITY_Community 515|Community 515]]
+- [[_COMMUNITY_Community 516|Community 516]]
+- [[_COMMUNITY_Community 517|Community 517]]
+- [[_COMMUNITY_Community 518|Community 518]]
+- [[_COMMUNITY_Community 519|Community 519]]
+- [[_COMMUNITY_Community 520|Community 520]]
+- [[_COMMUNITY_Community 521|Community 521]]
+- [[_COMMUNITY_Community 522|Community 522]]
+- [[_COMMUNITY_Community 523|Community 523]]
+- [[_COMMUNITY_Community 524|Community 524]]
+- [[_COMMUNITY_Community 525|Community 525]]
+- [[_COMMUNITY_Community 526|Community 526]]
+- [[_COMMUNITY_Community 527|Community 527]]
+- [[_COMMUNITY_Community 528|Community 528]]
+- [[_COMMUNITY_Community 529|Community 529]]
+- [[_COMMUNITY_Community 530|Community 530]]
+- [[_COMMUNITY_Community 531|Community 531]]
+- [[_COMMUNITY_Community 532|Community 532]]
+- [[_COMMUNITY_Community 533|Community 533]]
+- [[_COMMUNITY_Community 534|Community 534]]
+- [[_COMMUNITY_Community 535|Community 535]]
+- [[_COMMUNITY_Community 536|Community 536]]
+- [[_COMMUNITY_Community 537|Community 537]]
+- [[_COMMUNITY_Community 538|Community 538]]
+- [[_COMMUNITY_Community 539|Community 539]]
+- [[_COMMUNITY_Community 540|Community 540]]
+- [[_COMMUNITY_Community 541|Community 541]]
+- [[_COMMUNITY_Community 542|Community 542]]
+- [[_COMMUNITY_Community 543|Community 543]]
+- [[_COMMUNITY_Community 544|Community 544]]
+- [[_COMMUNITY_Community 545|Community 545]]
+- [[_COMMUNITY_Community 546|Community 546]]
+- [[_COMMUNITY_Community 547|Community 547]]
+- [[_COMMUNITY_Community 548|Community 548]]
+- [[_COMMUNITY_Community 549|Community 549]]
+- [[_COMMUNITY_Community 550|Community 550]]
+- [[_COMMUNITY_Community 551|Community 551]]
+- [[_COMMUNITY_Community 552|Community 552]]
+- [[_COMMUNITY_Community 553|Community 553]]
+- [[_COMMUNITY_Community 554|Community 554]]
+- [[_COMMUNITY_Community 555|Community 555]]
+- [[_COMMUNITY_Community 556|Community 556]]
+- [[_COMMUNITY_Community 557|Community 557]]
+- [[_COMMUNITY_Community 558|Community 558]]
+- [[_COMMUNITY_Community 559|Community 559]]
+- [[_COMMUNITY_Community 560|Community 560]]
+- [[_COMMUNITY_Community 561|Community 561]]
+- [[_COMMUNITY_Community 562|Community 562]]
+- [[_COMMUNITY_Community 563|Community 563]]
+- [[_COMMUNITY_Community 564|Community 564]]
+- [[_COMMUNITY_Community 565|Community 565]]
+- [[_COMMUNITY_Community 566|Community 566]]
+- [[_COMMUNITY_Community 567|Community 567]]
+- [[_COMMUNITY_Community 568|Community 568]]
+- [[_COMMUNITY_Community 569|Community 569]]
+- [[_COMMUNITY_Community 570|Community 570]]
+- [[_COMMUNITY_Community 571|Community 571]]
+- [[_COMMUNITY_Community 572|Community 572]]
+- [[_COMMUNITY_Community 573|Community 573]]
+- [[_COMMUNITY_Community 574|Community 574]]
+- [[_COMMUNITY_Community 575|Community 575]]
+- [[_COMMUNITY_Community 576|Community 576]]
+- [[_COMMUNITY_Community 577|Community 577]]
+- [[_COMMUNITY_Community 578|Community 578]]
+- [[_COMMUNITY_Community 579|Community 579]]
+- [[_COMMUNITY_Community 580|Community 580]]
+- [[_COMMUNITY_Community 581|Community 581]]
+- [[_COMMUNITY_Community 582|Community 582]]
+- [[_COMMUNITY_Community 583|Community 583]]
+- [[_COMMUNITY_Community 584|Community 584]]
+- [[_COMMUNITY_Community 585|Community 585]]
+- [[_COMMUNITY_Community 586|Community 586]]
+- [[_COMMUNITY_Community 587|Community 587]]
+- [[_COMMUNITY_Community 588|Community 588]]
+- [[_COMMUNITY_Community 589|Community 589]]
+- [[_COMMUNITY_Community 590|Community 590]]
+- [[_COMMUNITY_Community 591|Community 591]]
+- [[_COMMUNITY_Community 592|Community 592]]
+- [[_COMMUNITY_Community 593|Community 593]]
+- [[_COMMUNITY_Community 594|Community 594]]
+- [[_COMMUNITY_Community 595|Community 595]]
+- [[_COMMUNITY_Community 596|Community 596]]
+- [[_COMMUNITY_Community 597|Community 597]]
+- [[_COMMUNITY_Community 598|Community 598]]
+- [[_COMMUNITY_Community 599|Community 599]]
+- [[_COMMUNITY_Community 600|Community 600]]
+- [[_COMMUNITY_Community 601|Community 601]]
+- [[_COMMUNITY_Community 602|Community 602]]
+- [[_COMMUNITY_Community 603|Community 603]]
+- [[_COMMUNITY_Community 604|Community 604]]
+- [[_COMMUNITY_Community 605|Community 605]]
+- [[_COMMUNITY_Community 606|Community 606]]
+- [[_COMMUNITY_Community 607|Community 607]]
+- [[_COMMUNITY_Community 608|Community 608]]
+- [[_COMMUNITY_Community 609|Community 609]]
+- [[_COMMUNITY_Community 610|Community 610]]
+- [[_COMMUNITY_Community 611|Community 611]]
+- [[_COMMUNITY_Community 612|Community 612]]
+- [[_COMMUNITY_Community 613|Community 613]]
+- [[_COMMUNITY_Community 614|Community 614]]
+- [[_COMMUNITY_Community 615|Community 615]]
+- [[_COMMUNITY_Community 616|Community 616]]
+- [[_COMMUNITY_Community 617|Community 617]]
+- [[_COMMUNITY_Community 618|Community 618]]
+- [[_COMMUNITY_Community 619|Community 619]]
+- [[_COMMUNITY_Community 620|Community 620]]
+- [[_COMMUNITY_Community 621|Community 621]]
+- [[_COMMUNITY_Community 622|Community 622]]
+- [[_COMMUNITY_Community 623|Community 623]]
+- [[_COMMUNITY_Community 624|Community 624]]
+- [[_COMMUNITY_Community 625|Community 625]]
+- [[_COMMUNITY_Community 626|Community 626]]
+- [[_COMMUNITY_Community 627|Community 627]]
+- [[_COMMUNITY_Community 628|Community 628]]
+- [[_COMMUNITY_Community 629|Community 629]]
+- [[_COMMUNITY_Community 630|Community 630]]
+- [[_COMMUNITY_Community 631|Community 631]]
+- [[_COMMUNITY_Community 632|Community 632]]
+- [[_COMMUNITY_Community 633|Community 633]]
+- [[_COMMUNITY_Community 634|Community 634]]
+- [[_COMMUNITY_Community 635|Community 635]]
+- [[_COMMUNITY_Community 636|Community 636]]
+- [[_COMMUNITY_Community 637|Community 637]]
+- [[_COMMUNITY_Community 638|Community 638]]
+- [[_COMMUNITY_Community 639|Community 639]]
+- [[_COMMUNITY_Community 640|Community 640]]
+- [[_COMMUNITY_Community 641|Community 641]]
+- [[_COMMUNITY_Community 642|Community 642]]
+- [[_COMMUNITY_Community 643|Community 643]]
+- [[_COMMUNITY_Community 644|Community 644]]
+- [[_COMMUNITY_Community 645|Community 645]]
+- [[_COMMUNITY_Community 646|Community 646]]
+- [[_COMMUNITY_Community 647|Community 647]]
+- [[_COMMUNITY_Community 648|Community 648]]
+- [[_COMMUNITY_Community 649|Community 649]]
+- [[_COMMUNITY_Community 650|Community 650]]
+- [[_COMMUNITY_Community 651|Community 651]]
+- [[_COMMUNITY_Community 652|Community 652]]
+- [[_COMMUNITY_Community 653|Community 653]]
+- [[_COMMUNITY_Community 654|Community 654]]
+- [[_COMMUNITY_Community 655|Community 655]]
+- [[_COMMUNITY_Community 656|Community 656]]
+- [[_COMMUNITY_Community 657|Community 657]]
+- [[_COMMUNITY_Community 658|Community 658]]
+- [[_COMMUNITY_Community 659|Community 659]]
+- [[_COMMUNITY_Community 660|Community 660]]
+- [[_COMMUNITY_Community 661|Community 661]]
+- [[_COMMUNITY_Community 662|Community 662]]
+- [[_COMMUNITY_Community 663|Community 663]]
+- [[_COMMUNITY_Community 664|Community 664]]
+- [[_COMMUNITY_Community 665|Community 665]]
+- [[_COMMUNITY_Community 666|Community 666]]
+- [[_COMMUNITY_Community 667|Community 667]]
+- [[_COMMUNITY_Community 668|Community 668]]
+- [[_COMMUNITY_Community 669|Community 669]]
+- [[_COMMUNITY_Community 670|Community 670]]
+- [[_COMMUNITY_Community 671|Community 671]]
+- [[_COMMUNITY_Community 672|Community 672]]
+- [[_COMMUNITY_Community 673|Community 673]]
+- [[_COMMUNITY_Community 674|Community 674]]
+- [[_COMMUNITY_Community 675|Community 675]]
+- [[_COMMUNITY_Community 676|Community 676]]
+- [[_COMMUNITY_Community 678|Community 678]]
+- [[_COMMUNITY_Community 679|Community 679]]
+- [[_COMMUNITY_Community 680|Community 680]]
+- [[_COMMUNITY_Community 681|Community 681]]
+- [[_COMMUNITY_Community 682|Community 682]]
+- [[_COMMUNITY_Community 683|Community 683]]
+- [[_COMMUNITY_Community 684|Community 684]]
+- [[_COMMUNITY_Community 685|Community 685]]
+- [[_COMMUNITY_Community 686|Community 686]]
+- [[_COMMUNITY_Community 687|Community 687]]
+- [[_COMMUNITY_Community 688|Community 688]]
+- [[_COMMUNITY_Community 689|Community 689]]
+- [[_COMMUNITY_Community 690|Community 690]]
+- [[_COMMUNITY_Community 691|Community 691]]
+- [[_COMMUNITY_Community 692|Community 692]]
+- [[_COMMUNITY_Community 693|Community 693]]
+- [[_COMMUNITY_Community 694|Community 694]]
+- [[_COMMUNITY_Community 695|Community 695]]
+- [[_COMMUNITY_Community 696|Community 696]]
+- [[_COMMUNITY_Community 697|Community 697]]
+- [[_COMMUNITY_Community 699|Community 699]]
+- [[_COMMUNITY_Community 700|Community 700]]
+- [[_COMMUNITY_Community 701|Community 701]]
+- [[_COMMUNITY_Community 702|Community 702]]
+- [[_COMMUNITY_Community 703|Community 703]]
+- [[_COMMUNITY_Community 704|Community 704]]
+- [[_COMMUNITY_Community 706|Community 706]]
+- [[_COMMUNITY_Community 707|Community 707]]
+- [[_COMMUNITY_Community 708|Community 708]]
+- [[_COMMUNITY_Community 709|Community 709]]
+- [[_COMMUNITY_Community 710|Community 710]]
+- [[_COMMUNITY_Community 711|Community 711]]
+- [[_COMMUNITY_Community 712|Community 712]]
+- [[_COMMUNITY_Community 713|Community 713]]
+- [[_COMMUNITY_Community 714|Community 714]]
+- [[_COMMUNITY_Community 715|Community 715]]
+- [[_COMMUNITY_Community 716|Community 716]]
+- [[_COMMUNITY_Community 717|Community 717]]
+- [[_COMMUNITY_Community 718|Community 718]]
+- [[_COMMUNITY_Community 720|Community 720]]
+- [[_COMMUNITY_Community 721|Community 721]]
+- [[_COMMUNITY_Community 722|Community 722]]
+- [[_COMMUNITY_Community 726|Community 726]]
+- [[_COMMUNITY_Community 727|Community 727]]
+- [[_COMMUNITY_Community 728|Community 728]]
+- [[_COMMUNITY_Community 729|Community 729]]
+- [[_COMMUNITY_Community 731|Community 731]]
+- [[_COMMUNITY_Community 732|Community 732]]
+- [[_COMMUNITY_Community 735|Community 735]]
+- [[_COMMUNITY_Community 739|Community 739]]
+- [[_COMMUNITY_Community 740|Community 740]]
+- [[_COMMUNITY_Community 741|Community 741]]
+- [[_COMMUNITY_Community 742|Community 742]]
+- [[_COMMUNITY_Community 743|Community 743]]
+- [[_COMMUNITY_Community 744|Community 744]]
+- [[_COMMUNITY_Community 745|Community 745]]
+- [[_COMMUNITY_Community 746|Community 746]]
+- [[_COMMUNITY_Community 747|Community 747]]
+- [[_COMMUNITY_Community 748|Community 748]]
+- [[_COMMUNITY_Community 749|Community 749]]
+- [[_COMMUNITY_Community 750|Community 750]]
+- [[_COMMUNITY_Community 751|Community 751]]
+- [[_COMMUNITY_Community 752|Community 752]]
+- [[_COMMUNITY_Community 753|Community 753]]
+- [[_COMMUNITY_Community 754|Community 754]]
+- [[_COMMUNITY_Community 755|Community 755]]
+- [[_COMMUNITY_Community 756|Community 756]]
+- [[_COMMUNITY_Community 757|Community 757]]
+- [[_COMMUNITY_Community 758|Community 758]]
+- [[_COMMUNITY_Community 759|Community 759]]
+- [[_COMMUNITY_Community 760|Community 760]]
+- [[_COMMUNITY_Community 761|Community 761]]
+- [[_COMMUNITY_Community 762|Community 762]]
+- [[_COMMUNITY_Community 763|Community 763]]
+- [[_COMMUNITY_Community 764|Community 764]]
+- [[_COMMUNITY_Community 765|Community 765]]
+- [[_COMMUNITY_Community 766|Community 766]]
+- [[_COMMUNITY_Community 767|Community 767]]
+- [[_COMMUNITY_Community 768|Community 768]]
+- [[_COMMUNITY_Community 769|Community 769]]
+- [[_COMMUNITY_Community 770|Community 770]]
+- [[_COMMUNITY_Community 771|Community 771]]
+- [[_COMMUNITY_Community 772|Community 772]]
+- [[_COMMUNITY_Community 773|Community 773]]
+- [[_COMMUNITY_Community 774|Community 774]]
+- [[_COMMUNITY_Community 775|Community 775]]
+- [[_COMMUNITY_Community 776|Community 776]]
+- [[_COMMUNITY_Community 777|Community 777]]
+- [[_COMMUNITY_Community 778|Community 778]]
+- [[_COMMUNITY_Community 779|Community 779]]
+- [[_COMMUNITY_Community 780|Community 780]]
+- [[_COMMUNITY_Community 781|Community 781]]
+- [[_COMMUNITY_Community 782|Community 782]]
+- [[_COMMUNITY_Community 783|Community 783]]
+- [[_COMMUNITY_Community 784|Community 784]]
+- [[_COMMUNITY_Community 785|Community 785]]
+- [[_COMMUNITY_Community 786|Community 786]]
+- [[_COMMUNITY_Community 787|Community 787]]
+- [[_COMMUNITY_Community 788|Community 788]]
+- [[_COMMUNITY_Community 789|Community 789]]
+- [[_COMMUNITY_Community 790|Community 790]]
+- [[_COMMUNITY_Community 791|Community 791]]
+- [[_COMMUNITY_Community 792|Community 792]]
+- [[_COMMUNITY_Community 793|Community 793]]
+- [[_COMMUNITY_Community 794|Community 794]]
+- [[_COMMUNITY_Community 795|Community 795]]
+- [[_COMMUNITY_Community 796|Community 796]]
+- [[_COMMUNITY_Community 797|Community 797]]
+- [[_COMMUNITY_Community 798|Community 798]]
+- [[_COMMUNITY_Community 799|Community 799]]
+- [[_COMMUNITY_Community 800|Community 800]]
+- [[_COMMUNITY_Community 801|Community 801]]
+- [[_COMMUNITY_Community 802|Community 802]]
+- [[_COMMUNITY_Community 803|Community 803]]
+- [[_COMMUNITY_Community 804|Community 804]]
+- [[_COMMUNITY_Community 805|Community 805]]
+- [[_COMMUNITY_Community 806|Community 806]]
+- [[_COMMUNITY_Community 807|Community 807]]
+- [[_COMMUNITY_Community 808|Community 808]]
+- [[_COMMUNITY_Community 809|Community 809]]
+- [[_COMMUNITY_Community 810|Community 810]]
+- [[_COMMUNITY_Community 811|Community 811]]
+- [[_COMMUNITY_Community 812|Community 812]]
+- [[_COMMUNITY_Community 813|Community 813]]
+- [[_COMMUNITY_Community 814|Community 814]]
+- [[_COMMUNITY_Community 815|Community 815]]
+- [[_COMMUNITY_Community 816|Community 816]]
+- [[_COMMUNITY_Community 817|Community 817]]
+- [[_COMMUNITY_Community 818|Community 818]]
+- [[_COMMUNITY_Community 819|Community 819]]
+- [[_COMMUNITY_Community 820|Community 820]]
+- [[_COMMUNITY_Community 821|Community 821]]
+- [[_COMMUNITY_Community 822|Community 822]]
+- [[_COMMUNITY_Community 823|Community 823]]
+- [[_COMMUNITY_Community 824|Community 824]]
+- [[_COMMUNITY_Community 825|Community 825]]
+- [[_COMMUNITY_Community 826|Community 826]]
+- [[_COMMUNITY_Community 827|Community 827]]
+- [[_COMMUNITY_Community 828|Community 828]]
+- [[_COMMUNITY_Community 829|Community 829]]
+- [[_COMMUNITY_Community 830|Community 830]]
+- [[_COMMUNITY_Community 831|Community 831]]
+- [[_COMMUNITY_Community 832|Community 832]]
+- [[_COMMUNITY_Community 833|Community 833]]
+- [[_COMMUNITY_Community 834|Community 834]]
+- [[_COMMUNITY_Community 835|Community 835]]
+- [[_COMMUNITY_Community 836|Community 836]]
+- [[_COMMUNITY_Community 837|Community 837]]
+- [[_COMMUNITY_Community 838|Community 838]]
+- [[_COMMUNITY_Community 839|Community 839]]
+- [[_COMMUNITY_Community 840|Community 840]]
+- [[_COMMUNITY_Community 841|Community 841]]
+- [[_COMMUNITY_Community 842|Community 842]]
+- [[_COMMUNITY_Community 843|Community 843]]
+- [[_COMMUNITY_Community 844|Community 844]]
+- [[_COMMUNITY_Community 845|Community 845]]
+- [[_COMMUNITY_Community 846|Community 846]]
+- [[_COMMUNITY_Community 847|Community 847]]
+- [[_COMMUNITY_Community 848|Community 848]]
+- [[_COMMUNITY_Community 849|Community 849]]
+- [[_COMMUNITY_Community 850|Community 850]]
+- [[_COMMUNITY_Community 851|Community 851]]
+- [[_COMMUNITY_Community 852|Community 852]]
+- [[_COMMUNITY_Community 853|Community 853]]
+- [[_COMMUNITY_Community 854|Community 854]]
+- [[_COMMUNITY_Community 855|Community 855]]
+- [[_COMMUNITY_Community 856|Community 856]]
+- [[_COMMUNITY_Community 857|Community 857]]
+- [[_COMMUNITY_Community 858|Community 858]]
+- [[_COMMUNITY_Community 859|Community 859]]
+- [[_COMMUNITY_Community 860|Community 860]]
+- [[_COMMUNITY_Community 861|Community 861]]
+- [[_COMMUNITY_Community 863|Community 863]]
+- [[_COMMUNITY_Community 864|Community 864]]
+- [[_COMMUNITY_Community 870|Community 870]]
+- [[_COMMUNITY_Community 871|Community 871]]
+- [[_COMMUNITY_Community 872|Community 872]]
+- [[_COMMUNITY_Community 873|Community 873]]
+- [[_COMMUNITY_Community 874|Community 874]]
+- [[_COMMUNITY_Community 875|Community 875]]
+- [[_COMMUNITY_Community 876|Community 876]]
+- [[_COMMUNITY_Community 877|Community 877]]
+- [[_COMMUNITY_Community 878|Community 878]]
+- [[_COMMUNITY_Community 879|Community 879]]
+- [[_COMMUNITY_Community 880|Community 880]]
+- [[_COMMUNITY_Community 881|Community 881]]
+- [[_COMMUNITY_Community 882|Community 882]]
+- [[_COMMUNITY_Community 883|Community 883]]
+- [[_COMMUNITY_Community 884|Community 884]]
+- [[_COMMUNITY_Community 885|Community 885]]
+- [[_COMMUNITY_Community 886|Community 886]]
+- [[_COMMUNITY_Community 887|Community 887]]
+- [[_COMMUNITY_Community 888|Community 888]]
+- [[_COMMUNITY_Community 889|Community 889]]
+- [[_COMMUNITY_Community 938|Community 938]]
+- [[_COMMUNITY_Community 943|Community 943]]
+- [[_COMMUNITY_Community 944|Community 944]]
+- [[_COMMUNITY_Community 946|Community 946]]
+- [[_COMMUNITY_Community 947|Community 947]]
+- [[_COMMUNITY_Community 948|Community 948]]
+- [[_COMMUNITY_Community 949|Community 949]]
+- [[_COMMUNITY_Community 950|Community 950]]
+- [[_COMMUNITY_Community 951|Community 951]]
+- [[_COMMUNITY_Community 952|Community 952]]
+- [[_COMMUNITY_Community 953|Community 953]]
+- [[_COMMUNITY_Community 954|Community 954]]
+- [[_COMMUNITY_Community 955|Community 955]]
+- [[_COMMUNITY_Community 956|Community 956]]
+- [[_COMMUNITY_Community 957|Community 957]]
+- [[_COMMUNITY_Community 958|Community 958]]
+- [[_COMMUNITY_Community 959|Community 959]]
+- [[_COMMUNITY_Community 960|Community 960]]
+- [[_COMMUNITY_Community 974|Community 974]]
+- [[_COMMUNITY_Community 975|Community 975]]
+- [[_COMMUNITY_Community 976|Community 976]]
+- [[_COMMUNITY_Community 977|Community 977]]
+- [[_COMMUNITY_Community 978|Community 978]]
+- [[_COMMUNITY_Community 979|Community 979]]
+- [[_COMMUNITY_Community 980|Community 980]]
+- [[_COMMUNITY_Community 981|Community 981]]
+- [[_COMMUNITY_Community 982|Community 982]]
+- [[_COMMUNITY_Community 983|Community 983]]
+- [[_COMMUNITY_Community 984|Community 984]]
+- [[_COMMUNITY_Community 985|Community 985]]
+- [[_COMMUNITY_Community 986|Community 986]]
+- [[_COMMUNITY_Community 987|Community 987]]
+- [[_COMMUNITY_Community 988|Community 988]]
+- [[_COMMUNITY_Community 989|Community 989]]
+- [[_COMMUNITY_Community 990|Community 990]]
+- [[_COMMUNITY_Community 991|Community 991]]
+- [[_COMMUNITY_Community 992|Community 992]]
+- [[_COMMUNITY_Community 993|Community 993]]
+- [[_COMMUNITY_Community 994|Community 994]]
+- [[_COMMUNITY_Community 995|Community 995]]
+- [[_COMMUNITY_Community 996|Community 996]]
+- [[_COMMUNITY_Community 997|Community 997]]
+- [[_COMMUNITY_Community 998|Community 998]]
+- [[_COMMUNITY_Community 999|Community 999]]
+- [[_COMMUNITY_Community 1000|Community 1000]]
+- [[_COMMUNITY_Community 1001|Community 1001]]
+- [[_COMMUNITY_Community 1002|Community 1002]]
+- [[_COMMUNITY_Community 1003|Community 1003]]
+- [[_COMMUNITY_Community 1004|Community 1004]]
+- [[_COMMUNITY_Community 1005|Community 1005]]
+- [[_COMMUNITY_Community 1006|Community 1006]]
+- [[_COMMUNITY_Community 1007|Community 1007]]
+- [[_COMMUNITY_Community 1008|Community 1008]]
+- [[_COMMUNITY_Community 1009|Community 1009]]
+- [[_COMMUNITY_Community 1010|Community 1010]]
+- [[_COMMUNITY_Community 1011|Community 1011]]
+- [[_COMMUNITY_Community 1012|Community 1012]]
+- [[_COMMUNITY_Community 1013|Community 1013]]
+- [[_COMMUNITY_Community 1014|Community 1014]]
+- [[_COMMUNITY_Community 1015|Community 1015]]
+- [[_COMMUNITY_Community 1016|Community 1016]]
+- [[_COMMUNITY_Community 1018|Community 1018]]
+- [[_COMMUNITY_Community 1019|Community 1019]]
+- [[_COMMUNITY_Community 1020|Community 1020]]
+- [[_COMMUNITY_Community 1021|Community 1021]]
+- [[_COMMUNITY_Community 1022|Community 1022]]
+- [[_COMMUNITY_Community 1023|Community 1023]]
+- [[_COMMUNITY_Community 1024|Community 1024]]
+- [[_COMMUNITY_Community 1025|Community 1025]]
+- [[_COMMUNITY_Community 1027|Community 1027]]
+- [[_COMMUNITY_Community 1028|Community 1028]]
+- [[_COMMUNITY_Community 1029|Community 1029]]
+- [[_COMMUNITY_Community 1030|Community 1030]]
+- [[_COMMUNITY_Community 1041|Community 1041]]
+- [[_COMMUNITY_Community 1042|Community 1042]]
+- [[_COMMUNITY_Community 1044|Community 1044]]
+- [[_COMMUNITY_Community 1045|Community 1045]]
+- [[_COMMUNITY_Community 1046|Community 1046]]
+- [[_COMMUNITY_Community 1047|Community 1047]]
+- [[_COMMUNITY_Community 1048|Community 1048]]
+- [[_COMMUNITY_Community 1049|Community 1049]]
+- [[_COMMUNITY_Community 1050|Community 1050]]
+- [[_COMMUNITY_Community 1051|Community 1051]]
+- [[_COMMUNITY_Community 1060|Community 1060]]
+- [[_COMMUNITY_Community 1069|Community 1069]]
+- [[_COMMUNITY_Community 1070|Community 1070]]
+- [[_COMMUNITY_Community 1071|Community 1071]]
+- [[_COMMUNITY_Community 1072|Community 1072]]
+- [[_COMMUNITY_Community 1073|Community 1073]]
+- [[_COMMUNITY_Community 1074|Community 1074]]
+- [[_COMMUNITY_Community 1075|Community 1075]]
+- [[_COMMUNITY_Community 1076|Community 1076]]
+- [[_COMMUNITY_Community 1077|Community 1077]]
+- [[_COMMUNITY_Community 1078|Community 1078]]
+- [[_COMMUNITY_Community 1079|Community 1079]]
+- [[_COMMUNITY_Community 1080|Community 1080]]
+- [[_COMMUNITY_Community 1081|Community 1081]]
+- [[_COMMUNITY_Community 1082|Community 1082]]
+- [[_COMMUNITY_Community 1083|Community 1083]]
+- [[_COMMUNITY_Community 1084|Community 1084]]
+- [[_COMMUNITY_Community 1085|Community 1085]]
+- [[_COMMUNITY_Community 1086|Community 1086]]
+- [[_COMMUNITY_Community 1087|Community 1087]]
+- [[_COMMUNITY_Community 1088|Community 1088]]
+- [[_COMMUNITY_Community 1089|Community 1089]]
+- [[_COMMUNITY_Community 1090|Community 1090]]
+- [[_COMMUNITY_Community 1091|Community 1091]]
+- [[_COMMUNITY_Community 1092|Community 1092]]
+- [[_COMMUNITY_Community 1093|Community 1093]]
+- [[_COMMUNITY_Community 1094|Community 1094]]
+- [[_COMMUNITY_Community 1095|Community 1095]]
+- [[_COMMUNITY_Community 1096|Community 1096]]
+- [[_COMMUNITY_Community 1097|Community 1097]]
+- [[_COMMUNITY_Community 1098|Community 1098]]
+- [[_COMMUNITY_Community 1101|Community 1101]]
+- [[_COMMUNITY_Community 1102|Community 1102]]
+- [[_COMMUNITY_Community 1103|Community 1103]]
+- [[_COMMUNITY_Community 1104|Community 1104]]
+- [[_COMMUNITY_Community 1105|Community 1105]]
+- [[_COMMUNITY_Community 1106|Community 1106]]
+- [[_COMMUNITY_Community 1107|Community 1107]]
+- [[_COMMUNITY_Community 1108|Community 1108]]
+- [[_COMMUNITY_Community 1109|Community 1109]]
+- [[_COMMUNITY_Community 1110|Community 1110]]
+- [[_COMMUNITY_Community 1111|Community 1111]]
+- [[_COMMUNITY_Community 1112|Community 1112]]
+- [[_COMMUNITY_Community 1113|Community 1113]]
+- [[_COMMUNITY_Community 1114|Community 1114]]
+- [[_COMMUNITY_Community 1115|Community 1115]]
+- [[_COMMUNITY_Community 1116|Community 1116]]
+- [[_COMMUNITY_Community 1117|Community 1117]]
+- [[_COMMUNITY_Community 1118|Community 1118]]
+- [[_COMMUNITY_Community 1119|Community 1119]]
+- [[_COMMUNITY_Community 1120|Community 1120]]
+- [[_COMMUNITY_Community 1121|Community 1121]]
+- [[_COMMUNITY_Community 1122|Community 1122]]
+- [[_COMMUNITY_Community 1123|Community 1123]]
+- [[_COMMUNITY_Community 1124|Community 1124]]
+- [[_COMMUNITY_Community 1125|Community 1125]]
+- [[_COMMUNITY_Community 1126|Community 1126]]
+- [[_COMMUNITY_Community 1128|Community 1128]]
+- [[_COMMUNITY_Community 1129|Community 1129]]
+- [[_COMMUNITY_Community 1131|Community 1131]]
+- [[_COMMUNITY_Community 1132|Community 1132]]
+- [[_COMMUNITY_Community 1133|Community 1133]]
+- [[_COMMUNITY_Community 1134|Community 1134]]
+- [[_COMMUNITY_Community 1135|Community 1135]]
+- [[_COMMUNITY_Community 1136|Community 1136]]
+- [[_COMMUNITY_Community 1137|Community 1137]]
+- [[_COMMUNITY_Community 1138|Community 1138]]
+- [[_COMMUNITY_Community 1139|Community 1139]]
+- [[_COMMUNITY_Community 1141|Community 1141]]
+- [[_COMMUNITY_Community 1142|Community 1142]]
+- [[_COMMUNITY_Community 1143|Community 1143]]
+- [[_COMMUNITY_Community 1144|Community 1144]]
+- [[_COMMUNITY_Community 1145|Community 1145]]
+- [[_COMMUNITY_Community 1146|Community 1146]]
+- [[_COMMUNITY_Community 1147|Community 1147]]
+- [[_COMMUNITY_Community 1148|Community 1148]]
+- [[_COMMUNITY_Community 1149|Community 1149]]
+- [[_COMMUNITY_Community 1150|Community 1150]]
+- [[_COMMUNITY_Community 1151|Community 1151]]
+- [[_COMMUNITY_Community 1152|Community 1152]]
+- [[_COMMUNITY_Community 1153|Community 1153]]
+- [[_COMMUNITY_Community 1154|Community 1154]]
+- [[_COMMUNITY_Community 1155|Community 1155]]
+- [[_COMMUNITY_Community 1156|Community 1156]]
+
+## God Nodes (most connected - your core abstractions)
+1. `depth` - 54 edges
+2. `source` - 54 edges
+3. `Status` - 49 edges
+4. `CommonEffectReceiver` - 43 edges
+5. `ServedObject` - 41 edges
+6. `DOTweenTMPAnimator` - 34 edges
+7. `DeckManagementController` - 34 edges
+8. `DOTweenAnimation` - 33 edges
+9. `DeckInfoMagicPopup` - 31 edges
+10. `GameObject` - 31 edges
+
+## Surprising Connections (you probably didn't know these)
+- `AdventureRow` --references--> `Adventure`  [EXTRACTED]
+  admin/src/main/java/com/wordonline/admin/service/SecondaryAdminDataService.java → client/Assets/Scripts/Adventures/AdventureButton.cs
+- `AdventureRow` --references--> `Image`  [EXTRACTED]
+  admin/src/main/java/com/wordonline/admin/service/SecondaryAdminDataService.java → client/Assets/Scripts/Adventures/AdventureButton.cs
+- `setAttributes()` --references--> `Map`  [EXTRACTED]
+  admin/src/main/resources/static/js/bootstrap.bundle.js → game/src/main/java/com/wordonline/server/auth/domain/PrincipalDetails.java
+- `setAttributes()` --references--> `Object`  [EXTRACTED]
+  admin/src/main/resources/static/js/bootstrap.bundle.js → game/src/main/java/com/wordonline/server/auth/domain/PrincipalDetails.java
+- `ParametersApiClient` --references--> `ParametersResponse`  [EXTRACTED]
+  client/Assets/Scripts/Data/GameConfig/ParametersApiClient.cs → lobby/src/main/java/com/wordonline/matching/data/dto/ParametersResponse.java
+
+## Import Cycles
+- None detected.
+
+## Communities (1157 total, 436 thin omitted)
+
+### Community 0 - "Community 0"
+Cohesion: 0.05
+Nodes (54): CharVertices, bool, Color, ColorOptions, CultureInfo, Dictionary, FloatOptions, List (+46 more)
+
+### Community 1 - "Community 1"
+Cohesion: 0.06
+Nodes (93): dependencies, com.unity.collab-proxy, com.unity.feature.2d, com.unity.ide.rider, com.unity.ide.visualstudio, com.unity.localization, com.unity.modules.ai, com.unity.modules.androidjni (+85 more)
+
+### Community 2 - "Community 2"
+Cohesion: 0.07
+Nodes (39): AdventureRequestDto, AdventureController, DeleteMapping, Long, PostMapping, PutMapping, ResponseEntity, String (+31 more)
+
+### Community 3 - "Community 3"
+Cohesion: 0.05
+Nodes (39): List, String, BeforeEach, Test, DeckController, DeckCardDto, DeckService, DeckResponseDto() (+31 more)
+
+### Community 4 - "Community 4"
+Cohesion: 0.05
+Nodes (44): VineWitchMob, CardType, Collection, List, Magic, Map, Override, PostConstruct (+36 more)
+
+### Community 5 - "Community 5"
+Cohesion: 0.07
+Nodes (29): AttackingState, SelfDestructMob, AttackingState, FloatingState, ThunderBirdMob, of(), KnockbackEffectProvider, Effect (+21 more)
+
+### Community 6 - "Community 6"
+Cohesion: 0.07
+Nodes (44): Bean, WebSecurityConfig, CorsConfigurationSource, JwtEncoder, PasswordEncoder, ReactiveAuthenticationManager, ReactiveJwtAuthenticationConverterAdapter, ReactiveJwtDecoder (+36 more)
+
+### Community 7 - "Community 7"
+Cohesion: 0.05
+Nodes (29): Button, CardDto, DeckEditMode, DeckResponseDto, DeckValidationError, GameObject, HaveCardMagicPopup, IConfirmationDialog (+21 more)
+
+### Community 8 - "Community 8"
+Cohesion: 0.05
+Nodes (23): TutorialCardSender, TutorialScene, CardInputSender, GameScene.Card, GameScene.Card, ICardSender, bool, CardType (+15 more)
+
+### Community 9 - "Community 9"
+Cohesion: 0.06
+Nodes (28): Color, TMP_Text, UserGameHistoryDto, Action, bool, Dictionary, IEnumerator, Transform (+20 more)
+
+### Community 10 - "Community 10"
+Cohesion: 0.04
+Nodes (31): Adventures, CurrentAdventureNameSetter, TMP_Text, Transform, float, Sprite, SpriteRenderer, SpriteRenderer (+23 more)
+
+### Community 11 - "Community 11"
+Cohesion: 0.10
+Nodes (25): AttackState, BehaviorMob, DirectiveMoveState, IdleState, MoveState, StunState, CowardAttackState, CowardIdleState (+17 more)
+
+### Community 12 - "Community 12"
+Cohesion: 0.07
+Nodes (31): BotAction, BotAgent, BotBrain, BotSideUtil, BotExecutorConfig, ExecutorService, Bean, PreDestroy (+23 more)
+
+### Community 13 - "Community 13"
+Cohesion: 0.04
+Nodes (23): ServedObject, ServedObject, Transform, float, float, AudioClip, AudioSource, ServedObject (+15 more)
+
+### Community 14 - "Community 14"
+Cohesion: 0.09
+Nodes (24): Action, bool, Button, CardImageMapper, DeckResponseDto, Dictionary, GameObject, IEnumerator (+16 more)
+
+### Community 15 - "Community 15"
+Cohesion: 0.08
+Nodes (26): Collider, Colliderable, GameObject, Override, Vector3, Colliderable, GameObject, Override (+18 more)
+
+### Community 16 - "Community 16"
+Cohesion: 0.06
+Nodes (25): Component, AreaEffectProvider, Effect, GameObject, Override, GameObject, Override, Vector3 (+17 more)
+
+### Community 17 - "Community 17"
+Cohesion: 0.06
+Nodes (32): FrenzyTotemPrefabInitializer, RallyingTorchPrefabInitializer, WindExplodePrefabInitializer, GameObject, Override, Parameters, GameObject, Override (+24 more)
+
+### Community 18 - "Community 18"
+Cohesion: 0.07
+Nodes (21): Behavior, GameObject, Override, GameObject, Override, GameObject, Override, GameObject (+13 more)
+
+### Community 19 - "Community 19"
+Cohesion: 0.08
+Nodes (18): Color, float, GameObject, Gauge, Gizmo, IEnumerator, int, List (+10 more)
+
+### Community 20 - "Community 20"
+Cohesion: 0.09
+Nodes (29): DecorationController, DecorationResponse, DecorationRequest, GetMapping, Long, Mono, PostMapping, QuestProgressResponseDto (+21 more)
+
+### Community 21 - "Community 21"
+Cohesion: 0.06
+Nodes (30): LeafairPrefabInitializer, GameObject, Override, Vector3, Override, GameObject, Override, Parameters (+22 more)
+
+### Community 22 - "Community 22"
+Cohesion: 0.05
+Nodes (18): allowedAttribute(), _createClass(), _defineProperties(), _defineProperty(), getSpecialTransitionEndEvent(), i(), In(), it() (+10 more)
+
+### Community 23 - "Community 23"
+Cohesion: 0.10
+Nodes (29): AxisConstraint, Color, FloatOptions, Path, PathMode, PathOptions, PathType, Sequence (+21 more)
+
+### Community 24 - "Community 24"
+Cohesion: 0.07
+Nodes (29): AbstractExplodePrefabInitializer, FireExplodePrefabInitializer, LeafExplodePrefabInitializer, RockExplodePrefabInitializer, WaterExplosionPrefabInitializer, Damageable, GameObject, Override (+21 more)
+
+### Community 25 - "Community 25"
+Cohesion: 0.06
+Nodes (24): Flux, MagicResponse, Mono, MagicService, Transactional, Void, Mono, Override (+16 more)
+
+### Community 26 - "Community 26"
+Cohesion: 0.07
+Nodes (18): CancellationTokenSource, Action, object, Queue, Task, string, ClientWebSocket, DllImport (+10 more)
+
+### Community 27 - "Community 27"
+Cohesion: 0.06
+Nodes (29): ABSAnimationComponent, AnimationCurve, AnimationType, bool, Color, Component, float, GameObject (+21 more)
+
+### Community 28 - "Community 28"
+Cohesion: 0.08
+Nodes (24): DeleteMapping, PostMapping, PutMapping, ResponseEntity, String, TagRequestDto, Collection, GameObject (+16 more)
+
+### Community 29 - "Community 29"
+Cohesion: 0.11
+Nodes (21): Bean, EntityGraph, List, Magic, CardDto, List, MagicDto, MagicService (+13 more)
+
+### Community 30 - "Community 30"
+Cohesion: 0.10
+Nodes (18): bool, Camera, CombinedMagicData, Component, Coroutine, float, GameObject, HoverPopupTransition (+10 more)
+
+### Community 31 - "Community 31"
+Cohesion: 0.12
+Nodes (15): Double, GameObject, GameObjectDto, List, Long, Map, Parameter, ParameterValueSnapshot (+7 more)
+
+### Community 32 - "Community 32"
+Cohesion: 0.17
+Nodes (11): Double, List, Long, Map, ParameterValueSnapshot, String, SyncResult, ExistingParameterValue (+3 more)
+
+### Community 33 - "Community 33"
+Cohesion: 0.09
+Nodes (21): Adventures, AdventureStoryOverlayUI, AdventureStoryLineData, AsyncOperationHandle, CanvasScaler, Action, bool, Button (+13 more)
+
+### Community 34 - "Community 34"
+Cohesion: 0.09
+Nodes (21): AttackMob, EffectProvideProjectileRangeAttackMob, ProjectileRangeAttackMob, RangeAttackMob, GameObject, Override, GameObject, Override (+13 more)
+
+### Community 35 - "Community 35"
+Cohesion: 0.10
+Nodes (16): Action, CardDto, CardType, CombinedMagicData, DeckEditMode, DeckRequestDto, DeckRequirementSummary, DeckResponseDto (+8 more)
+
+### Community 36 - "Community 36"
+Cohesion: 0.07
+Nodes (9): RandomAreaSpawner, GameObject, Override, PrefabType, Vector2, Vector3, Vector2, Vector2 (+1 more)
+
+### Community 37 - "Community 37"
+Cohesion: 0.09
+Nodes (18): FooterProps, styles, NavbarProps, styles, NavigationItem, navigationItems, PlatformLink, platformLinks (+10 more)
+
+### Community 38 - "Community 38"
+Cohesion: 0.12
+Nodes (21): Card, CardDto, CardsDto, DeckCard, List, Long, Map, Mono (+13 more)
+
+### Community 39 - "Community 39"
+Cohesion: 0.11
+Nodes (20): AuthorityEntity, String, System, Collection, GrantedAuthority, Authority, Authority, AuthorityResponse() (+12 more)
+
+### Community 40 - "Community 40"
+Cohesion: 0.12
+Nodes (21): string, IEnumerator, string, DebugController, DebugGameRequestDto, DebugGameResponse, LobbyScene.Debugger, EnterDebugSessionButton (+13 more)
+
+### Community 41 - "Community 41"
+Cohesion: 0.08
+Nodes (20): TimedSelfDestroyer, GameObject, GaugeDto, Override, GameObject, Override, Parameters, GameObject (+12 more)
+
+### Community 42 - "Community 42"
+Cohesion: 0.10
+Nodes (19): EffectImmuneChart, EffectApplyPolicy, Effect, GameObject, Effect, GameObject, Override, Effect (+11 more)
+
+### Community 43 - "Community 43"
+Cohesion: 0.08
+Nodes (20): Item, Effect, GameObject, Override, Vector3, GameObject, Override, GameObject (+12 more)
+
+### Community 44 - "Community 44"
+Cohesion: 0.13
+Nodes (10): BounceParameters, Action, RotateMode, Transform, Vector3, HoverParameters, DOTweenAction, GameScene.ServedObjectComponent (+2 more)
+
+### Community 45 - "Community 45"
+Cohesion: 0.12
+Nodes (15): box(), circle(), Gizmo, GizmoCategory, Vector3, Effect, ElementType, GameContext (+7 more)
+
+### Community 46 - "Community 46"
+Cohesion: 0.09
+Nodes (20): EffectProvider, FireShotPrefabInitializer, Effect, GameObject, Override, GameObject, Override, Parameters (+12 more)
+
+### Community 47 - "Community 47"
+Cohesion: 0.08
+Nodes (21): Component, GameObject, Override, Parameters, GameObject, Override, Parameters, GameObject (+13 more)
+
+### Community 48 - "Community 48"
+Cohesion: 0.11
+Nodes (18): GetMapping, Model, String, DeleteMapping, Long, PostMapping, PutMapping, ResponseEntity (+10 more)
+
+### Community 49 - "Community 49"
+Cohesion: 0.14
+Nodes (28): float, Gradient, int, Material, Sequence, Task, Tween, TweenerCore (+20 more)
+
+### Community 50 - "Community 50"
+Cohesion: 0.12
+Nodes (13): Color, float, Gizmo, int, List, Material, ServedObject, SpriteRenderer (+5 more)
+
+### Community 51 - "Community 51"
+Cohesion: 0.09
+Nodes (17): AbstractExplosionMagic, LightningExplosionMagic, MagmaExplosionMagic, OvergrowthMagic, RazorGaleMagic, SandStormMagic, ShockOverloadMagic, WaterExplosionMagic (+9 more)
+
+### Community 52 - "Community 52"
+Cohesion: 0.11
+Nodes (17): Long, SessionType, String, Long, List, Optional, RoomInfoDto, SessionDto (+9 more)
+
+### Community 53 - "Community 53"
+Cohesion: 0.11
+Nodes (13): BubbleSpiritMob, GameObject, Override, GameObject, GameObject, GameContext, GameObject, ObjectsInfoDto (+5 more)
+
+### Community 54 - "Community 54"
+Cohesion: 0.11
+Nodes (14): Double, Float, GameObject, GameObjectDto, GameObjectRow, Integer, List, Long (+6 more)
+
+### Community 55 - "Community 55"
+Cohesion: 0.09
+Nodes (21): UserService, BotAgentSystem, ComponentUpdateSystem, DatabaseMagicParser, FeverTimeSystem, GameContext, GameObjectAddRemoteSystem, GameObjectStateInitialSystem (+13 more)
+
+### Community 56 - "Community 56"
+Cohesion: 0.07
+Nodes (27): dependencies, lucide-react, react, react-dom, devDependencies, eslint, @eslint/js, eslint-plugin-react-hooks (+19 more)
+
+### Community 57 - "Community 57"
+Cohesion: 0.12
+Nodes (13): ClosestEnemyDetector, Detector, PlayerPriorityEnemyDetector, GameContext, GameObject, Override, GameObject, GameContext (+5 more)
+
+### Community 58 - "Community 58"
+Cohesion: 0.13
+Nodes (16): BotAgentSystem, ComponentUpdateSystem, DatabaseMagicParser, FeverTimeSystem, GameContext, GameObjectAddRemoteSystem, GameObjectStateInitialSystem, MmrService (+8 more)
+
+### Community 59 - "Community 59"
+Cohesion: 0.14
+Nodes (14): DoubleTargetMob, Damageable, MultiEnemyDetector, GameContext, GameObject, List, Override, AttackInfo (+6 more)
+
+### Community 60 - "Community 60"
+Cohesion: 0.25
+Nodes (9): CircleOptions, RectTransform, ShakeRandomnessMode, TweenerCore, Vector2, Vector3, VectorOptions, LayoutElement (+1 more)
+
+### Community 61 - "Community 61"
+Cohesion: 0.09
+Nodes (15): AbstractDropMagic, FireDropMagic, FrenzyMagic, LeafairMagic, LightningDropMagic, MeteorShowerMagic, NatureDropMagic, RallyingTorchMagic (+7 more)
+
+### Community 62 - "Community 62"
+Cohesion: 0.10
+Nodes (15): GameContext, Master, Override, PrefabType, Vector3, Master, Override, AbstractShotMagic (+7 more)
+
+### Community 63 - "Community 63"
+Cohesion: 0.16
+Nodes (6): Integer, Long, String, ScenarioRow, SecondaryAdminDataService, StageRow
+
+### Community 64 - "Community 64"
+Cohesion: 0.09
+Nodes (11): Action, bool, float, IEnumerator, IFrameInfoHandler, IStompTransport, LocalizedString, GameScene (+3 more)
+
+### Community 65 - "Community 65"
+Cohesion: 0.11
+Nodes (17): Collider, GameObject, Override, Parameters, GameObject, Override, Parameters, GameObject (+9 more)
+
+### Community 66 - "Community 66"
+Cohesion: 0.19
+Nodes (13): CardPoolDto, Class, Deck, DeckRequestDto, DeckResponseDto, Exception, Flux, Mono (+5 more)
+
+### Community 67 - "Community 67"
+Cohesion: 0.15
+Nodes (8): AccessType, AdventureRequestDto, List, Long, AdventureService, SyncResult, Transactional, Adventure
+
+### Community 68 - "Community 68"
+Cohesion: 0.11
+Nodes (15): MeleeAttackMob, GameObject, Override, GameObject, Override, Parameters, GameObject, Override (+7 more)
+
+### Community 69 - "Community 69"
+Cohesion: 0.12
+Nodes (9): BattleTutorialManager, bool, IEnumerator, TextMeshProUGUI, TutorialCardSender, Func<bool>, IReadOnlyList<CardType>, ManaMocker (+1 more)
+
+### Community 70 - "Community 70"
+Cohesion: 0.16
+Nodes (9): BorderBounceResult, GameObject, Override, Vector3, GameObject, Override, Vector3, RollingRock (+1 more)
+
+### Community 71 - "Community 71"
+Cohesion: 0.09
+Nodes (18): bool, Component, MonoBehaviour, Path, PathMode, PathOptions, PlayModeStateChange, Quaternion (+10 more)
+
+### Community 72 - "Community 72"
+Cohesion: 0.12
+Nodes (13): Camera, Canvas, Coroutine, float, IEnumerator, Image, int, RectTransform (+5 more)
+
+### Community 73 - "Community 73"
+Cohesion: 0.11
+Nodes (7): LoadSceneMode, LobbyTutorialController, Scene, string, MagicBookTutorialController, MagicBookState, TutorialScene
+
+### Community 74 - "Community 74"
+Cohesion: 0.08
+Nodes (23): configuration, architecture, bigarrays, disabled_features, interpreter, llvm_support, notifications, sigsgev (+15 more)
+
+### Community 75 - "Community 75"
+Cohesion: 0.14
+Nodes (9): GameObject, Override, GameObject, Override, GameObject, Override, CraterEmber, MagicComponent (+1 more)
+
+### Community 76 - "Community 76"
+Cohesion: 0.12
+Nodes (16): Set, GameObject, Override, Parameters, GameObject, Override, Parameters, GameObject (+8 more)
+
+### Community 77 - "Community 77"
+Cohesion: 0.12
+Nodes (16): ElementType, GameObject, Override, Parameters, PrefabType, Parameters, Parameters, Parameters (+8 more)
+
+### Community 78 - "Community 78"
+Cohesion: 0.10
+Nodes (9): allowedAttribute(), _createClass(), _defineProperties(), _defineProperty(), getSpecialTransitionEndEvent(), _objectSpread2(), ownKeys(), sanitizeHtml() (+1 more)
+
+### Community 79 - "Community 79"
+Cohesion: 0.17
+Nodes (24): attachToScrollParents(), findCommonOffsetParent(), getBordersSize(), getBoundaries(), getBoundingClientRect(), getClientRect(), getFixedPositionOffsetParent(), getOffsetParent() (+16 more)
+
+### Community 80 - "Community 80"
+Cohesion: 0.17
+Nodes (12): Authority, Boolean, Flux, List, Long, Mono, String, BeforeEach (+4 more)
+
+### Community 81 - "Community 81"
+Cohesion: 0.21
+Nodes (11): SyncResult, Long, Mono, RoomInfoDto, UserService, User, UserDetailResponseDto, UserResponseDto (+3 more)
+
+### Community 82 - "Community 82"
+Cohesion: 0.11
+Nodes (7): LoadSceneMode, LobbyTutorialController, Scene, string, DeckTutorialController, DeckState, TutorialScene
+
+### Community 83 - "Community 83"
+Cohesion: 0.12
+Nodes (11): Object, GameContext, GameContext, Override, GameContext, GameContext, Override, EarlyUpdateSystem (+3 more)
+
+### Community 84 - "Community 84"
+Cohesion: 0.17
+Nodes (23): Be(), dt(), $e(), et(), Fe(), ft(), Ge(), gt() (+15 more)
+
+### Community 85 - "Community 85"
+Cohesion: 0.16
+Nodes (6): AudioMixer, AudioSource, FloatOptions, TweenerCore, DG.Tweening, DOTweenModuleAudio
+
+### Community 86 - "Community 86"
+Cohesion: 0.10
+Nodes (12): TutorialScene, TutorialSceneUIController, CardImageMapper, CardType, ExpectedMagicUI, GameObject, IList, int (+4 more)
+
+### Community 87 - "Community 87"
+Cohesion: 0.16
+Nodes (11): ElementType, GameObject, Override, StatusEffectKey, GameObject, Master, Override, Vector3 (+3 more)
+
+### Community 88 - "Community 88"
+Cohesion: 0.28
+Nodes (9): GetMapping, Jwt, Long, Model, Mono, PostMapping, ServerWebExchange, String (+1 more)
+
+### Community 89 - "Community 89"
+Cohesion: 0.10
+Nodes (21): Admin Authorities Management Template, Admin Authority List Fragment, Admin Member List Fragment, Admin Navigation Fragment, Admin Member Management Template, Admin Members List Template, Admin Systems List Template, Admin Adventure Management Template (+13 more)
+
+### Community 90 - "Community 90"
+Cohesion: 0.16
+Nodes (15): PostMapping, ResponseEntity, String, GetMapping, List, Model, String, GameObjectRow (+7 more)
+
+### Community 91 - "Community 91"
+Cohesion: 0.14
+Nodes (16): Adventure, List, StageDto, AdventureRow, Adventure, Image, Adventure, List (+8 more)
+
+### Community 92 - "Community 92"
+Cohesion: 0.15
+Nodes (13): CanvasGroup, Color, ColorOptions, FloatOptions, Gradient, Graphic, Image, Outline (+5 more)
+
+### Community 93 - "Community 93"
+Cohesion: 0.17
+Nodes (15): InputHandleEvent, Master, CardType, GameContext, InputHandleEvent, InputRequestDto, InputResponseDto, List (+7 more)
+
+### Community 94 - "Community 94"
+Cohesion: 0.21
+Nodes (10): Long, Mono, Query, Void, BeforeEach, DisplayName, Test, UserQuestRepository (+2 more)
+
+### Community 95 - "Community 95"
+Cohesion: 0.20
+Nodes (13): Boolean, Long, MatchedInfoDto, Mono, Optional, Server, SessionDto, SessionRecoveryInfo (+5 more)
+
+### Community 96 - "Community 96"
+Cohesion: 0.14
+Nodes (10): Admin, DebugPanelController, AdminViewModel, GameObject, int, string, TMP_Dropdown, Vector3 (+2 more)
+
+### Community 97 - "Community 97"
+Cohesion: 0.16
+Nodes (10): List, Long, QuestDto, QuestRequestDto, QuestService, SyncResult, Transactional, ProgressChecker (+2 more)
+
+### Community 98 - "Community 98"
+Cohesion: 0.16
+Nodes (10): CardDto, List, MagicDto, QuestDto, SyncResult, MagicCardRow, MagicRow, QuestRow (+2 more)
+
+### Community 99 - "Community 99"
+Cohesion: 0.37
+Nodes (10): Card, GameType, Integer, List, LocalDateTime, Long, Magic, Map (+2 more)
+
+### Community 100 - "Community 100"
+Cohesion: 0.14
+Nodes (11): Camera, CombinedMagicData, Component, float, GameObject, HoverPopupTransition, IReadOnlyList, RectTransform (+3 more)
+
+### Community 101 - "Community 101"
+Cohesion: 0.23
+Nodes (9): Action, Coroutine, float, GameObject, IEnumerator, MonoBehaviour, DeckScene, HoverPopupTransition (+1 more)
+
+### Community 102 - "Community 102"
+Cohesion: 0.10
+Nodes (14): CardImageMapper, CardType, CardUI, CombinedMagicResolver, ExpectedMagicUI, GameObject, IList, List (+6 more)
+
+### Community 103 - "Community 103"
+Cohesion: 0.16
+Nodes (10): bool, float, IEnumerator, int, Queue, SpriteRenderer, Transform, AfterImageSpawner (+2 more)
+
+### Community 104 - "Community 104"
+Cohesion: 0.10
+Nodes (11): LoadSceneMode, Scene, T, User, T, BoundedSingletonObject, Global, Global (+3 more)
+
+### Community 105 - "Community 105"
+Cohesion: 0.12
+Nodes (7): Action, Button, ButtonBase, GameObject, DeckManagementController, DeckTutorialController, TutorialScene
+
+### Community 106 - "Community 106"
+Cohesion: 0.16
+Nodes (13): LocalizationConfig, Bean, Locale, Object, LocalizationService, String, Locale, LocaleContext (+5 more)
+
+### Community 107 - "Community 107"
+Cohesion: 0.14
+Nodes (14): AbstractDropPrefabInitializer, FireDropPrefabInitializer, NatureDropPrefabInitializer, RockDropPrefabInitializer, WindDropPrefabInitializer, ElementType, GameObject, GameObjectKey (+6 more)
+
+### Community 108 - "Community 108"
+Cohesion: 0.26
+Nodes (9): UserScenarioRepository, String, Long, Mono, Query, UserRepository, UserStatus, Void (+1 more)
+
+### Community 109 - "Community 109"
+Cohesion: 0.19
+Nodes (12): Flux, LocalDateTime, MagicCard, Query, Card, CardType, DisplayName, Long (+4 more)
+
+### Community 110 - "Community 110"
+Cohesion: 0.22
+Nodes (11): Color, ColorOptions, FloatOptions, TweenerCore, VectorOptions, DG.Tweening, DOTweenModuleEPOOutline, OutlineProperties (+3 more)
+
+### Community 111 - "Community 111"
+Cohesion: 0.19
+Nodes (13): bool, Dictionary, GameObject, List, PlayModeStateChange, Tween, DOTweenAnimation, DG.DOTweenEditor (+5 more)
+
+### Community 112 - "Community 112"
+Cohesion: 0.11
+Nodes (10): UpdatedObjectDto, TMP_Text, GameEndEventController, GameScene, Global, LocalSingletonObject, GameScene.Object, ObjectUpdater (+2 more)
+
+### Community 113 - "Community 113"
+Cohesion: 0.18
+Nodes (8): bool, Color, Image, ServedObject, Slider, string, GameScene.ServedObjectComponent, ServedObjectHpBar
+
+### Community 114 - "Community 114"
+Cohesion: 0.15
+Nodes (10): bool, Button, Color, Graphic, int, Vector2, Vector3, MagicBookScene (+2 more)
+
+### Community 115 - "Community 115"
+Cohesion: 0.13
+Nodes (7): Action, Button, ButtonBase, GameObject, MagicInfoFactory, MagicBookTutorialController, TutorialScene
+
+### Community 116 - "Community 116"
+Cohesion: 0.15
+Nodes (13): ChickenCommandoMagic, GameContext, Master, Override, Vector3, GameContext, Master, Override (+5 more)
+
+### Community 117 - "Community 117"
+Cohesion: 0.13
+Nodes (10): UserResponseDto(), User, Long, Optional, UserRepository, Short, UserStatus, UserResponseDto() (+2 more)
+
+### Community 118 - "Community 118"
+Cohesion: 0.11
+Nodes (18): compilerOptions, allowImportingTsExtensions, erasableSyntaxOnly, jsx, lib, module, moduleDetection, moduleResolution (+10 more)
+
+### Community 119 - "Community 119"
+Cohesion: 0.23
+Nodes (10): Flux, JoinRequest, Long, Member, MemberEntity, MemberPutRequest, Mono, String (+2 more)
+
+### Community 120 - "Community 120"
+Cohesion: 0.18
+Nodes (9): ElementType, GameObject, Override, StatusEffectKey, Vector3, GameObject, Override, WaterExplode (+1 more)
+
+### Community 121 - "Community 121"
+Cohesion: 0.18
+Nodes (10): Action, GameParameterData, IEnumerator, IReadOnlyList, List, ParametersResponse, string, Data.GameConfig (+2 more)
+
+### Community 122 - "Community 122"
+Cohesion: 0.18
+Nodes (10): Action, IEnumerator, IReadOnlyList, List, MagicInfoDto, MagicInfoResponse, string, Data.Magic (+2 more)
+
+### Community 123 - "Community 123"
+Cohesion: 0.25
+Nodes (8): Action, IEnumerator, UserGameHistoryDto, UserGameHistoryResponseDto, UserProfileData, UserStatisticsOverviewDto, Data.Profile, UserProfileApiClient
+
+### Community 124 - "Community 124"
+Cohesion: 0.19
+Nodes (7): CardInputSender, CombinedMagicData, GameObject, ServedObject, Vector3, FieldSelector, GameScene
+
+### Community 125 - "Community 125"
+Cohesion: 0.16
+Nodes (7): bool, MatchedInfoDto, StateEvent, LobbyScene, LobbySceneViewModel, MatchQueueApiService, MatchStatusPoller
+
+### Community 126 - "Community 126"
+Cohesion: 0.20
+Nodes (11): SessionServerController, String, GetMapping, PostMapping, ResponseEntity, RoomListDto, SessionDto, String (+3 more)
+
+### Community 127 - "Community 127"
+Cohesion: 0.24
+Nodes (12): UserController, DeleteMapping, GetMapping, Long, Map, MatchedInfoDto, Mono, PostMapping (+4 more)
+
+### Community 128 - "Community 128"
+Cohesion: 0.22
+Nodes (11): Duration, Class, GameResultDto, GameSystem, List, Map, SessionType, StatisticRepository (+3 more)
+
+### Community 129 - "Community 129"
+Cohesion: 0.18
+Nodes (8): Server, String, Mono, Optional, Scheduled, Server, Void, GameServerManagementService
+
+### Community 130 - "Community 130"
+Cohesion: 0.23
+Nodes (11): List, Long, Optional, PveInstallObject, PveScenario, PveScenarioEvent, String, Long (+3 more)
+
+### Community 131 - "Community 131"
+Cohesion: 0.20
+Nodes (8): GameObject, List, Master, ObjectsInfoDto, Optional, SessionObject, WordOnlineLoop, GameContext
+
+### Community 132 - "Community 132"
+Cohesion: 0.16
+Nodes (13): Integer, Override, PostConstruct, PreDestroy, ServerStatusTracker, Subscription, Throwable, Integer (+5 more)
+
+### Community 133 - "Community 133"
+Cohesion: 0.11
+Nodes (17): compilerOptions, allowImportingTsExtensions, erasableSyntaxOnly, lib, module, moduleDetection, moduleResolution, noEmit (+9 more)
+
+### Community 134 - "Community 134"
+Cohesion: 0.24
+Nodes (12): AuthResponse, GetMapping, GuestAuthResponse, JoinRequest, Jwt, LoginRequest, Mono, PostMapping (+4 more)
+
+### Community 135 - "Community 135"
+Cohesion: 0.24
+Nodes (11): AuthorizationDeniedException, GlobalExceptionHandler, Exception, ExceptionHandler, IllegalArgumentException, MethodArgumentNotValidException, Mono, ResponseEntity (+3 more)
+
+### Community 136 - "Community 136"
+Cohesion: 0.15
+Nodes (11): Admin, AdminViewModel, Action, DebugActionResponseDto, DebugMagicDto, DebugPrefabDto, DebugSpawnPrefabRequestDto, DebugSummonMagicRequestDto (+3 more)
+
+### Community 137 - "Community 137"
+Cohesion: 0.26
+Nodes (9): GetMapping, Long, Model, PreAuthorize, String, List, Server, AdminPageController (+1 more)
+
+### Community 138 - "Community 138"
+Cohesion: 0.26
+Nodes (9): Boolean, ParameterController, DeleteMapping, Long, PatchMapping, PostMapping, ResponseEntity, String (+1 more)
+
+### Community 139 - "Community 139"
+Cohesion: 0.31
+Nodes (10): Card, GameType, GetMapping, Integer, Long, Magic, Map, Model (+2 more)
+
+### Community 140 - "Community 140"
+Cohesion: 0.13
+Nodes (8): TutorialCardUI, TutorialScene, AudioSource, bool, Outline, PointerEventData, string, TextMeshProUGUI
+
+### Community 141 - "Community 141"
+Cohesion: 0.35
+Nodes (6): CombinedMagicData, GameParameterData, IReadOnlyList, List, string, GameParameterResolver
+
+### Community 142 - "Community 142"
+Cohesion: 0.12
+Nodes (10): MagicInfoResponse, Action, IEnumerator, TResponse, Data.GameConfig, ParametersApiClient, Data.Magic, MagicInfoApiClient (+2 more)
+
+### Community 143 - "Community 143"
+Cohesion: 0.13
+Nodes (10): ProjectileDto, Transform, ProjectileDto, ProjectileDto, DefaultProjectile, GameScene.Object.Projectile, GameScene.Object.Projectile, IProjectile (+2 more)
+
+### Community 144 - "Community 144"
+Cohesion: 0.19
+Nodes (8): Action, Button, GameObject, LocalizedString, TMP_Text, ConfirmationDialogController, Global, IConfirmationDialog
+
+### Community 145 - "Community 145"
+Cohesion: 0.13
+Nodes (6): LoadSceneMode, LobbyTutorialController, Scene, string, LobbyCommonState, TutorialScene
+
+### Community 146 - "Community 146"
+Cohesion: 0.18
+Nodes (9): Action, Button, GameObject, string, TMP_Text, TutorialPanelSide, Vector2, TutorialPanel (+1 more)
+
+### Community 147 - "Community 147"
+Cohesion: 0.21
+Nodes (11): SessionObject, CardType, GameContext, List, Long, Master, Override, SessionType (+3 more)
+
+### Community 148 - "Community 148"
+Cohesion: 0.23
+Nodes (11): Entry, AdventureDatabaseDto, AdventureDto, AdventuresResponse, List, Long, Mono, ScenarioDto (+3 more)
+
+### Community 149 - "Community 149"
+Cohesion: 0.21
+Nodes (10): DebugActionResponseDto, DebugMagicInfoDto, DebugPrefabInfoDto, DebugSpawnPrefabRequestDto, DebugSummonMagicRequestDto, List, Magic, PrefabType (+2 more)
+
+### Community 150 - "Community 150"
+Cohesion: 0.17
+Nodes (10): GameObject, Master, Override, PrefabType, Vector3, VineHitTracker, Runnable, VineHitTracker (+2 more)
+
+### Community 151 - "Community 151"
+Cohesion: 0.17
+Nodes (7): Long, MmrService, Override, SessionObject, SnapshotResponseDto, Runnable, GameLoop
+
+### Community 152 - "Community 152"
+Cohesion: 0.22
+Nodes (8): Boolean, Double, Flux, List, Long, Mono, Pair, MatchingQueueRepository
+
+### Community 153 - "Community 153"
+Cohesion: 0.17
+Nodes (10): List, String, ApplicationContext, ApplicationContextAware, Cacheable, Override, PrefabInitializer, PrefabType (+2 more)
+
+### Community 154 - "Community 154"
+Cohesion: 0.20
+Nodes (9): GameObject, StatusEffectKey, Effect, ElementType, GameObject, Override, StatusEffectKey, ShockStatusEffect (+1 more)
+
+### Community 155 - "Community 155"
+Cohesion: 0.28
+Nodes (6): PVEBossMob, GameObject, List, Magic, Override, PveObjectiveTarget
+
+### Community 156 - "Community 156"
+Cohesion: 0.13
+Nodes (9): CardUI, GameScene.Card, AudioSource, bool, Image, Outline, Sprite, string (+1 more)
+
+### Community 157 - "Community 157"
+Cohesion: 0.23
+Nodes (5): IEnumerator, TResponse, TSelf, Data.Versioning, VersionedDataSource
+
+### Community 158 - "Community 158"
+Cohesion: 0.28
+Nodes (7): Action, CardDto, DeckRequestDto, DeckResponseDto, IEnumerator, DeckApiClient, DeckScene
+
+### Community 159 - "Community 159"
+Cohesion: 0.17
+Nodes (10): CardImageMapper, CombinedMagicData, IEnumerable, Image, Task, TMP_Text, Transform, ISet (+2 more)
+
+### Community 160 - "Community 160"
+Cohesion: 0.22
+Nodes (5): ITutorialState, string, OnboardingProgress, GlobalTutorialManager, TutorialScene
+
+### Community 161 - "Community 161"
+Cohesion: 0.20
+Nodes (6): Action, Button, ButtonBase, TMP_Dropdown, LobbyTutorialController, TutorialScene
+
+### Community 162 - "Community 162"
+Cohesion: 0.27
+Nodes (6): DataControllerTest, Object, Test, ParametersResponse, Test, DataServiceTest
+
+### Community 163 - "Community 163"
+Cohesion: 0.17
+Nodes (9): GameResultBuilder, StatisticMagicDto, CardDto, Class, GameResultDto, GameSystem, List, Master (+1 more)
+
+### Community 164 - "Community 164"
+Cohesion: 0.19
+Nodes (10): SessionRecoveryInfo(), MatchedInfoDto, Boolean, Long, MatchedInfoDto, Mono, SessionRecoveryInfo, String (+2 more)
+
+### Community 165 - "Community 165"
+Cohesion: 0.26
+Nodes (7): List, Override, Vector2, T, Node, AstarPathFinder, Pair()
+
+### Community 166 - "Community 166"
+Cohesion: 0.28
+Nodes (7): Collider, GameContext, GameObject, List, Override, Vector3, PhysicSystem
+
+### Community 167 - "Community 167"
+Cohesion: 0.24
+Nodes (9): Class, GameContext, GameSystem, Long, Master, Optional, StatisticService, SessionType (+1 more)
+
+### Community 168 - "Community 168"
+Cohesion: 0.31
+Nodes (10): AuthorizationDeniedException, GlobalExceptionHandler, Exception, ExceptionHandler, IllegalArgumentException, MethodArgumentNotValidException, Mono, ResponseEntity (+2 more)
+
+### Community 169 - "Community 169"
+Cohesion: 0.23
+Nodes (10): Long, Mono, String, Long, Mono, String, ValueResponse, KeyValue (+2 more)
+
+### Community 170 - "Community 170"
+Cohesion: 0.30
+Nodes (9): AuthResponse, GuestAuthResponse, JoinRequest, LocaleContext, LoginRequest, Mono, String, Member (+1 more)
+
+### Community 171 - "Community 171"
+Cohesion: 0.13
+Nodes (11): RequestLoggingFilter, FilterChain, Override, ServletRequest, ServletResponse, Filter, RequestLoggingFilter, FilterChain (+3 more)
+
+### Community 172 - "Community 172"
+Cohesion: 0.28
+Nodes (10): List, Long, Stage, StageRepository, Flux, Long, Mono, Query (+2 more)
+
+### Community 173 - "Community 173"
+Cohesion: 0.20
+Nodes (10): Authentication, JwtAuthenticationFilter, FilterChain, HttpServletRequest, HttpServletResponse, Override, String, JwtProvider (+2 more)
+
+### Community 174 - "Community 174"
+Cohesion: 0.24
+Nodes (9): Action, DebugActionResponseDto, DebugMagicDto, DebugPrefabDto, DebugSpawnPrefabRequestDto, DebugSummonMagicRequestDto, IEnumerator, Admin.Client (+1 more)
+
+### Community 175 - "Community 175"
+Cohesion: 0.30
+Nodes (7): Action, CombinedMagicData, float, Image, RectTransform, Transform, DeckMagicPopupItem
+
+### Community 176 - "Community 176"
+Cohesion: 0.18
+Nodes (10): int, List, string, DeltaFrameHandler, GameScene.Handler, GeneralHandler, MagicValidHandler, PveScriptPayload (+2 more)
+
+### Community 177 - "Community 177"
+Cohesion: 0.13
+Nodes (10): Camera, CardInputSender, PointerEventData, PointerEventData, IPointerClickHandler, DropdownClickCatcher, LobbyScene, LobbyUIController (+2 more)
+
+### Community 178 - "Community 178"
+Cohesion: 0.17
+Nodes (8): GameObject, Vector3, float, SpriteRenderer, GameScene.ServedObjectComponent, SimpleZVisualizer, GameScene.ServedObjectComponent, ZVisualizer
+
+### Community 179 - "Community 179"
+Cohesion: 0.15
+Nodes (10): Action, Coroutine, float, GameObject, IEnumerator, LocalizedString, Queue, TMP_Text (+2 more)
+
+### Community 180 - "Community 180"
+Cohesion: 0.21
+Nodes (8): DamageInterceptor, AttackInfo, AttackInfo, ElementType, GameObject, Override, StatusEffectKey, BubbleStatusEffect
+
+### Community 181 - "Community 181"
+Cohesion: 0.24
+Nodes (6): PlayerStatusSetter, GameObject, InputHandleEvent, Override, Subscription, Throwable
+
+### Community 182 - "Community 182"
+Cohesion: 0.24
+Nodes (9): CountDto, Long, Mono, Query, UserScenarioRepository, Void, Mono, Void (+1 more)
+
+### Community 183 - "Community 183"
+Cohesion: 0.24
+Nodes (5): ElementType, Object, Set, Void, Element
+
+### Community 184 - "Community 184"
+Cohesion: 0.18
+Nodes (9): ct(), ht(), ut(), e(), i(), l(), s(), t() (+1 more)
+
+### Community 185 - "Community 185"
+Cohesion: 0.25
+Nodes (5): Boolean, Long, MatchedInfoDto, SimpleMessageDto, GameMatchService
+
+### Community 186 - "Community 186"
+Cohesion: 0.13
+Nodes (14): MonoBehaviour, CpuMaxTargetX32, CpuMaxTargetX64, CpuMinTargetX32, CpuMinTargetX64, CpuTargetsX64, DebugDataKind, EnableArmv9SecurityFeatures (+6 more)
+
+### Community 187 - "Community 187"
+Cohesion: 0.27
+Nodes (10): DeleteMapping, GetMapping, Jwt, Long, MemberPutRequest, Mono, PutMapping, Void (+2 more)
+
+### Community 188 - "Community 188"
+Cohesion: 0.16
+Nodes (11): Action<CardItemUI>, Action, CardImageMapper, Color, GameObject, Image, TextMeshProUGUI, CardItemUI (+3 more)
+
+### Community 189 - "Community 189"
+Cohesion: 0.21
+Nodes (11): AdventureDialogueSpeakerSide, GameObject, List, LocalizedString, long, Sprite, Data.Adventures.Dto, AdventureScenarioStoryData (+3 more)
+
+### Community 190 - "Community 190"
+Cohesion: 0.15
+Nodes (11): AdventureClient, Data.Adventures, CurrentAdventure, Data.Adventures, Action, AdventuresResponseDto, IEnumerator, Action (+3 more)
+
+### Community 191 - "Community 191"
+Cohesion: 0.27
+Nodes (9): SprayingAttacker, AttackInfo, Effect, GameObject, List, Mob, Set, String (+1 more)
+
+### Community 192 - "Community 192"
+Cohesion: 0.25
+Nodes (10): CardListService, CardController, CardControllerTest, CardListResponse, GetMapping, Long, Mono, QuestProgressResponseDto (+2 more)
+
+### Community 193 - "Community 193"
+Cohesion: 0.23
+Nodes (9): Color, ColorOptions, Gradient, Sequence, SpriteRenderer, Tweener, TweenerCore, DG.Tweening (+1 more)
+
+### Community 194 - "Community 194"
+Cohesion: 0.26
+Nodes (8): CardType, CombinedMagicData, IList, IReadOnlyList, List, T, Data.Magic, LocalCombinedMagicData
+
+### Community 195 - "Community 195"
+Cohesion: 0.19
+Nodes (8): CreatedObjectDto, GameObject, Exception, DuplicatedException, GameScene.Exception, GameScene.Object, GameScene.Object, ObjectSpawner
+
+### Community 196 - "Community 196"
+Cohesion: 0.16
+Nodes (9): bool, Dictionary, IEnumerable, IEnumerator, int, JwksKey, string, Global.Util (+1 more)
+
+### Community 197 - "Community 197"
+Cohesion: 0.25
+Nodes (6): RallyMoveDirective, GameObject, Optional, Override, Vector3, MovementDirective
+
+### Community 198 - "Community 198"
+Cohesion: 0.21
+Nodes (8): String, GameObjectKey, GameObjectParameters, String, HopParameters, dbName(), EmberSpiritSwarmMagic, MiniRockSwarmMagic
+
+### Community 199 - "Community 199"
+Cohesion: 0.21
+Nodes (9): GameObject, GameObjectKey, Override, Parameters, GameObjectKey, Override, Parameters, LeafSlimePrefabInitializer (+1 more)
+
+### Community 200 - "Community 200"
+Cohesion: 0.24
+Nodes (7): GameObjectKey, Parameters, Test, Class, Object, GameObjectParameters, GameObjectParametersTest
+
+### Community 201 - "Community 201"
+Cohesion: 0.18
+Nodes (4): Master, ResultMmrDto, SessionObject, ResultChecker
+
+### Community 202 - "Community 202"
+Cohesion: 0.27
+Nodes (9): Exception, Map, Object, Override, String, HandshakeInterceptor, ServerHttpResponse, JwtHandshakeInterceptor (+1 more)
+
+### Community 203 - "Community 203"
+Cohesion: 0.18
+Nodes (14): clockwise(), computeAutoPlacement(), enableEventListeners(), findIndex(), flip(), getArea(), getOppositePlacement(), getOppositeVariation() (+6 more)
+
+### Community 204 - "Community 204"
+Cohesion: 0.14
+Nodes (13): MonoBehaviour, CpuMaxTargetX32, CpuMaxTargetX64, CpuMinTargetX32, CpuMinTargetX64, DebugDataKind, EnableArmv9SecurityFeatures, EnableBurstCompilation (+5 more)
+
+### Community 205 - "Community 205"
+Cohesion: 0.19
+Nodes (9): GetMapping, String, HealthController, HealthCheckController, GetMapping, String, HealthCheckController, GetMapping (+1 more)
+
+### Community 206 - "Community 206"
+Cohesion: 0.19
+Nodes (5): AdventureState, LobbyScene.Button, PracticeButton, LobbyState, LobbyState
+
+### Community 207 - "Community 207"
+Cohesion: 0.17
+Nodes (7): GameScene.Animation, OnAttackSpriteSwapper, float, IEnumerator, ServedObject, Sprite, SpriteRenderer
+
+### Community 208 - "Community 208"
+Cohesion: 0.29
+Nodes (4): KeepDistanceMob, GameObject, Override, Vector2
+
+### Community 209 - "Community 209"
+Cohesion: 0.27
+Nodes (8): GameScene.Card, MagicSuggestion, CardType, CombinedMagicData, Dictionary, IList, List, UserMagicService
+
+### Community 210 - "Community 210"
+Cohesion: 0.15
+Nodes (11): bool, List, string, bool, List, string, ParametersResponse, Data.Magic (+3 more)
+
+### Community 211 - "Community 211"
+Cohesion: 0.18
+Nodes (8): bool, Button, CardInputSender, Coroutine, IEnumerator, RectTransform, BarController, GameScene
+
+### Community 212 - "Community 212"
+Cohesion: 0.18
+Nodes (9): double, int, SpriteRenderer, Transform, TweenerCore, UpdatedObjectDto, Vector3, GameScene.ServedObjectComponent (+1 more)
+
+### Community 213 - "Community 213"
+Cohesion: 0.17
+Nodes (7): Action, IStompTransport, List, string, Entry, Global.Stomp, StompSubscriptionRegistry
+
+### Community 214 - "Community 214"
+Cohesion: 0.21
+Nodes (9): Func, IEnumerator, LocalizedString, string, User, LobbyScene, SessionDto, StatusDto (+1 more)
+
+### Community 215 - "Community 215"
+Cohesion: 0.19
+Nodes (8): CombinedMagicData, GameObject, List, Transform, UserMagicApiClient, MagicBookScene, MagicInfoFactory, MagicInfo
+
+### Community 216 - "Community 216"
+Cohesion: 0.22
+Nodes (7): MatchingController, Long, MatchedInfoDto, ResponseEntity, SimpleMessageDto, QueueLengthResponseDto, Unit
+
+### Community 217 - "Community 217"
+Cohesion: 0.28
+Nodes (10): ParametersResponse, Data.GameConfig, List, Parameter, Flux, Mono, ParametersResponse, ParameterValue (+2 more)
+
+### Community 218 - "Community 218"
+Cohesion: 0.21
+Nodes (8): QuestProgressResponseDto, UserQuest, Flux, Long, Query, Quest, QuestState, QuestRepository
+
+### Community 219 - "Community 219"
+Cohesion: 0.29
+Nodes (8): GlobalExceptionHandler, AuthorizationDeniedException, Exception, ExceptionHandler, IllegalArgumentException, MethodArgumentNotValidException, ResponseEntity, String
+
+### Community 220 - "Community 220"
+Cohesion: 0.24
+Nodes (6): GameObject, Integer, List, Override, SessionObject, PveResultChecker
+
+### Community 221 - "Community 221"
+Cohesion: 0.15
+Nodes (7): ParameterRepository, MagicRepository, R2dbcRepository, AdventureRepository, CardRepository, DecorationRepository, PrincipalRepository
+
+### Community 222 - "Community 222"
+Cohesion: 0.31
+Nodes (8): List, Mono, Quest, QuestProgressResponseDto, QuestRewardDto, QuestService, Transactional, Void
+
+### Community 223 - "Community 223"
+Cohesion: 0.32
+Nodes (9): GetMapping, Jwt, Long, Mono, PutMapping, String, ValueResponse, KeyValueController (+1 more)
+
+### Community 224 - "Community 224"
+Cohesion: 0.29
+Nodes (9): GetMapping, Model, Mono, PostMapping, ServerTokenRequest, ServerTokenResponse, String, TokenController (+1 more)
+
+### Community 225 - "Community 225"
+Cohesion: 0.30
+Nodes (4): PrincipalDetails, Long, Override, String
+
+### Community 226 - "Community 226"
+Cohesion: 0.21
+Nodes (8): Optional, ParameterValue, String, Double, GameObject, Parameter, GameObject, ParameterValue
+
+### Community 227 - "Community 227"
+Cohesion: 0.17
+Nodes (10): AdventureStageScriptableObject, TutorialData, TutorialScene, List, LocalizedString, long, Sprite, string (+2 more)
+
+### Community 228 - "Community 228"
+Cohesion: 0.20
+Nodes (7): TutorialBarController, TutorialScene, bool, Button, IEnumerator, RectTransform, TutorialCardSender
+
+### Community 229 - "Community 229"
+Cohesion: 0.17
+Nodes (7): LobbyScene.Button, LobbySceneLoadButton, LobbyScene.Button, TextChangeSceneLoadButton, string, LocalizedString, TextMeshProUGUI
+
+### Community 230 - "Community 230"
+Cohesion: 0.20
+Nodes (6): Button, Color, Image, Scenario, Adventures.Scenarios, ScenarioButton
+
+### Community 231 - "Community 231"
+Cohesion: 0.26
+Nodes (7): CardType, CombinedMagicData, IList, List, UserMagicService, CombinedMagicResolver, Data.Magic
+
+### Community 232 - "Community 232"
+Cohesion: 0.18
+Nodes (8): Action, bool, IEnumerator, int, string, Data, Server, UnityWebRequest
+
+### Community 233 - "Community 233"
+Cohesion: 0.26
+Nodes (7): Action, IEnumerator, LobbyState, MatchedInfoDto, SimpleMessageDto, LobbyScene, MatchQueueApiService
+
+### Community 234 - "Community 234"
+Cohesion: 0.18
+Nodes (8): Action, GameObject, T, Transform, TutorialPanelSide, TutorialPanel, SceneTutorialController, TutorialScene
+
+### Community 235 - "Community 235"
+Cohesion: 0.26
+Nodes (7): SelfAttacker, SelfHealer, AttackInfo, GameObject, Override, ElementType, GameObject
+
+### Community 236 - "Community 236"
+Cohesion: 0.23
+Nodes (8): Consumer, InputController, PingChecker, InputRequestDto, PrincipalDetails, String, Long, MessageMapping
+
+### Community 237 - "Community 237"
+Cohesion: 0.24
+Nodes (5): ElementType, GameObject, Override, StatusEffectKey, BaseStatusEffect
+
+### Community 238 - "Community 238"
+Cohesion: 0.30
+Nodes (5): AttackInfo, GameObject, Override, PrefabType, Spawner
+
+### Community 239 - "Community 239"
+Cohesion: 0.23
+Nodes (4): GameObject, Override, Vector3, RigidBody
+
+### Community 240 - "Community 240"
+Cohesion: 0.17
+Nodes (11): cacheServerHost, cacheServerPort, fileIDHashSeed, logCacheMiss, maximumCacheSize, prefabPackedHeaderSize, slimWriteResults, threadedArchiving (+3 more)
+
+### Community 241 - "Community 241"
+Cohesion: 0.17
+Nodes (11): frames, meta, app, format, image, scale, size, smartupdate (+3 more)
+
+### Community 242 - "Community 242"
+Cohesion: 0.40
+Nodes (6): EntityGraph, GameType, List, LocalDateTime, StatisticGame, StatisticGame
+
+### Community 243 - "Community 243"
+Cohesion: 0.25
+Nodes (4): AdventureApiService, AdventureViewModel, MatchedInfoDto, StateEvent
+
+### Community 244 - "Community 244"
+Cohesion: 0.18
+Nodes (8): AdventureClient, AdventureApiClient, Data.Adventures, AdventureMockClient, Data.Adventures, Action, AdventuresResponseDto, IEnumerator
+
+### Community 245 - "Community 245"
+Cohesion: 0.18
+Nodes (4): ManaMocker, MobMocker, int, TutorialStep
+
+### Community 246 - "Community 246"
+Cohesion: 0.22
+Nodes (4): BGMPlayer, Global.Sound.BGM, LoadSceneMode, Scene
+
+### Community 247 - "Community 247"
+Cohesion: 0.31
+Nodes (8): BindingContext, HandlerMethodArgumentResolver, Mono, Object, Override, ServerWebExchange, MethodParameter, UserIdResolver
+
+### Community 248 - "Community 248"
+Cohesion: 0.18
+Nodes (6): DisableableButtonBase, Global.Button, bool, Color, AdventureButtonBase, Adventures.Scenarios
+
+### Community 249 - "Community 249"
+Cohesion: 0.18
+Nodes (4): EnqueueButton, LobbyScene.Button, LobbyButtonBase, LobbyScene.Button
+
+### Community 250 - "Community 250"
+Cohesion: 0.20
+Nodes (7): Button, CombinedMagicData, Func, IReadOnlyList, DeckInfoMagicPopup, DeckMagicInfoButton, DeckScene
+
+### Community 251 - "Community 251"
+Cohesion: 0.18
+Nodes (6): GameObject, MagicFailEffecter, ServedObject, Transform, GameScene.Player, PlayerActionController
+
+### Community 252 - "Community 252"
+Cohesion: 0.18
+Nodes (6): Gauge, ServedObject, Slider, string, GameScene.ServedObjectComponent, GaugeBar
+
+### Community 253 - "Community 253"
+Cohesion: 0.22
+Nodes (7): bool, float, int, Sprite, SpriteRenderer, GameScene.ServedObjectComponent, SpriteFrameAnimator
+
+### Community 254 - "Community 254"
+Cohesion: 0.24
+Nodes (5): AudioSource, float, Global.Sound, SoundVolumeSetter, SoundType
+
+### Community 256 - "Community 256"
+Cohesion: 0.18
+Nodes (5): LobbyState, LocalizedString, TMP_Text, LobbyScene, MatchingStatusTextUI
+
+### Community 257 - "Community 257"
+Cohesion: 0.24
+Nodes (7): IEnumerator, int, LocalizedString, TMP_Text, LobbyScene, QueueLengthIndicator, QueueLengthResponse
+
+### Community 258 - "Community 258"
+Cohesion: 0.18
+Nodes (5): LoadSceneMode, Scene, ITutorialState, BattleState, TutorialScene
+
+### Community 259 - "Community 259"
+Cohesion: 0.22
+Nodes (7): SessionServerTypeReadConverter, Override, ServerState, String, Override, ServerType, String
+
+### Community 260 - "Community 260"
+Cohesion: 0.33
+Nodes (7): GameContext, GameObjectParameters, Master, Override, PrefabType, Vector3, AbstractSwarmSpawnMagic
+
+### Community 261 - "Community 261"
+Cohesion: 0.31
+Nodes (7): GameContext, GameObject, List, PveInstallObject, String, PveScenarioInstaller, RuntimeState
+
+### Community 262 - "Community 262"
+Cohesion: 0.42
+Nodes (6): Mono, Quest, QuestRewardDto, RewardGiver, Void, QuestRewardGiver
+
+### Community 263 - "Community 263"
+Cohesion: 0.38
+Nodes (6): GetMapping, Mono, PostMapping, ServerWebExchange, String, PageController
+
+### Community 264 - "Community 264"
+Cohesion: 0.38
+Nodes (6): Flux, Long, Mono, String, System, SystemService
+
+### Community 265 - "Community 265"
+Cohesion: 0.20
+Nodes (6): Admin, RoomUIFactory, AdminViewModel, GameObject, RoomList, Transform
+
+### Community 266 - "Community 266"
+Cohesion: 0.31
+Nodes (9): Float, GameObject, Integer, List, Long, String, TagDto, fromGameObject() (+1 more)
+
+### Community 267 - "Community 267"
+Cohesion: 0.36
+Nodes (7): GameObject, List, Optional, Parameter, ParameterValue, Query, ParameterValueRepository
+
+### Community 268 - "Community 268"
+Cohesion: 0.29
+Nodes (5): TutorialDisplay, TutorialScene, IEnumerator, int, List
+
+### Community 269 - "Community 269"
+Cohesion: 0.20
+Nodes (7): GameScene.Card, MagicHelperUI, CombinedMagicData, List, Transform, MagicSuggestion, MagicSuggestionItemView
+
+### Community 270 - "Community 270"
+Cohesion: 0.31
+Nodes (5): CardDeck, GameSessionData, GameObject, Master, PlayerData
+
+### Community 271 - "Community 271"
+Cohesion: 0.33
+Nodes (6): ChannelRegistration, Override, MessageBrokerRegistry, StompEndpointRegistry, WebSocketConfig, WebSocketMessageBrokerConfigurer
+
+### Community 272 - "Community 272"
+Cohesion: 0.27
+Nodes (5): float, SpriteRenderer, Vector3, CircleSkillIndicator, GameScene
+
+### Community 273 - "Community 273"
+Cohesion: 0.22
+Nodes (4): Dictionary, List, ServedObject, ObjectContainer
+
+### Community 274 - "Community 274"
+Cohesion: 0.22
+Nodes (5): float, string, GameScene, PingDto, PingSender
+
+### Community 275 - "Community 275"
+Cohesion: 0.20
+Nodes (5): float, GameScene, PopSelfController, GameScene, PopSelfDestroyer
+
+### Community 276 - "Community 276"
+Cohesion: 0.22
+Nodes (5): bool, GameObject, int, FeverTimeController, GameScene.UI
+
+### Community 277 - "Community 277"
+Cohesion: 0.22
+Nodes (6): Coroutine, float, IEnumerator, int, Global.Stomp, StompReconnectController
+
+### Community 278 - "Community 278"
+Cohesion: 0.20
+Nodes (4): LocalizedString, LobbyScene, MatchingMessageController, LobbySceneViewModel
+
+### Community 279 - "Community 279"
+Cohesion: 0.24
+Nodes (6): TMP_Text, User, UserProfileData, UserStatisticsOverviewDto, ProfilePanel, ProfileScene
+
+### Community 280 - "Community 280"
+Cohesion: 0.29
+Nodes (5): OnStartAttacker, GameObject, Override, VineHitTracker, VineHitTracker
+
+### Community 281 - "Community 281"
+Cohesion: 0.24
+Nodes (7): SessionServerTypeWriteConverter, Override, ServerState, String, Override, ServerType, String
+
+### Community 282 - "Community 282"
+Cohesion: 0.36
+Nodes (6): PriorityEnemyDetector, GameContext, GameObject, List, Override, TargetCategory
+
+### Community 283 - "Community 283"
+Cohesion: 0.33
+Nodes (6): GameContext, Master, Override, Vector3, VineFanMagic, VineTossMagic
+
+### Community 284 - "Community 284"
+Cohesion: 0.33
+Nodes (5): Effect, GameObject, Override, Vector3, LeafFieldEffectReceiver
+
+### Community 285 - "Community 285"
+Cohesion: 0.33
+Nodes (5): Effect, GameObject, Override, Vector3, WaterFieldEffectReceiver
+
+### Community 286 - "Community 286"
+Cohesion: 0.36
+Nodes (5): ElementType, GameObject, Override, StatusEffectKey, DOTStatusEffect
+
+### Community 287 - "Community 287"
+Cohesion: 0.36
+Nodes (5): ElementType, GameObject, Override, StatusEffectKey, WetStatusEffect
+
+### Community 288 - "Community 288"
+Cohesion: 0.29
+Nodes (3): GameObject, Override, RallyingTorch
+
+### Community 289 - "Community 289"
+Cohesion: 0.33
+Nodes (4): AttackInfo, GameObject, Override, PlayerHealthComponent
+
+### Community 290 - "Community 290"
+Cohesion: 0.29
+Nodes (3): GameObject, Vector3, Collider
+
+### Community 291 - "Community 291"
+Cohesion: 0.38
+Nodes (6): GameObject, GameObject, List, Vector2, Vector3, Physics
+
+### Community 292 - "Community 292"
+Cohesion: 0.36
+Nodes (4): ResultMmrDto, ResultType, Transactional, MmrService
+
+### Community 293 - "Community 293"
+Cohesion: 0.31
+Nodes (7): Deck, Flux, Long, Mono, Query, DeckRepository, String
+
+### Community 294 - "Community 294"
+Cohesion: 0.40
+Nodes (7): Flux, MagicCard, MagicsResponse, Mono, String, Transactional, MagicDataService
+
+### Community 295 - "Community 295"
+Cohesion: 0.33
+Nodes (7): LocaleContextWebFilter, Mono, Override, ServerWebExchange, Void, WebFilterChain, WebFilter
+
+### Community 296 - "Community 296"
+Cohesion: 0.36
+Nodes (6): Flux, MemberEntity, Mono, Query, String, MemberRepository
+
+### Community 297 - "Community 297"
+Cohesion: 0.50
+Nodes (5): Boolean, Long, Mono, String, AuthorizationService
+
+### Community 298 - "Community 298"
+Cohesion: 0.28
+Nodes (5): GameServerClient, PostConstruct, ResponseEntity, String, Void
+
+### Community 300 - "Community 300"
+Cohesion: 0.39
+Nodes (6): Collection, List, Optional, Parameter, String, ParameterRepository
+
+### Community 301 - "Community 301"
+Cohesion: 0.36
+Nodes (6): FilterChain, HttpServletRequest, HttpServletResponse, Override, String, JwtAuthenticationFilter
+
+### Community 302 - "Community 302"
+Cohesion: 0.22
+Nodes (6): BounceTesterParameters, GameObject, Transform, DOTweenFeedbackTester, Global, SwingTesterParameters
+
+### Community 303 - "Community 303"
+Cohesion: 0.25
+Nodes (5): AsyncButtonBase, Global.Button, IEnumerator, GuestLoginButton, LoginScene
+
+### Community 304 - "Community 304"
+Cohesion: 0.22
+Nodes (5): CancelMatchingButton, LobbyScene.Button, ButtonBase, GotoLobbyButton, ResultScene
+
+### Community 305 - "Community 305"
+Cohesion: 0.28
+Nodes (5): GameObjectVisibilityButton, Global.Button, GameObject, IEnumerable, List
+
+### Community 306 - "Community 306"
+Cohesion: 0.25
+Nodes (5): CardUIZoom, GameScene.Card, AudioSource, CardUI, ZoomedCardUI
+
+### Community 307 - "Community 307"
+Cohesion: 0.36
+Nodes (5): AccountClient, AccountMemberResponseDto, Long, Mono, Throwable
+
+### Community 308 - "Community 308"
+Cohesion: 0.25
+Nodes (8): Rigidbody, Transform, Tweener, Vector3, DG.Tweening, DOSpiral(), DOTweenProShortcuts, SpiralMode
+
+### Community 309 - "Community 309"
+Cohesion: 0.22
+Nodes (7): List, long, string, Data.Magic, IMagicRecipeSource, Data.Magic, MagicInfoDto
+
+### Community 310 - "Community 310"
+Cohesion: 0.28
+Nodes (6): CardImageMapper, CardType, Sprite, string, DeckCardSpriteResolver, DeckScene
+
+### Community 311 - "Community 311"
+Cohesion: 0.22
+Nodes (7): float, int, ProjectileTarget, string, Vector3, ProjectileTarget, GameScene.Dto.Projectile
+
+### Community 312 - "Community 312"
+Cohesion: 0.25
+Nodes (6): ProjectileDto, ProjectileTarget, Quaternion, Vector3, GameScene.Object.Projectile, ProjectileUtil
+
+### Community 313 - "Community 313"
+Cohesion: 0.25
+Nodes (5): bool, float, IEnumerator, LobbyScene, MatchStatusPoller
+
+### Community 314 - "Community 314"
+Cohesion: 0.25
+Nodes (6): IEnumerator, InputField, LocalizedString, MemberPutRequest, GuestRegisterButton, LobbyScene.SettingPage
+
+### Community 315 - "Community 315"
+Cohesion: 0.22
+Nodes (7): Action, IEnumerator, LocalizedString, string, DeployStatusChecker, DeployStatusDto, LoginScene
+
+### Community 316 - "Community 316"
+Cohesion: 0.31
+Nodes (5): GaugeComponent, GaugeDto, GameObject, SnapshotObjectDto, SnapshotMapper
+
+### Community 317 - "Community 317"
+Cohesion: 0.42
+Nodes (6): DataController, GetMapping, MagicsResponse, Mono, ParametersResponse, String
+
+### Community 318 - "Community 318"
+Cohesion: 0.31
+Nodes (4): MovementDirective, GameObject, Optional, Vector3
+
+### Community 319 - "Community 319"
+Cohesion: 0.36
+Nodes (6): FrameInfoDto, CardInfoDto, GameSessionData, ObjectsInfoDto, SnapshotResponseDto, SyncInfoDto
+
+### Community 320 - "Community 320"
+Cohesion: 0.31
+Nodes (6): GameContext, Master, Override, PrefabType, Vector3, GameLoop
+
+### Community 321 - "Community 321"
+Cohesion: 0.36
+Nodes (5): ElementType, GameObject, Override, StatusEffectKey, InspiredStatusEffect
+
+### Community 322 - "Community 322"
+Cohesion: 0.36
+Nodes (5): ElementType, GameObject, Override, StatusEffectKey, SlowStatusEffect
+
+### Community 323 - "Community 323"
+Cohesion: 0.33
+Nodes (4): GameObject, List, Override, LightningTowerMob
+
+### Community 324 - "Community 324"
+Cohesion: 0.36
+Nodes (3): GameObject, Override, BubbleGeneratorMob
+
+### Community 325 - "Community 325"
+Cohesion: 0.36
+Nodes (3): GameObject, Override, ManaWellMob
+
+### Community 326 - "Community 326"
+Cohesion: 0.38
+Nodes (4): GameObject, Override, Vector3, ChainShot
+
+### Community 328 - "Community 328"
+Cohesion: 0.44
+Nodes (5): CardInfoDto, CardType, List, PlayerData, CardDeck
+
+### Community 329 - "Community 329"
+Cohesion: 0.53
+Nodes (5): GameObject, GaugeDto, List, GaugeCategory, GaugeExtractor
+
+### Community 330 - "Community 330"
+Cohesion: 0.33
+Nodes (6): DeckCard, Flux, Long, Mono, Void, DeckCardRepository
+
+### Community 331 - "Community 331"
+Cohesion: 0.25
+Nodes (4): Mono, String, Void, RewardGiver
+
+### Community 332 - "Community 332"
+Cohesion: 0.39
+Nodes (6): List, Mono, RoomInfoDto, RoomListDto, Server, GameSessionService
+
+### Community 333 - "Community 333"
+Cohesion: 0.32
+Nodes (5): A, B, Override, String, MutablePair
+
+### Community 334 - "Community 334"
+Cohesion: 0.36
+Nodes (6): Mono, Override, ServerWebExchange, Void, WebFilterChain, CookieAuthenticationFilter
+
+### Community 335 - "Community 335"
+Cohesion: 0.31
+Nodes (7): RequestLoggingFilter, Mono, Override, ServerWebExchange, Void, WebFilterChain, ServerHttpRequest
+
+### Community 336 - "Community 336"
+Cohesion: 0.39
+Nodes (5): List, Long, PasswordEncoder, String, Member
+
+### Community 337 - "Community 337"
+Cohesion: 0.39
+Nodes (5): Flux, Long, Mono, MemberAuthority, MemberAuthorityRepository
+
+### Community 338 - "Community 338"
+Cohesion: 0.46
+Nodes (4): List, Long, RewardParam, RewardParamRepository
+
+### Community 339 - "Community 339"
+Cohesion: 0.25
+Nodes (5): AdventureDataSource, AdventureIconFactory, Adventure, GameObject, List
+
+### Community 340 - "Community 340"
+Cohesion: 0.32
+Nodes (5): AdventureApiService, Action, IEnumerator, MatchedInfoDto, string
+
+### Community 341 - "Community 341"
+Cohesion: 0.25
+Nodes (4): CancelMatchingButtonActiveToggler, LobbyScene.Button, GameObject, LobbyState
+
+### Community 342 - "Community 342"
+Cohesion: 0.32
+Nodes (6): CardImageMapper, CardImageMapping, GameScene.Card, CardType, List, Sprite
+
+### Community 343 - "Community 343"
+Cohesion: 0.32
+Nodes (5): GameScene.Card, MagicSuggestionItemView, CombinedMagicData, Image, MagicHelperUI
+
+### Community 344 - "Community 344"
+Cohesion: 0.25
+Nodes (5): GameScene.Card, ZoomedCardUI, CardUI, Image, TMP_Text
+
+### Community 345 - "Community 345"
+Cohesion: 0.25
+Nodes (6): List, long, Sprite, string, CombinedMagicData, Data.Magic
+
+### Community 346 - "Community 346"
+Cohesion: 0.25
+Nodes (6): Action, CombinedMagicData, List, UserMagicApiClient, Data.Magic, UserMagicService
+
+### Community 347 - "Community 347"
+Cohesion: 0.25
+Nodes (5): Button, DeckRequirementSummary, TMP_Text, DeckRequirementStatusText, DeckScene
+
+### Community 349 - "Community 349"
+Cohesion: 0.36
+Nodes (5): Action, Coroutine, IEnumerator, SpriteRenderer, SpriteAfterImageFade
+
+### Community 350 - "Community 350"
+Cohesion: 0.29
+Nodes (3): GameObject, GameScene.ServedObjectComponent, PlayerFeedbackController
+
+### Community 351 - "Community 351"
+Cohesion: 0.29
+Nodes (5): IEnumerator, InputField, LocalizedString, LoginButton, LoginScene
+
+### Community 352 - "Community 352"
+Cohesion: 0.29
+Nodes (4): CombinedMagicData, Image, MagicBookScene, MagicButton
+
+### Community 353 - "Community 353"
+Cohesion: 0.29
+Nodes (5): IEnumerator, InputField, RegisterRequestDto, RegisterButton, RegisterScene
+
+### Community 354 - "Community 354"
+Cohesion: 0.29
+Nodes (4): ResultInfo, TextMeshProUGUI, ResultScene, ResultSceneUIController
+
+### Community 355 - "Community 355"
+Cohesion: 0.39
+Nodes (5): Boolean, GameServerClient, Mono, RoomListDto, String
+
+### Community 356 - "Community 356"
+Cohesion: 0.32
+Nodes (3): Component, GameContext, GameObject
+
+### Community 357 - "Community 357"
+Cohesion: 0.39
+Nodes (4): PathSpawner, GameObject, Override, PrefabType
+
+### Community 358 - "Community 358"
+Cohesion: 0.29
+Nodes (5): AdventuresResponse, AdventureController, Long, MatchedInfoDto, Mono
+
+### Community 359 - "Community 359"
+Cohesion: 0.29
+Nodes (6): DeployStatusRepository, DeployStatus, Long, Mono, String, DeployStatusRepository
+
+### Community 360 - "Community 360"
+Cohesion: 0.64
+Nodes (7): from(), Practice(), PVE(), PVP(), SessionDto, Long, String
+
+### Community 361 - "Community 361"
+Cohesion: 0.39
+Nodes (5): FireSlimePrefabInitializer, GameObject, GameObjectKey, Override, Parameters
+
+### Community 362 - "Community 362"
+Cohesion: 0.39
+Nodes (5): ElementType, GameObject, Override, StatusEffectKey, BurnStatusEffect
+
+### Community 363 - "Community 363"
+Cohesion: 0.39
+Nodes (5): ElementType, GameObject, Override, StatusEffectKey, PanicStatusEffect
+
+### Community 364 - "Community 364"
+Cohesion: 0.39
+Nodes (4): GameObject, Master, Override, OvergrowthExplosion
+
+### Community 365 - "Community 365"
+Cohesion: 0.39
+Nodes (4): GameObject, Override, PrefabType, SummonMob
+
+### Community 366 - "Community 366"
+Cohesion: 0.43
+Nodes (6): GameLoop, SessionType, WordOnlineLoop, ObjectProvider, PveLoop, GameLoopFactory
+
+### Community 367 - "Community 367"
+Cohesion: 0.32
+Nodes (4): GameScene.Handler, PveDialoguePresenter, PveScriptEventHandler, PveScriptEventInfo
+
+### Community 368 - "Community 368"
+Cohesion: 0.50
+Nodes (5): Flux, LocalDateTime, ParameterValue, Query, ParameterValueRepository
+
+### Community 369 - "Community 369"
+Cohesion: 0.36
+Nodes (6): LocaleContextWebFilter, Mono, Override, ServerWebExchange, Void, WebFilterChain
+
+### Community 370 - "Community 370"
+Cohesion: 0.36
+Nodes (6): RequestLoggingFilter, Mono, Override, ServerWebExchange, Void, WebFilterChain
+
+### Community 371 - "Community 371"
+Cohesion: 0.32
+Nodes (5): Bean, Builder, String, WebClient, JwtWebClientConfig
+
+### Community 372 - "Community 372"
+Cohesion: 0.43
+Nodes (5): Boolean, Integer, Mono, Quest, QuestChecker
+
+### Community 373 - "Community 373"
+Cohesion: 0.25
+Nodes (7): defaultDependencyTypeInfo, defaultInstantiationMode, type, userAdded, dependencyTypeInfos, newSceneOverride, templatePinStates
+
+### Community 375 - "Community 375"
+Cohesion: 0.52
+Nodes (5): AbstractR2dbcConfiguration, R2dbcConfig, Bean, Override, R2dbcCustomConversions
+
+### Community 376 - "Community 376"
+Cohesion: 0.52
+Nodes (4): Bean, ConnectionFactory, R2dbcEntityTemplate, AccountDbConfig
+
+### Community 377 - "Community 377"
+Cohesion: 0.52
+Nodes (4): Bean, ConnectionFactory, R2dbcEntityTemplate, GameDbConfig
+
+### Community 378 - "Community 378"
+Cohesion: 0.38
+Nodes (4): JwtProvider, Long, Member, String
+
+### Community 379 - "Community 379"
+Cohesion: 0.29
+Nodes (6): JoinRequest, LoginRequestDto, string, LoginRequest(), LoginRequestDto, LoginScene
+
+### Community 380 - "Community 380"
+Cohesion: 0.52
+Nodes (4): Authority, AuthorityEntity, Mono, AuthorityMapper
+
+### Community 381 - "Community 381"
+Cohesion: 0.38
+Nodes (5): Integer, Mono, ServerRepository, Server, String
+
+### Community 382 - "Community 382"
+Cohesion: 0.33
+Nodes (4): Admin, DebugItemUI, Action, TMP_Text
+
+### Community 383 - "Community 383"
+Cohesion: 0.29
+Nodes (4): Admin, ModalActiveToggleButton, bool, GameObject
+
+### Community 384 - "Community 384"
+Cohesion: 0.33
+Nodes (4): Admin, RoomUI, RoomInfo, TMP_Text
+
+### Community 385 - "Community 385"
+Cohesion: 0.52
+Nodes (4): List, Long, Scenario, ScenarioRepository
+
+### Community 386 - "Community 386"
+Cohesion: 0.43
+Nodes (4): List, Long, MagicCard, MagicCardRepository
+
+### Community 387 - "Community 387"
+Cohesion: 0.48
+Nodes (5): List, Server, ServerState, ServerType, ServerRepository
+
+### Community 388 - "Community 388"
+Cohesion: 0.33
+Nodes (5): AdventureDataSource, Action, Adventure, AdventureClient, List
+
+### Community 389 - "Community 389"
+Cohesion: 0.29
+Nodes (5): GameScene.Animation, ImageRotator, float, Image, List
+
+### Community 390 - "Community 390"
+Cohesion: 0.38
+Nodes (5): Around, UpdateTimeAspect, Object, GameSystem, ProceedingJoinPoint
+
+### Community 391 - "Community 391"
+Cohesion: 0.29
+Nodes (4): TutorialFieldSelector, TutorialScene, GameObject, TutorialCardSender
+
+### Community 392 - "Community 392"
+Cohesion: 0.29
+Nodes (4): TutorialMagicCombineButton, TutorialScene, Image, TutorialCardSender
+
+### Community 393 - "Community 393"
+Cohesion: 0.38
+Nodes (3): ButtonBase, Global.Button, AudioSource
+
+### Community 394 - "Community 394"
+Cohesion: 0.29
+Nodes (6): CardInfo, int, string, FrameInfoDto, GameScene.Dto, ObjectsInfo
+
+### Community 395 - "Community 395"
+Cohesion: 0.48
+Nodes (5): CardListQueryRepository, CardListResponse, Mono, Transactional, CardListService
+
+### Community 396 - "Community 396"
+Cohesion: 0.43
+Nodes (5): ChannelInterceptor, Override, Message, MessageChannel, JwtChannelInterceptor
+
+### Community 397 - "Community 397"
+Cohesion: 0.29
+Nodes (5): Action, IEnumerator, RoomList, Admin.Client, RoomApiClient
+
+### Community 398 - "Community 398"
+Cohesion: 0.43
+Nodes (4): List, Stage, Adventures.Scenarios, StagePanel
+
+### Community 399 - "Community 399"
+Cohesion: 0.29
+Nodes (6): int, List, string, Vector3, CardUseInput, Data
+
+### Community 400 - "Community 400"
+Cohesion: 0.29
+Nodes (6): bool, int, long, string, CardDto, Data.Deck
+
+### Community 401 - "Community 401"
+Cohesion: 0.29
+Nodes (3): Task, Data.Localization, LocaleUtils
+
+### Community 402 - "Community 402"
+Cohesion: 0.29
+Nodes (5): Action, IEnumerator, Data.Magic, UserMagicApiClient, UserMagicResponse
+
+### Community 403 - "Community 403"
+Cohesion: 0.29
+Nodes (5): RoomInfo, string, User, Data, MatchedInfoDto
+
+### Community 404 - "Community 404"
+Cohesion: 0.29
+Nodes (6): int, List, string, Vector3, CreatedObjectDto, GameScene.Dto
+
+### Community 405 - "Community 405"
+Cohesion: 0.29
+Nodes (6): float, int, List, string, GameScene.Dto, SnapshotObjectDto
+
+### Community 406 - "Community 406"
+Cohesion: 0.29
+Nodes (6): int, List, string, GameScene.Dto, SyncFrameInfo, SnapshotDto
+
+### Community 407 - "Community 407"
+Cohesion: 0.29
+Nodes (6): UpdatedObjectDto, int, List, string, Vector3, GameScene.Dto
+
+### Community 408 - "Community 408"
+Cohesion: 0.29
+Nodes (4): Image, Sprite, ExpectedMagicUI, GameScene
+
+### Community 409 - "Community 409"
+Cohesion: 0.43
+Nodes (3): Vector3, GameScene, LineSkillIndicator
+
+### Community 410 - "Community 410"
+Cohesion: 0.29
+Nodes (4): CardInputSender, Image, GameScene, MagicCombineButton
+
+### Community 411 - "Community 411"
+Cohesion: 0.33
+Nodes (4): GameObject, ProjectileDto, GameScene.Object, ProjectileSpawner
+
+### Community 412 - "Community 412"
+Cohesion: 0.33
+Nodes (4): ServedObject, GameScene.Player, OnPlayerDestroyController, PlayerFallDownController
+
+### Community 413 - "Community 413"
+Cohesion: 0.33
+Nodes (4): IEnumerator, LocalizedString, DeleteAccountButton, LobbyScene.SettingPage
+
+### Community 414 - "Community 414"
+Cohesion: 0.29
+Nodes (4): GameObject, LobbyScene.SettingPage, SettingPage, Stack
+
+### Community 415 - "Community 415"
+Cohesion: 0.38
+Nodes (3): Slider, LobbyScene.SettingPage, SoundDataSetter
+
+### Community 416 - "Community 416"
+Cohesion: 0.29
+Nodes (5): GameObject, IEnumerator, TMP_Text, LoginScene, LoginSceneInitializer
+
+### Community 417 - "Community 417"
+Cohesion: 0.48
+Nodes (4): Colliderable, Override, Vector3, CircleCollidingHelper
+
+### Community 418 - "Community 418"
+Cohesion: 0.39
+Nodes (3): GameObject, Override, Rune
+
+### Community 419 - "Community 419"
+Cohesion: 0.48
+Nodes (3): ApplicationLogger, Scheduled, String
+
+### Community 420 - "Community 420"
+Cohesion: 0.38
+Nodes (4): DiscordWebhookAppender, Override, String, ILoggingEvent
+
+### Community 421 - "Community 421"
+Cohesion: 0.43
+Nodes (5): MagicController, GetMapping, Long, MagicResponse, Mono
+
+### Community 422 - "Community 422"
+Cohesion: 0.57
+Nodes (3): PlayerData, CardType, List
+
+### Community 423 - "Community 423"
+Cohesion: 0.29
+Nodes (7): DOTween Icon Image, DOTween Mini Icon Image, DOTween Footer Dark Image, DOTween Footer Image, DOTween Header Image, DOTween Readme, DOTweenPro Logo Image
+
+### Community 424 - "Community 424"
+Cohesion: 0.43
+Nodes (5): GameContext, Master, Override, Vector3, WillOWispMagic
+
+### Community 426 - "Community 426"
+Cohesion: 0.43
+Nodes (4): FrameInfoDto, PlayerData, PostConstruct, ManaCharger
+
+### Community 427 - "Community 427"
+Cohesion: 0.48
+Nodes (4): GameContext, Override, PveScenarioEvent, PveScriptSystem
+
+### Community 428 - "Community 428"
+Cohesion: 0.38
+Nodes (5): Integer, Optional, ServerRepository, Server, String
+
+### Community 429 - "Community 429"
+Cohesion: 0.33
+Nodes (7): applyStyle(), applyStyleOnLoad(), isNumeric(), offset(), parseOffset(), setStyles(), toValue()
+
+### Community 430 - "Community 430"
+Cohesion: 0.33
+Nodes (7): arrow(), computeStyle(), find(), getOuterSizes(), getRoundedOffsets(), hide(), isModifierRequired()
+
+### Community 431 - "Community 431"
+Cohesion: 0.29
+Nodes (7): destroy(), disableEventListeners(), getSupportedPropertyName(), getWindow(), isModifierEnabled(), preventOverflow(), removeEventListeners()
+
+### Community 432 - "Community 432"
+Cohesion: 0.52
+Nodes (4): Flux, Long, Scenario, ScenarioRepository
+
+### Community 433 - "Community 433"
+Cohesion: 0.36
+Nodes (6): Integer, Long, Mono, RewardParam, String, RewardParamRepository
+
+### Community 434 - "Community 434"
+Cohesion: 0.48
+Nodes (5): Flux, ServerRepository, Server, ServerState, ServerType
+
+### Community 435 - "Community 435"
+Cohesion: 0.60
+Nodes (4): Authority, List, Member, MemberEntity
+
+### Community 436 - "Community 436"
+Cohesion: 0.53
+Nodes (4): AuthorityEntity, Flux, Query, AuthorityRepository
+
+### Community 437 - "Community 437"
+Cohesion: 0.47
+Nodes (4): Mono, String, System, SystemRepository
+
+### Community 438 - "Community 438"
+Cohesion: 0.40
+Nodes (4): Server, ServerState, ServerType, String
+
+### Community 439 - "Community 439"
+Cohesion: 0.47
+Nodes (4): Mono, ServerState, ServerStatusService, Void
+
+### Community 440 - "Community 440"
+Cohesion: 0.47
+Nodes (3): PostConstruct, PreDestroy, ServerStatusTracker
+
+### Community 441 - "Community 441"
+Cohesion: 0.53
+Nodes (4): Mono, ServerTokenRequest, ServerTokenResponse, TokenService
+
+### Community 442 - "Community 442"
+Cohesion: 0.40
+Nodes (3): String, AccountServerClient, LoginRequestDto
+
+### Community 443 - "Community 443"
+Cohesion: 0.47
+Nodes (3): Bean, String, RestClientConfig
+
+### Community 444 - "Community 444"
+Cohesion: 0.47
+Nodes (4): GetMapping, Model, String, AdventureAdminController
+
+### Community 445 - "Community 445"
+Cohesion: 0.47
+Nodes (4): GetMapping, Model, String, QuestAdminController
+
+### Community 446 - "Community 446"
+Cohesion: 0.47
+Nodes (4): GetMapping, Model, String, TagAdminController
+
+### Community 447 - "Community 447"
+Cohesion: 0.47
+Nodes (5): List, Quest, String, getRewardParamsString(), QuestDto()
+
+### Community 448 - "Community 448"
+Cohesion: 0.40
+Nodes (4): ServerState, ServerType, String, Server
+
+### Community 449 - "Community 449"
+Cohesion: 0.53
+Nodes (4): AfterReturning, StatisticAspect, InputResponseDto, JoinPoint
+
+### Community 450 - "Community 450"
+Cohesion: 0.33
+Nodes (3): ShotMocker, TutorialScene, Collider2D
+
+### Community 451 - "Community 451"
+Cohesion: 0.33
+Nodes (5): TutorialScene, TutorialStep, bool, string, TutorialWaitType
+
+### Community 452 - "Community 452"
+Cohesion: 0.40
+Nodes (4): StageClearProgressChecker, Integer, Mono, Override
+
+### Community 453 - "Community 453"
+Cohesion: 0.40
+Nodes (4): TotalWinProgressChecker, Integer, Mono, Override
+
+### Community 454 - "Community 454"
+Cohesion: 0.33
+Nodes (5): Forest Adventure Stage 1 Image, Stone Fortress Image, Tree Icon Image, Background Image, Card Image
+
+### Community 455 - "Community 455"
+Cohesion: 0.33
+Nodes (5): int, string, Vector3, Admin.Dto, DebugSummonMagicRequestDto
+
+### Community 456 - "Community 456"
+Cohesion: 0.33
+Nodes (4): Adventure, GameObject, Adventures.Scenarios, StageFactory
+
+### Community 457 - "Community 457"
+Cohesion: 0.33
+Nodes (5): CardDto, long, string, Data.Deck, DeckResponseDto
+
+### Community 458 - "Community 458"
+Cohesion: 0.33
+Nodes (4): List, Data.Magic, LocalMagicData, MagicData
+
+### Community 459 - "Community 459"
+Cohesion: 0.33
+Nodes (5): float, int, string, Data.Magic, MagicData
+
+### Community 460 - "Community 460"
+Cohesion: 0.33
+Nodes (5): bool, int, UserGameHistoryDto, Data.Profile, UserGameHistoryResponseDto
+
+### Community 461 - "Community 461"
+Cohesion: 0.33
+Nodes (5): User, UserGameHistoryDto, UserStatisticsOverviewDto, Data.Profile, UserProfileData
+
+### Community 462 - "Community 462"
+Cohesion: 0.33
+Nodes (5): int, long, string, Data, User
+
+### Community 463 - "Community 463"
+Cohesion: 0.33
+Nodes (5): float, string, Vector3, GameScene.Dto.debug, Gizmo
+
+### Community 464 - "Community 464"
+Cohesion: 0.33
+Nodes (5): bool, int, string, GameScene.Dto, MagicValidInfo
+
+### Community 465 - "Community 465"
+Cohesion: 0.33
+Nodes (5): CreatedObjectDto, ProjectileDto, UpdatedObjectDto, GameScene.Dto, ObjectsInfo
+
+### Community 466 - "Community 466"
+Cohesion: 0.33
+Nodes (5): float, ProjectileDto, ProjectileTarget, string, GameScene.Dto.Projectile
+
+### Community 467 - "Community 467"
+Cohesion: 0.33
+Nodes (5): int, List, string, GameScene.Dto, PveScriptEventInfo
+
+### Community 468 - "Community 468"
+Cohesion: 0.33
+Nodes (5): int, SnapshotObjectDto, string, GameScene.Dto, SnapshotDto
+
+### Community 469 - "Community 469"
+Cohesion: 0.40
+Nodes (4): FrameInfoDto, DeltaFrameHandler, GameScene.Handler, IFrameInfoHandler
+
+### Community 470 - "Community 470"
+Cohesion: 0.47
+Nodes (3): SnapshotObjectDto, GameScene.Object, ObjectSyncer
+
+### Community 471 - "Community 471"
+Cohesion: 0.33
+Nodes (3): GameObject, GameScene.Player, MagicFailEffecter
+
+### Community 472 - "Community 472"
+Cohesion: 0.33
+Nodes (4): ServedObject, TextMeshProUGUI, GameScene.Player, PlayerNameSetter
+
+### Community 473 - "Community 473"
+Cohesion: 0.33
+Nodes (4): Action, LocalizedString, Global, IConfirmationDialog
+
+### Community 474 - "Community 474"
+Cohesion: 0.33
+Nodes (3): int, Global, IDMaker
+
+### Community 475 - "Community 475"
+Cohesion: 0.33
+Nodes (4): bool, GameObject, Global, LoadingPage
+
+### Community 476 - "Community 476"
+Cohesion: 0.33
+Nodes (4): CardType, Dictionary, CardNameMapper, Global.Util
+
+### Community 477 - "Community 477"
+Cohesion: 0.40
+Nodes (4): T, Global.Util, JsonHelper, Wrapper
+
+### Community 478 - "Community 478"
+Cohesion: 0.53
+Nodes (4): GameServerController, GetMapping, Mono, RoomListDto
+
+### Community 479 - "Community 479"
+Cohesion: 0.40
+Nodes (4): ContentStateReadConverter, ContentState, Override, String
+
+### Community 480 - "Community 480"
+Cohesion: 0.40
+Nodes (4): ContentStateWriteConverter, ContentState, Override, String
+
+### Community 481 - "Community 481"
+Cohesion: 0.40
+Nodes (4): DecoTypeReadConverter, DecoType, Override, String
+
+### Community 482 - "Community 482"
+Cohesion: 0.40
+Nodes (4): DecoTypeWriteConverter, DecoType, Override, String
+
+### Community 483 - "Community 483"
+Cohesion: 0.40
+Nodes (4): UserStatusReadConverter, Override, String, UserStatus
+
+### Community 484 - "Community 484"
+Cohesion: 0.40
+Nodes (4): UserStatusWriteConverter, Override, String, UserStatus
+
+### Community 485 - "Community 485"
+Cohesion: 0.47
+Nodes (4): AttackInfo, ElementType, Set, HashSet
+
+### Community 487 - "Community 487"
+Cohesion: 0.47
+Nodes (4): LightningDropPrefabInitializer, GameObject, Override, Parameters
+
+### Community 488 - "Community 488"
+Cohesion: 0.47
+Nodes (4): MagmaExplosionPrefabInitializer, GameObject, Override, Parameters
+
+### Community 489 - "Community 489"
+Cohesion: 0.47
+Nodes (4): OvergrowthPrefabInitializer, GameObject, Override, Parameters
+
+### Community 490 - "Community 490"
+Cohesion: 0.47
+Nodes (4): RazorGalePrefabInitializer, GameObject, Override, Parameters
+
+### Community 491 - "Community 491"
+Cohesion: 0.47
+Nodes (4): ShockOverloadPrefabInitializer, GameObject, Override, Parameters
+
+### Community 492 - "Community 492"
+Cohesion: 0.47
+Nodes (4): FireFieldPrefabInitializer, GameObject, Override, Parameters
+
+### Community 493 - "Community 493"
+Cohesion: 0.53
+Nodes (3): Collection, ElementType, ElementalChart
+
+### Community 494 - "Community 494"
+Cohesion: 0.53
+Nodes (4): GameContext, Magic, Master, Vector3
+
+### Community 495 - "Community 495"
+Cohesion: 0.53
+Nodes (4): CardType, List, Magic, MagicParser
+
+### Community 496 - "Community 496"
+Cohesion: 0.47
+Nodes (3): GameObject, Override, CraterSpawner
+
+### Community 497 - "Community 497"
+Cohesion: 0.47
+Nodes (4): List, Override, Vector2, SimplePathFinder
+
+### Community 498 - "Community 498"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, ElectricShotPrefabInitializer
+
+### Community 499 - "Community 499"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, DimensionToadPrefabInitializer
+
+### Community 500 - "Community 500"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, FireLordSpiritPrefabInitializer
+
+### Community 501 - "Community 501"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, GroundCannonPrefabInitializer
+
+### Community 502 - "Community 502"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, GroundTowerPrefabInitializer
+
+### Community 503 - "Community 503"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, MagmaSpiritPrefabInitializer
+
+### Community 504 - "Community 504"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, ManaWellPrefabInitializer
+
+### Community 505 - "Community 505"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, SandStormPrefabInitializer
+
+### Community 506 - "Community 506"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, StormRiderPrefabInitializer
+
+### Community 507 - "Community 507"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, VineSpiritPrefabInitializer
+
+### Community 508 - "Community 508"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, TideCallPrefabInitializer
+
+### Community 509 - "Community 509"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, VineColonyPrefabInitializer
+
+### Community 510 - "Community 510"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, LeafFieldPrefabInitializer
+
+### Community 511 - "Community 511"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, MiniRockPrefabInitializer
+
+### Community 512 - "Community 512"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, RockRollingPrefabInitializer
+
+### Community 513 - "Community 513"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, CraterEmberPrefabInitializer
+
+### Community 514 - "Community 514"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, MagmaFistPrefabInitializer
+
+### Community 515 - "Community 515"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, WaterSlimePrefabInitializer
+
+### Community 516 - "Community 516"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, WindSlimePrefabInitializer
+
+### Community 517 - "Community 517"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, WindSpiritPrefabInitializer
+
+### Community 518 - "Community 518"
+Cohesion: 0.47
+Nodes (4): GameObject, Override, Parameters, WindSummonPrefabInitializer
+
+### Community 519 - "Community 519"
+Cohesion: 0.40
+Nodes (4): Vector3, PositionProjectileTarget, ReferenceProjectileTarget, ProjectileTarget
+
+### Community 520 - "Community 520"
+Cohesion: 0.40
+Nodes (4): Double, Optional, ParameterRepository, String
+
+### Community 522 - "Community 522"
+Cohesion: 0.40
+Nodes (4): Server, ServerState, ServerType, String
+
+### Community 523 - "Community 523"
+Cohesion: 0.33
+Nodes (4): Class, Object, T, PjpUtils
+
+### Community 525 - "Community 525"
+Cohesion: 0.40
+Nodes (4): AdventureDatabaseDto, Flux, Long, UserAdventureRepository
+
+### Community 526 - "Community 526"
+Cohesion: 0.53
+Nodes (4): Flux, Query, MyCardListRow, CardListQueryRepository
+
+### Community 527 - "Community 527"
+Cohesion: 0.47
+Nodes (4): Flux, Long, UserCard, UserCardRepository
+
+### Community 528 - "Community 528"
+Cohesion: 0.60
+Nodes (3): Mono, Void, DecorationInitializer
+
+### Community 529 - "Community 529"
+Cohesion: 0.47
+Nodes (4): Mono, Transactional, Void, QuestInitializer
+
+### Community 533 - "Community 533"
+Cohesion: 0.70
+Nodes (4): Member, MemberEntity, from(), MemberResponse()
+
+### Community 534 - "Community 534"
+Cohesion: 0.50
+Nodes (3): Long, String, System
+
+### Community 535 - "Community 535"
+Cohesion: 0.40
+Nodes (5): Footer Fragment, Header Fragment, Layout Fragment, Join Page Template, Login Page Template
+
+### Community 536 - "Community 536"
+Cohesion: 0.60
+Nodes (4): List, ScenarioDto, Stage, StageDto()
+
+### Community 537 - "Community 537"
+Cohesion: 0.50
+Nodes (3): ChickenCommandoMob, GameObject, Override
+
+### Community 538 - "Community 538"
+Cohesion: 0.50
+Nodes (3): NonAttackingCowardMob, GameObject, Override
+
+### Community 539 - "Community 539"
+Cohesion: 0.50
+Nodes (3): PlayerPrioMob, GameObject, Override
+
+### Community 540 - "Community 540"
+Cohesion: 0.50
+Nodes (3): Slime, GameObject, Override
+
+### Community 541 - "Community 541"
+Cohesion: 0.50
+Nodes (3): BGMClipContainer, Global.Sound.BGM, AudioClip
+
+### Community 542 - "Community 542"
+Cohesion: 0.70
+Nodes (4): BotEye, FrameInfoDto, GameSessionData, Master
+
+### Community 544 - "Community 544"
+Cohesion: 0.40
+Nodes (4): bool, string, Admin.Dto, DebugActionResponseDto
+
+### Community 545 - "Community 545"
+Cohesion: 0.40
+Nodes (4): int, string, Admin.Dto, DebugMagicDto
+
+### Community 546 - "Community 546"
+Cohesion: 0.40
+Nodes (4): string, Vector3, Admin.Dto, DebugSpawnPrefabRequestDto
+
+### Community 547 - "Community 547"
+Cohesion: 0.40
+Nodes (4): long, string, Admin.Dto, RoomInfo
+
+### Community 548 - "Community 548"
+Cohesion: 0.40
+Nodes (4): long, string, Data.Deck, DeckRequestDto
+
+### Community 549 - "Community 549"
+Cohesion: 0.40
+Nodes (4): float, string, Data.GameConfig, GameParameterData
+
+### Community 550 - "Community 550"
+Cohesion: 0.40
+Nodes (4): int, long, Data, GameUser
+
+### Community 551 - "Community 551"
+Cohesion: 0.40
+Nodes (3): string, Data.Localization, LocaleSetButton
+
+### Community 552 - "Community 552"
+Cohesion: 0.40
+Nodes (4): long, string, Data.Profile, UserGameHistoryDto
+
+### Community 553 - "Community 553"
+Cohesion: 0.40
+Nodes (4): short, string, Data, ResultInfo
+
+### Community 554 - "Community 554"
+Cohesion: 0.40
+Nodes (4): Server, string, Data, ServerList
+
+### Community 555 - "Community 555"
+Cohesion: 0.40
+Nodes (3): string, Data, UserInfo
+
+### Community 556 - "Community 556"
+Cohesion: 0.40
+Nodes (3): TextMeshProUGUI, DeckItemUI, DeckScene
+
+### Community 557 - "Community 557"
+Cohesion: 0.40
+Nodes (3): T, GameScene.Handler, IFrameInfoHandler
+
+### Community 558 - "Community 558"
+Cohesion: 0.50
+Nodes (3): ResultInfo, GameScene.Handler, ResultHandler
+
+### Community 559 - "Community 559"
+Cohesion: 0.40
+Nodes (3): Transform, DamagedObjectEffect, GameScene.ServedObjectComponent
+
+### Community 560 - "Community 560"
+Cohesion: 0.40
+Nodes (4): float, string, GameScene.ServedObjectComponent, Gauge
+
+### Community 561 - "Community 561"
+Cohesion: 0.40
+Nodes (3): GameObject, GameScene.ServedObjectComponent, OnDestroySpawner
+
+### Community 562 - "Community 562"
+Cohesion: 0.40
+Nodes (3): float, GameScene, ShrinkSelfDestroyer
+
+### Community 563 - "Community 563"
+Cohesion: 0.40
+Nodes (3): string, Global, SceneLoadButton
+
+### Community 564 - "Community 564"
+Cohesion: 0.50
+Nodes (3): T, Global, StateEvent
+
+### Community 565 - "Community 565"
+Cohesion: 0.50
+Nodes (4): string, Global.Util, JwksKey, JwksResponse
+
+### Community 566 - "Community 566"
+Cohesion: 0.50
+Nodes (4): string, Global.Util, JwtHeader, JwtPayload
+
+### Community 567 - "Community 567"
+Cohesion: 0.40
+Nodes (3): IEnumerator, LobbyScene, UserInfoGetter
+
+### Community 568 - "Community 568"
+Cohesion: 0.50
+Nodes (3): ParameterController, PostMapping, PreAuthorize
+
+### Community 569 - "Community 569"
+Cohesion: 0.60
+Nodes (3): ServerStateController, PostMapping, PreAuthorize
+
+### Community 570 - "Community 570"
+Cohesion: 0.70
+Nodes (3): CardInfoDto, CardType, List
+
+### Community 572 - "Community 572"
+Cohesion: 0.50
+Nodes (3): GameContext, Override, ComponentUpdateSystem
+
+### Community 573 - "Community 573"
+Cohesion: 0.50
+Nodes (3): GameContext, Override, FeverTimeSystem
+
+### Community 574 - "Community 574"
+Cohesion: 0.50
+Nodes (3): GameContext, Override, GameObjectAddRemoteSystem
+
+### Community 575 - "Community 575"
+Cohesion: 0.50
+Nodes (3): GameContext, Override, GameObjectStateInitialSystem
+
+### Community 576 - "Community 576"
+Cohesion: 0.60
+Nodes (3): GameObject, List, CollisionSystem
+
+### Community 577 - "Community 577"
+Cohesion: 0.60
+Nodes (3): GameObject, Mob, MobHealthSelector
+
+### Community 578 - "Community 578"
+Cohesion: 0.50
+Nodes (3): GameScene.Handler, MagicValidHandler, MagicValidInfo
+
+### Community 579 - "Community 579"
+Cohesion: 0.50
+Nodes (3): GameScene.Handler, SyncFrameHandler, SyncFrameInfo
+
+### Community 580 - "Community 580"
+Cohesion: 0.50
+Nodes (3): Mono, Void, AdventureInitService
+
+### Community 581 - "Community 581"
+Cohesion: 0.50
+Nodes (4): Card, CardsDto, CardType, CardDto()
+
+### Community 582 - "Community 582"
+Cohesion: 0.50
+Nodes (3): AccountMemberResponseDto, Long, BotMemberMaker
+
+### Community 584 - "Community 584"
+Cohesion: 0.50
+Nodes (3): Long, String, AuthorityEntity
+
+### Community 585 - "Community 585"
+Cohesion: 0.50
+Nodes (3): Long, String, KeyValue
+
+### Community 587 - "Community 587"
+Cohesion: 0.83
+Nodes (3): Card, CardDto(), MagicCard
+
+### Community 588 - "Community 588"
+Cohesion: 0.50
+Nodes (3): Double, Long, ParameterValueRow
+
+### Community 589 - "Community 589"
+Cohesion: 0.83
+Nodes (3): Tag, TagDto(), toEntity()
+
+### Community 591 - "Community 591"
+Cohesion: 0.50
+Nodes (3): PointerEventData, PointerEventData, PointerEventData
+
+### Community 592 - "Community 592"
+Cohesion: 0.50
+Nodes (3): string, Admin.Dto, DebugPrefabDto
+
+### Community 593 - "Community 593"
+Cohesion: 0.50
+Nodes (3): List, Admin.Dto, RoomList
+
+### Community 594 - "Community 594"
+Cohesion: 0.50
+Nodes (3): string, AccountUser, Data
+
+### Community 595 - "Community 595"
+Cohesion: 0.50
+Nodes (3): string, CardInfo, Data
+
+### Community 596 - "Community 596"
+Cohesion: 0.50
+Nodes (3): CardDto, CardPoolDto, Data.Deck
+
+### Community 597 - "Community 597"
+Cohesion: 0.50
+Nodes (3): List, Data.Magic, UserMagicResponse
+
+### Community 598 - "Community 598"
+Cohesion: 0.50
+Nodes (3): int, Data.Profile, UserStatisticsOverviewDto
+
+### Community 599 - "Community 599"
+Cohesion: 0.50
+Nodes (3): string, Data, SimpleMessageDto
+
+### Community 600 - "Community 600"
+Cohesion: 0.50
+Nodes (3): int, Data.Sound, SoundData
+
+### Community 601 - "Community 601"
+Cohesion: 0.50
+Nodes (3): string, GameScene.Dto, TypeChecker
+
+### Community 602 - "Community 602"
+Cohesion: 0.50
+Nodes (3): float, GameConfig, GameScene
+
+### Community 603 - "Community 603"
+Cohesion: 0.50
+Nodes (3): string, LobbyScene.SettingPage, MemberPutRequest
+
+### Community 604 - "Community 604"
+Cohesion: 0.50
+Nodes (3): string, AuthResponseDto, LoginScene
+
+### Community 605 - "Community 605"
+Cohesion: 0.50
+Nodes (3): string, GuestAuthResponseDto, LoginScene
+
+### Community 606 - "Community 606"
+Cohesion: 0.50
+Nodes (3): string, RegisterRequestDto, RegisterScene
+
+### Community 607 - "Community 607"
+Cohesion: 0.50
+Nodes (3): AudioClip, Sound, SoundAssets
+
+### Community 613 - "Community 613"
+Cohesion: 0.50
+Nodes (3): Deck, Long, String
+
+### Community 614 - "Community 614"
+Cohesion: 0.50
+Nodes (3): DeckCard, Integer, Long
+
+### Community 615 - "Community 615"
+Cohesion: 0.50
+Nodes (3): UserCard, Integer, Long
+
+### Community 616 - "Community 616"
+Cohesion: 0.67
+Nodes (3): DeckCardDto(), CardDto, Deck
+
+### Community 617 - "Community 617"
+Cohesion: 0.67
+Nodes (3): CardsDto, CardType, CardDto()
+
+### Community 619 - "Community 619"
+Cohesion: 0.67
+Nodes (3): String, dbName(), GameObjectKey()
+
+### Community 620 - "Community 620"
+Cohesion: 0.50
+Nodes (3): ResultMmrDto, ResultType, ResultDto
+
+### Community 621 - "Community 621"
+Cohesion: 0.83
+Nodes (3): FrameInfoDto, SnapshotResponseDto, SyncInfoDto
+
+### Community 627 - "Community 627"
+Cohesion: 0.50
+Nodes (3): CardDto, CardType, CardsDto
+
+### Community 629 - "Community 629"
+Cohesion: 0.50
+Nodes (3): MonoBehaviour, DisabledWarnings, Version
+
+### Community 645 - "Community 645"
+Cohesion: 0.67
+Nodes (3): Magic SQL Reference, Make Magic Skill, Magic System Reference
+
+## Knowledge Gaps
+- **2176 isolated node(s):** `remote-deploy.sh script`, `String`, `Void`, `Override`, `Long` (+2171 more)
+  These have ≤1 connection - possible missing edges or undocumented components.
+- **436 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+
+## Suggested Questions
+_Questions this graph is uniquely positioned to answer:_
+
+- **Why does `LocalSingletonObject` connect `Community 112` to `Community 64`, `Community 195`, `Community 69`, `Community 102`, `Community 104`, `Community 10`, `Community 234`, `Community 273`, `Community 243`, `Community 179`, `Community 470`, `Community 411`, `Community 125`, `Community 350`?**
+  _High betweenness centrality (0.044) - this node is a cross-community bridge._
+- **Why does `AdventureRow` connect `Community 91` to `Community 98`, `Community 67`, `Community 388`, `Community 304`, `Community 339`, `Community 340`, `Community 243`, `Community 190`, `Community 63`?**
+  _High betweenness centrality (0.038) - this node is a cross-community bridge._
+- **Why does `AdventureClient` connect `Community 190` to `Community 10`?**
+  _High betweenness centrality (0.037) - this node is a cross-community bridge._
+- **What connects `remote-deploy.sh script`, `String`, `Void` to the rest of the system?**
+  _2176 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Community 0` be split into smaller, more focused modules?**
+  _Cohesion score 0.05387397677517609 - nodes in this community are weakly interconnected._
+- **Should `Community 1` be split into smaller, more focused modules?**
+  _Cohesion score 0.06159014557670773 - nodes in this community are weakly interconnected._
+- **Should `Community 2` be split into smaller, more focused modules?**
+  _Cohesion score 0.06682705159048383 - nodes in this community are weakly interconnected._

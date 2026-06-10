@@ -1,0 +1,19 @@
+---
+source_file: "game/src/main/java/com/wordonline/server/auth/config/JwtAuthenticationFilter.java"
+type: "code"
+community: "Community 173"
+location: "L24"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_173
+---
+
+# HttpServletRequest
+
+## Connections
+- [[.doFilterInternal()_1]] - `references` [EXTRACTED]
+- [[.resolveToken()]] - `references` [EXTRACTED]
+- [[JwtAuthenticationFilter.java_1]] - `imports` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_173
