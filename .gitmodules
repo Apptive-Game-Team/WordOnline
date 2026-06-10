@@ -1,0 +1,18 @@
+[submodule "game"]
+	path = game
+	url = https://github.com/Apptive-Game-Team/WordOnlineServer
+[submodule "lobby"]
+	path = lobby
+	url = https://github.com/Apptive-Game-Team/WordOnlineMatching
+[submodule "client"]
+	path = client
+	url = https://github.com/Apptive-Game-Team/WordOnlineClient
+[submodule "database"]
+	path = database
+	url = https://github.com/Apptive-Game-Team/WordOnlineDatabase
+[submodule "admin"]
+	path = admin
+	url = https://github.com/Apptive-Game-Team/WordOnlineAdmin
+[submodule "account"]
+	path = account
+	url = https://github.com/Apptive-Game-Team/AccountServer
