@@ -16,3 +16,6 @@
 [submodule "account"]
 	path = account
 	url = https://github.com/Apptive-Game-Team/AccountServer
+[submodule "website"]
+	path = website
+	url = https://github.com/Apptive-Game-Team/theevilent

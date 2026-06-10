@@ -37,4 +37,5 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Graphify generated data (if you want to keep them local)
-# graphify-out/
+graphify-out/
+
