@@ -36,7 +36,5 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Graphify generated data (if you want to keep them local)
-# graphify-out/
-
-
+# Graphify generated data
+graphify-out/
