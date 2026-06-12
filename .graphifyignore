@@ -1,0 +1,91 @@
+# Graphify output
+graphify-out/
+
+# Agent and editor metadata
+.agents/
+.codex/
+**/.agents/
+**/.codex/
+**/.idea/
+**/.vscode/
+
+# Repository automation
+**/.github/
+
+# Dependencies and generated output
+**/node_modules/
+**/build/
+**/Build/
+**/Builds/
+**/dist/
+**/out/
+**/target/
+**/bin/
+**/obj/
+
+# Unity-generated directories
+**/Library/
+**/Temp/
+**/Obj/
+**/Logs/
+**/UserSettings/
+**/MemoryCaptures/
+**/Recordings/
+**/.utmp/
+**/ExportedObj/
+
+# Unity-generated project files
+**/*.meta
+**/*.csproj
+**/*.unityproj
+**/*.sln
+**/*.user
+**/*.userprefs
+**/*.pidb
+**/*.pdb
+**/*.mdb
+**/*.opendb
+**/*.VC.db
+
+# Unity builds and generated packages
+**/*.apk
+**/*.aab
+**/*.app
+**/*.unitypackage
+**/Assets/StreamingAssets/aa/
+**/Assets/AddressableAssetsData/**/*.bin*
+
+# Third-party Unity packages committed under Assets
+client/Assets/Plugins/Demigiant/
+client/Assets/Resources/Cainos/
+
+# Binary art, audio, video, fonts, and models
+client/Assets/Art/
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.webp
+**/*.svg
+**/*.psd
+**/*.tga
+**/*.bmp
+**/*.wav
+**/*.mp3
+**/*.ogg
+**/*.mp4
+**/*.mov
+**/*.ttf
+**/*.otf
+**/*.fbx
+**/*.obj
+**/*.blend
+
+# Vendored frontend code
+admin/src/main/resources/static/js/bootstrap*.js
+
+# Crash and debug artifacts
+**/mono_crash*
+**/sysinfo.txt
+**/*.log
+**/*.dump
