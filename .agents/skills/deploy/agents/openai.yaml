@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deploy"
+  short_description: "Merge changed main branches into deploy safely"
+  default_prompt: "Use $deploy to merge eligible main branches into deploy."
