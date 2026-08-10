@@ -22,6 +22,7 @@ Module-specific instructions supplement this file. When instructions conflict, t
 - `admin/`: Spring Boot administration web server
 - `website/`: React and Vite web frontend
 - `database/`: Flyway database migrations
+- `infra/`: Deployment and runtime configuration for the servers (private repository)
 
 Keep changes within the owning module unless the task requires an explicit cross-module contract change.
 

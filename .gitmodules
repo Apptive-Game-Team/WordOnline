@@ -19,3 +19,6 @@
 [submodule "website"]
 	path = website
 	url = https://github.com/Apptive-Game-Team/theevilent
+[submodule "infra"]
+	path = infra
+	url = https://github.com/Apptive-Game-Team/WordOnlineInfra
