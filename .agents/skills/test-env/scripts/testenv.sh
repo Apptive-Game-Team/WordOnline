@@ -543,6 +543,21 @@ serve() {
     return
   fi
 
+  # Another checkout of the same module, or another session, can already hold
+  # this module's application port. Detection above is scoped to this ROOT on
+  # purpose so the skill never kills someone else's server — which means the
+  # collision only surfaces at the end of a multi-minute Gradle build, as
+  # "Port <n> was already in use". Catch it now instead.
+  local app_port holder
+  app_port=$(module_app_port "$module")
+  if [ "$app_port" != unset ]; then
+    holder=$(port_holder "$app_port")
+    [ -z "$holder" ] || die "$module cannot start: port $app_port is already in use by $holder.
+This skill did not start it — it is most likely the same module running from
+another checkout, or another session. Stop that process, or change PORT in
+$module/.env."
+  fi
+
   local args
   args=$(module_boot_args "$module")
   log "starting $module against the local clone"

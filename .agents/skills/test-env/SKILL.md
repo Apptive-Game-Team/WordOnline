@@ -33,8 +33,10 @@ provisioning a fresh one.
   `.gitignore` covers `*.env`; verify before staging anything.
 - Never print credentials, JWT keys, or connection strings containing
   passwords into a summary the user did not ask for.
-- Never modify a module's `.env` without the script's backup step
-  (`env-patch` writes `.env.testenv-backup` first).
+- Never modify a module's `.env` without the script's backup step. `env-patch`
+  copies the original to `.claude/testenv/backups/<module>.env` first — outside
+  the submodule, so a file full of credentials never shows up as untracked in
+  that submodule's `git status`.
 - Cloned rows are real user data. Keep the clone local; do not upload dumps.
 
 ## Prerequisites
@@ -64,7 +66,7 @@ provisioning a fresh one.
 2. Get approval for that target, then bring the environment up:
 
    ```bash
-   .claude/skills/test-env/scripts/testenv.sh up --yes --with game,lobby
+   .agents/skills/test-env/scripts/testenv.sh up --yes --with game,lobby
    ```
 
    The script, in order: checks Docker and the migration directory, detects the
@@ -80,13 +82,13 @@ provisioning a fresh one.
 4. Hand the user a psql session when they want one:
 
    ```bash
-   .claude/skills/test-env/scripts/testenv.sh psql
+   .agents/skills/test-env/scripts/testenv.sh psql
    ```
 
 5. Tear down when the user is done:
 
    ```bash
-   .claude/skills/test-env/scripts/testenv.sh down
+   .agents/skills/test-env/scripts/testenv.sh down
    ```
 
    Add `--purge` to also drop the dump volume and the Docker network.
@@ -111,7 +113,7 @@ composing one by hand. It carries the database overrides and a conflict-free
 actuator port:
 
 ```bash
-.claude/skills/test-env/scripts/testenv.sh run-cmd lobby
+.agents/skills/test-env/scripts/testenv.sh run-cmd lobby
 ```
 
 ### Ports
@@ -129,9 +131,9 @@ read their database settings from `.env` only, so they must be wired with
 silently starting them against the shared database:
 
 ```bash
-.claude/skills/test-env/scripts/testenv.sh env-patch account
-.claude/skills/test-env/scripts/testenv.sh up --yes --with account,admin
-.claude/skills/test-env/scripts/testenv.sh env-restore account
+.agents/skills/test-env/scripts/testenv.sh env-patch account
+.agents/skills/test-env/scripts/testenv.sh up --yes --with account,admin
+.agents/skills/test-env/scripts/testenv.sh env-restore account
 ```
 
 Always run `env-restore` before the user goes back to normal development, and
@@ -149,14 +151,21 @@ from the game database and its name may carry no `dev` marker, so `SOURCE_LABEL`
 does not describe it. Cloning it copies real account records — get explicit
 approval first.
 
-**No migrations are applied to the account clone.** The account repository has
-no Flyway dependency, no `flyway_schema_history`, and `spring.sql.init.mode` is
-`never`; its `sql/schema.sql` is a non-idempotent DDL journal that fails against
-a populated database. The cloned schema is what the account server runs against.
-Never point `database/migration` at the account database — that chain targets
+**This skill applies no migrations to the account clone — the account server
+does it itself.** Since AccountServer#41 the account server carries its own
+Flyway chain in `src/main/resources/db/migration` and migrates at startup, so
+starting it against the clone baselines the clone and applies whatever is
+pending. Verified against a clone: Flyway baselines at the chain's baseline
+version, the baseline migration is recorded but not executed, and the cloned
+rows are left untouched.
+
+Never point `database/migration` at the account database. That chain targets
 the shared game database only (`database/README.md`) and would corrupt the
-clone. If the account repository later grows a real chain, set
-`ACCOUNT_MIGRATION_DIR` in `.db.env` and the script will apply it.
+clone.
+
+`ACCOUNT_MIGRATION_DIR` in `.db.env` stays available for migrating the account
+clone *without* starting the server. Leave it empty otherwise — with the server
+running the chain, setting it only duplicates work.
 
 ### Module key map
 
