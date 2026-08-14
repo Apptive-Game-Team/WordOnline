@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Env"
+  short_description: "Clone the game database locally and run the servers against it"
+  default_prompt: "Use $test-env to build a local test environment from a database clone."
