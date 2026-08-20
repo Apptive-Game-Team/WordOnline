@@ -106,7 +106,34 @@ p10, mean and worst frame rate, average session count, stalls, memory, and the r
 failure.
 
 Useful options: `--warmup` and `--sample` (seconds, default 45 and 60), `--poll`, `--out`,
-`--start`, `--max`, `--cpus`, `--memory`, `--fps-pass`.
+`--start`, `--max`, `--cpus`, `--memory`, `--fps-pass`, and `--single` for one trial at
+`--start` with no search — which is what the A/B script below is built from.
+
+Two environment knobs matter. `JAVA_HOME` must point at a JDK 21: the server builds with
+Gradle 8.13, which refuses a newer JDK with `Unsupported class file major version`, and a
+poisoned build cache turns that into a confusing `Could not create task ':test'` instead.
+`SWEEP_CAP` (default 1000) becomes `BOT_AUTO_MATCH_MAX_SESSIONS_PER_SWEEP` in the container:
+the production default of five caps how fast the scheduler refills, and because bot matches
+end continuously that cap also becomes a ceiling on the session count, so a run against the
+default stalls below its target and reports `fill timeout`.
+
+### 3b. Comparing two builds
+
+A capacity number is only comparable against one measured on the same box, on the same day,
+against the same database. Between the two searches in the baseline table below, the capacity
+of unmodified `main` moved by a factor of two — not because of any change to the loop, but
+because the box had restarted and the database had grown. Do not compare a number you measure
+today against a number in this file.
+
+To answer "did this change help", run both builds interleaved instead:
+
+```bash
+TARGETS="64 96 128" .agents/skills/game-capacity-test/scripts/ab-compare.sh
+```
+
+It alternates the two images at each session count, flipping which one goes first, truncates
+the statistics tables before every trial, and waits for the host to go quiet before starting.
+Edit the two image tags at the top of the script.
 
 ### 4. Keep the box quiet
 
@@ -120,8 +147,10 @@ sessions below 15 fps, which is precisely what a capacity search spends its time
 
 ## Measured baseline
 
-Game server `origin/main` at `7c427e4`, one CPU and 1 GiB, JVM defaults (max heap 256 MiB),
-bot self-play sessions, pass threshold 15 fps at the tenth percentile:
+One CPU and 1 GiB, JVM defaults (max heap 256 MiB), bot self-play sessions, pass threshold
+15 fps at the tenth percentile.
+
+Game server `origin/main` at `7c427e4`:
 
 | target sessions | verdict | p10 fps | mean fps | worst session | memory |
 | --- | --- | --- | --- | --- | --- |
@@ -136,14 +165,36 @@ bot self-play sessions, pass threshold 15 fps at the tenth percentile:
 | 108 | fail | 11.80 | 15.28 | 0.50 | 359 MiB |
 | 128 | fail | 10.20 | 13.60 | 2.82 | 369 MiB |
 
-The search settled at 104 sessions, with the first failure at 105. Roughly one hundred
-sessions per core. Read the boundary as a band rather than a line: the
-trials either side of it sit within a couple of frames per second of each other, and each
-verdict comes from a single sixty second window.
+The search settled at 104 sessions, with the first failure at 105. Read the boundary as a band
+rather than a line: the trials either side of it sit within a couple of frames per second of
+each other, and each verdict comes from a single sixty second window.
 
-CPU is the limit, not memory: the container never went past 370 MiB of its gigabyte, and no
-trial stalled or was reaped even well past the frame rate threshold — the loops degrade
-smoothly rather than dying.
+### After the frame-path work
 
-Re-run the search after any change to the loop, the bot brain, or the systems the loop drives,
-and compare against this table rather than against a remembered number.
+The performance issues that came out of the profile above were fixed in
+`Apptive-Game-Team/WordOnlineServer` #429 through #434: component lookups off the stream
+machinery, one collision-candidate pass per frame instead of one per pair, the per-frame
+update list indexed by id, the spectator broadcast and the snapshot built only when something
+consumes them, parameter misses cached, and the bot's tag lookups memoised.
+
+Measured with `ab-compare.sh`, same box, same database, alternating order. A is `main` at
+`a0312ff`, B is A plus that work:
+
+| sessions | A p10 fps | B p10 fps | A memory | B memory |
+| --- | --- | --- | --- | --- |
+| 64 | 18.70 pass | 18.59 pass | 346 MiB | 319 MiB |
+| 96 | 16.60 pass | 18.78 pass | 372 MiB | 335 MiB |
+| 128 | 12.86 **fail** | 19.45 pass | 379 MiB | 344 MiB |
+
+B was nowhere near its limit at 128, so its own search followed: 192 pass (p10 16.03), 216
+pass (15.96), 228 pass (18.34), 234 pass (18.73), 238 pass (16.81), 239 fail (14.38), 240 fail
+(14.10), 288 fail (13.47), 384 fail (11.25). The search settled on 238, but 216 scoring below
+228 shows the run-to-run spread, so **roughly 230 give or take ten** is the honest reading —
+about 2.2 times the unmodified build measured the same day.
+
+CPU is the limit, not memory: no trial passed 411 MiB of its gigabyte. Across every trial in
+both tables nothing stalled and nothing was reaped, well past the frame rate threshold — the
+loops degrade smoothly rather than dying.
+
+Re-run both arms after any change to the loop, the bot brain, or the systems the loop drives.
+Compare against a fresh measurement of the build you are changing, not against this table.

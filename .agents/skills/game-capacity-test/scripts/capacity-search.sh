@@ -32,6 +32,7 @@ FILL_TIMEOUT="${FILL_TIMEOUT:-180}"
 APP_PORT="${APP_PORT:-18080}"
 MGMT_PORT="${MGMT_PORT:-18081}"
 OUT="${OUT:-capacity-search.csv}"
+SINGLE="${SINGLE:-0}"
 
 while [ $# -gt 0 ]; do
     case "$1" in
@@ -45,6 +46,7 @@ while [ $# -gt 0 ]; do
         --sample)    SAMPLE="$2";    shift 2 ;;
         --poll)      POLL="$2";      shift 2 ;;
         --out)       OUT="$2";       shift 2 ;;
+        --single)    SINGLE=1;       shift 1 ;;
         --network)   NETWORK="$2";   shift 2 ;;
         --pg)        PG_CONTAINER="$2"; shift 2 ;;
         *) echo "unknown option: $1" >&2; exit 2 ;;
@@ -73,6 +75,7 @@ start_container() { # start_container <target sessions>
         -e BOT_AUTO_MATCH_ENABLED=true \
         -e BOT_AUTO_MATCH_TARGET_GAMES="$1" \
         -e BOT_AUTO_MATCH_CHECK_INTERVAL_MS=5000 \
+        -e BOT_AUTO_MATCH_MAX_SESSIONS_PER_SWEEP="${SWEEP_CAP:-1000}" \
         -e WATCHDOG_CHECK_INTERVAL_MS=5000 \
         -e SESSION_STALL_CHECK_INTERVAL_MS=5000 \
         -e LOOP_FPS_SAMPLE_INTERVAL_MS=2000 \
@@ -181,6 +184,13 @@ record() {
 
 echo "target,verdict,p10_fps,mean_fps,worst_session_fps,avg_sessions,stalled,mem_mib,note" >"$OUT"
 trap stop_container EXIT
+
+if [ "$SINGLE" = 1 ]; then
+    # One trial at --start, no search. Used by the A/B comparison, where the point is two
+    # builds measured at the same session count rather than each build's own boundary.
+    trial "$START"; record "$START"
+    exit 0
+fi
 
 lo=0        # highest count known to pass
 hi=0        # lowest count known to fail, 0 while none has
