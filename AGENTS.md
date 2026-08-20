@@ -55,3 +55,20 @@ Each submodule has an independent Git history. For submodule changes:
 3. Update and commit the submodule pointer in the parent repository.
 
 Do not commit a parent-repository submodule pointer that references an unpublished submodule commit.
+
+## 6. Component Versioning
+
+Deployable components use independent Semantic Versions. Update the version in
+every component whose runtime behavior changes; do not bump unaffected modules.
+
+- `game/build.gradle`: game server
+- `lobby/build.gradle`: lobby server
+- `account/build.gradle`: account server
+- `admin/build.gradle`: admin server
+- `client/ProjectSettings/ProjectSettings.asset` (`bundleVersion`): Unity client
+
+Use PATCH for backward-compatible fixes and internal changes, MINOR for
+backward-compatible features, and MAJOR for breaking API or protocol changes.
+Documentation, tests, and agent-instruction-only changes do not require a bump.
+Do not use `-SNAPSHOT` for deployable versions. Server builds embed their Gradle
+version through Spring Boot build info; do not maintain a second version value.
