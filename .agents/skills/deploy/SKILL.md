@@ -42,7 +42,8 @@ release. Every other repository is promoted without any of the three.
 
 ## Workflow
 
-1. Verify tools and root:
+1. Verify tools and root. The scripts need `git`, `gh`, `python3`, `awk`, and
+   `base64`; they do not need `jq`, which is absent on this machine.
 
    ```bash
    git rev-parse --show-toplevel
