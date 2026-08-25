@@ -1,11 +1,13 @@
 ---
 name: deploy
-description: Create or reuse GitHub pull requests from main to deploy across the WordOnline monorepo root and its Git submodules, then merge only repositories with commits to promote. Use when the user invokes $deploy or asks to promote, merge, or deploy all eligible repository main branches into deploy.
+description: Create or reuse GitHub pull requests from main to deploy across the WordOnline monorepo root and its Git submodules, bump each versioned component once per promotion, then merge, tag, and release. Use when the user invokes $deploy or asks to promote, merge, or deploy all eligible repository main branches into deploy.
 ---
 
 # Deploy Main Branches
 
-Promote `main` to `deploy` independently in each Git repository. Preserve every local checkout and working tree.
+Promote `main` to `deploy` independently in each Git repository. Versioned
+components get their single version bump here, at promotion time, not in feature
+pull requests. Preserve every local checkout and working tree.
 
 ## Safety Rules
 
@@ -13,15 +15,35 @@ Promote `main` to `deploy` independently in each Git repository. Preserve every 
 - Include root repository and every initialized submodule declared in `.gitmodules`.
 - Use `origin/main` and `origin/deploy` as source of truth after fetching.
 - Never create a missing `main` or `deploy` branch.
-- Never switch branches, pull, push, reset, stash, or edit files.
+- Never switch branches, pull, reset, stash, or edit files in any local checkout.
+  Local checkouts sit on unrelated feature branches with uncommitted work.
+- The only write to `main` is the version bump commit, made remotely through the
+  GitHub Contents API by `scripts/bump-version.sh`. Never `git push` from a local
+  checkout.
 - Never bypass conflicts, required checks, reviews, or branch protection.
 - Never delete `main` or `deploy`.
+- Merge with `--merge` only. A squash breaks the merge base and makes every later
+  promotion conflict.
 - Process repositories independently. One failure must not block other eligible repositories.
 - When `gh` authentication fails only inside sandbox, retry same `gh` command with escalated execution before reporting auth failure.
 
+## Versioned Components
+
+Only these five repositories carry a version, and only they get a bump, tag, and
+release. Every other repository is promoted without any of the three.
+
+| Path | Version file | Kind |
+|---|---|---|
+| `game` | `build.gradle` | `gradle` |
+| `lobby` | `build.gradle` | `gradle` |
+| `account` | `build.gradle` | `gradle` |
+| `admin` | `build.gradle` | `gradle` |
+| `client` | `ProjectSettings/ProjectSettings.asset` | `unity` |
+
 ## Workflow
 
-1. Verify tools and root:
+1. Verify tools and root. The scripts need `git`, `gh`, `python3`, `awk`, and
+   `base64`; they do not need `jq`, which is absent on this machine.
 
    ```bash
    git rev-parse --show-toplevel
@@ -63,7 +85,66 @@ Promote `main` to `deploy` independently in each Git repository. Preserve every 
 
    - If count is `0`, mark `skipped: up to date`. Do not create a PR.
 
-4. For each repository with source-only commits:
+4. Build the release plan for the versioned components:
+
+   ```bash
+   .agents/skills/deploy/scripts/plan-versions.sh
+   ```
+
+   The script fetches, then prints one tab-separated row per component:
+   `path`, `owner/repo`, `file`, `kind`, `commits`, `deploy_version`,
+   `main_version`, `level`, `next_version`, `state`.
+
+   It derives `level` from the Conventional Commit subjects and bodies in
+   `origin/deploy..origin/main`, ignoring merge commits:
+
+   - `MAJOR` when any commit uses a `!` marker such as `feat!:` or `fix(api)!:`,
+     or carries a `BREAKING CHANGE` trailer.
+   - `MINOR` when any commit is `feat:` or `feat(scope):`.
+   - `PATCH` otherwise, including commits whose subject is not a Conventional
+     Commit at all.
+
+   `state` is one of:
+
+   - `bump`: `main` and `deploy` hold the same version, so this promotion bumps it.
+   - `already bumped`: `main` already carries a version ahead of `deploy`, left
+     over from a promotion that was blocked after its bump commit landed. Reuse
+     `main_version` and do not bump again.
+   - `skipped: up to date`, `skipped: missing <branch>`, `failed: <reason>`.
+
+5. Show the plan and get explicit approval before writing anything:
+
+   | Repository | Commits | Level | Version |
+   |---|---:|---|---|
+   | owner/repo | 4 | minor | 0.7.0 to 0.8.0 |
+   | owner/repo | 2 | - | 0.0.2 (already bumped) |
+
+   State the level for each bump and which commit drove it. Stop here when the
+   user wants a different level, and pass the corrected `next_version` through
+   step 6 unchanged. Do not proceed without approval.
+
+6. Commit the bump onto `main` for every `bump` row:
+
+   ```bash
+   .agents/skills/deploy/scripts/bump-version.sh <owner/repo> <file> <kind> <old> <new>
+   ```
+
+   The script reads the file from `main` through the GitHub Contents API,
+   replaces the single version line, refuses to commit when the diff is anything
+   other than that one line, and pushes the commit
+   `chore(release): <repo> v<new>` straight to `main`. It prints the new commit
+   SHA. No local checkout is touched.
+
+   Then refresh the remote refs so the bump commit is visible locally:
+
+   ```bash
+   git -C <path> fetch --prune origin
+   ```
+
+   If a bump fails, mark the repository `failed: bump` and do not open or merge
+   its PR. Leave the other repositories running.
+
+7. For each repository with source-only commits:
    - Run every GitHub command with explicit `-R <owner/repo>`.
    - Find an existing open PR whose base is `deploy` and head is `main`.
 
@@ -72,7 +153,8 @@ Promote `main` to `deploy` independently in each Git repository. Preserve every 
        --json number,url
      ```
 
-   - Reuse that PR when found. Never create a duplicate.
+   - Reuse that PR when found. Never create a duplicate. A reused PR picks up the
+     bump commit automatically because its head is `main`.
    - Otherwise create:
 
      ```bash
@@ -81,8 +163,9 @@ Promote `main` to `deploy` independently in each Git repository. Preserve every 
        --body "Promotes the current main branch to deploy."
      ```
 
-5. Validate PR before merge:
+8. Validate PR before merge:
    - Confirm base is `deploy`, head is `main`, state is open, and PR is mergeable.
+   - Confirm the head commit includes the bump for versioned components.
    - Wait for required checks:
 
      ```bash
@@ -92,7 +175,7 @@ Promote `main` to `deploy` independently in each Git repository. Preserve every 
    - If no required checks are configured, continue.
    - If checks fail, PR conflicts, reviews are required, or protection blocks merge, leave PR open and mark `blocked`.
 
-6. Merge eligible PR:
+9. Merge eligible PR:
 
    ```bash
    gh pr merge -R <owner/repo> <pr> --merge
@@ -100,20 +183,48 @@ Promote `main` to `deploy` independently in each Git repository. Preserve every 
 
    Do not pass `--admin`, `--auto`, or `--delete-branch`.
 
-7. Report one row per repository:
+10. Tag and release each merged versioned component:
 
-   | Repository | Commits | PR | Result |
-   |---|---:|---|---|
-   | owner/repo | 3 | URL | merged |
-   | owner/repo | 0 | - | skipped: up to date |
-   | owner/repo | - | - | skipped: missing deploy |
-   | owner/repo | 2 | URL | blocked: checks failed |
+    ```bash
+    git -C <path> fetch --prune origin
+    gh release view -R <owner/repo> v<new>
+    gh release create -R <owner/repo> v<new> \
+      --target "$(git -C <path> rev-parse origin/deploy)" \
+      --title "<path> v<new>" \
+      --generate-notes
+    ```
 
-End with totals for `merged`, `skipped`, `blocked`, and `failed`.
+    - Run the `release view` first. When the release already exists, mark
+      `released: existing` and create nothing.
+    - `release create` creates the tag on the merge commit now at the tip of
+      `deploy`, so the tag names exactly what is deployed.
+    - Tag name is always `v<version>`, matching the version file value.
+    - Never tag a repository whose merge was `blocked` or `failed`.
+    - A release failure after a successful merge is reported as
+      `merged, release failed: <reason>`. It never rolls back the merge.
+
+11. Report one row per repository:
+
+    | Repository | Commits | Version | PR | Result |
+    |---|---:|---|---|---|
+    | owner/repo | 3 | 0.7.0 to 0.8.0 | URL | merged, released v0.8.0 |
+    | owner/repo | 1 | - | URL | merged |
+    | owner/repo | 0 | - | - | skipped: up to date |
+    | owner/repo | - | - | - | skipped: missing deploy |
+    | owner/repo | 2 | 0.1.0 to 0.1.1 | URL | blocked: checks failed |
+
+    End with totals for `merged`, `released`, `skipped`, `blocked`, and `failed`.
 
 ## Failure Handling
 
 - `fetch` network failure: retry once with escalated execution when sandbox networking is likely responsible.
 - GitHub auth failure: retry with user session credentials through escalated execution.
 - Ambiguous multiple matching PRs: do not merge; report `blocked`.
+- Bump rejected because the version line is missing, duplicated, or the diff is
+  larger than one line: report the exact script error and skip that repository.
+  Never edit the file by hand to work around it.
+- Contents API `409` or `422 sha mismatch`: someone pushed to `main` between the
+  plan and the bump. Re-run `plan-versions.sh` for that repository and retry once.
 - Merge command failure: refresh PR state once, report exact GitHub reason, continue to next repository.
+- Tag name already taken by a different commit: report `blocked: tag exists`, and
+  do not move or delete the existing tag.

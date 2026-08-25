@@ -58,8 +58,7 @@ Do not commit a parent-repository submodule pointer that references an unpublish
 
 ## 6. Component Versioning
 
-Deployable components use independent Semantic Versions. Update the version in
-every component whose runtime behavior changes; do not bump unaffected modules.
+Deployable components use independent Semantic Versions:
 
 - `game/build.gradle`: game server
 - `lobby/build.gradle`: lobby server
@@ -67,8 +66,16 @@ every component whose runtime behavior changes; do not bump unaffected modules.
 - `admin/build.gradle`: admin server
 - `client/ProjectSettings/ProjectSettings.asset` (`bundleVersion`): Unity client
 
-Use PATCH for backward-compatible fixes and internal changes, MINOR for
-backward-compatible features, and MAJOR for breaking API or protocol changes.
-Documentation, tests, and agent-instruction-only changes do not require a bump.
+Do not bump a version in a feature pull request. Every version bump happens once
+per promotion, in the `deploy` skill: it commits `chore(release): <repo> vX.Y.Z`
+to `main`, merges `main` into `deploy`, then tags and releases `vX.Y.Z` on the
+merge commit. Bumping per pull request produced constant conflicts on the same
+version line, so the single bump per release replaced it.
+
+The `deploy` skill derives the level from the Conventional Commit messages
+promoted in that release: MAJOR for a `!` marker or a `BREAKING CHANGE` trailer,
+MINOR for `feat:`, PATCH otherwise. Write accurate commit types; they are the
+only input to the released version number.
+
 Do not use `-SNAPSHOT` for deployable versions. Server builds embed their Gradle
 version through Spring Boot build info; do not maintain a second version value.
