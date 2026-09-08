@@ -16,7 +16,7 @@
 카드는 원소이고, 마법은 카드 조합의 결과다.
 
 - `cards` 는 11장이다. 원소 6장(Fire, Water, Lightning, Rock, Nature, Wind)과 시전 종류 5장(Shoot, Build, Spawn, Explode, Drop).
-- `magics` 는 69개다. `magic_cards` 가 마법과 카드를 잇고, 카드를 정렬한 목록이 곧 조합의 키다. 조합 대부분이 카드 2장이고, 가장 긴 것이 5장이다. 같은 카드가 두 장 필요한 조합은 행을 두 번 넣어서 표현한다.
+- `magics` 는 `V003` 이 이름으로 못 박은 67개에 뒤이은 register 마이그레이션들이 더해진 수다. 정확한 개수는 운영 데이터베이스에만 있다. `magic_cards` 가 마법과 카드를 잇고, 카드를 정렬한 목록이 곧 조합의 키다. 조합 대부분이 카드 2장이고, 가장 긴 것이 5장이다. 같은 카드가 두 장 필요한 조합은 행을 두 번 넣어서 표현한다.
 - 덱은 15장이고, 같은 카드 최대 3장, 원소 카드 2종 이상, 시전 종류 카드 3종 이상이어야 한다.
 - 손패는 6장이고 1초마다 한 장씩 뽑는다. fever 동안 간격이 절반이 된다.
 - 마나 비용은 낸 카드들의 `mana_cost` 합이다. 사거리는 시전 종류 이름으로 `parameter_values` 에서 읽는다. `parameters.getValue("Shoot", "range")` 같은 식이다.
@@ -87,7 +87,10 @@ account, website, infra 는 바뀌지 않는다.
 magics(id bigserial primary key,
        name varchar(255) not null unique,
        element varchar(10) not null default 'None',   -- Fire|Water|Lightning|Rock|Nature|Wind|None
-       access_type varchar(10) not null default 'DEFAULT')
+       access_type varchar(10) not null default 'DEFAULT',
+       updated_at timestamp default now(),            -- 클라이언트 캐시 version 의 근거
+       unlock_condition_type varchar(31),             -- cards 에서 옮겨온다
+       unlock_required_value integer)
 
 user_magics(id bigserial primary key, user_id bigint, magic_id bigint,
             count integer not null default 3,
@@ -102,8 +105,10 @@ deck_cards(id bigserial primary key, deck_id bigint, magic_id bigint references 
 - `deck_cards` 는 표 이름을 그대로 두고 `card_id` 만 `magic_id` 로 바꾼다. `decks` 와 `users.selected_deck_id` 는 그대로다.
 - `game_objects.name` 이 `magics.name` 과 같다. `parameters` 에 `mana_cost`, `range`, `aim_shape` 가 있고 `aim_shape` 는 `1` 이면 직선, `0` 이면 원이다.
 - 통계는 `statistic_game_magics` 하나로 합치고 사용 횟수 컬럼을 둔다.
-- `magics.cast_type` 은 운영 데이터베이스에 있지만 이 저장소의 마이그레이션 어디에서도 만들지 않는다. `V000` 이 덤프라서 생긴 기존 drift 다. 시전 종류를 없애므로 이 컬럼도 `drop column if exists` 로 지운다. 지금 이 컬럼을 읽는 곳은 lobby 의 `magic/domain/Magic.java` 다.
-- `aim_shape` 초기값은 `magics.cast_type` 이 있으면 그 값에서, 없으면 조합에 `Shoot` 이 들어 있는지에서 정한다.
+- `magics.cast_type` 은 `V047_20260811__add_magic_cast_type.sql` 이 넣은 컬럼이고 `'spawn'`, `'drop'`, `'explode'`, `'build'`, `'shoot'` 다섯 값만 받는다. 시전 종류를 없애므로 이 컬럼도 지운다. 지금 읽는 곳은 lobby 의 `magic/domain/Magic.java` 다.
+- `range` 와 `aim_shape` 의 초기값은 조합이 아니라 `magics.cast_type` 에서 정한다. 조합에 시전 종류 카드가 두 장 든 마법(`cloud_dragon`, `sea_serpent`)이 있어서 조합에서 읽으면 값이 달라진다.
+- `updated_at` 은 지금 `magic_cards` 에만 있다. `magic_cards` 를 지우면 클라이언트 캐시 version 의 근거가 사라지므로 `magics` 로 옮긴다.
+- `unlock_condition_type` 과 `unlock_required_value` 는 지금 `cards` 에만 있다. 카드 목록의 해금 문구가 이 값을 쓰므로 `magics` 로 옮긴다.
 
 ### 시전 프로토콜
 
@@ -125,12 +130,11 @@ STOMP 목적지는 지금과 같은 `/app/game/input/{sessionId}/{userId}` 다.
 `GET /api/data/magics`:
 
 ```json
-{ "requiresRefresh": true, "version": 13, "source_url": "...",
-  "magics": [ { "id": 34, "name": "leafair", "text": "...",
-                "element": "Nature", "manaCost": 3, "aimShape": 0 } ] }
+{ "version": "2026-09-08T12:00:00", "requiresRefresh": true,
+  "magics": [ { "id": 34, "name": "leafair", "element": "Nature", "manaCost": 3, "aimShape": 0 } ] }
 ```
 
-`castType` 과 `cards` 를 뺀다.
+`castType` 과 `cards` 를 뺀다. envelope 는 지금 형식 그대로다. `version` 은 정수가 아니라 `magics.updated_at` 의 최댓값을 적은 문자열이고, `text` 나 `source_url` 필드는 없다.
 
 ### 덱과 카드 목록 API
 
@@ -142,7 +146,7 @@ STOMP 목적지는 지금과 같은 `/app/game/input/{sessionId}/{userId}` 다.
 
 - 각 저장소의 이슈 브랜치는 `magic-card` 에서 따고 `magic-card` 로 병합한다. base 를 `main` 으로 두지 않는다.
 - 브랜치 이름과 label 규칙(`<label>/<번호>`), assignee 와 label 필수 규칙은 각 저장소의 `AGENTS.md` 를 그대로 따른다.
-- WordOnlineDatabase 는 pull request 를 한 줄로 쌓는다. 마이그레이션 번호는 `main` 의 최고 번호보다 커야 한다. 작성 시점 기준 `main` 의 최고 번호는 `V067` 이다. `validate_migrations.yml` 은 pull request 의 base branch 기준으로만 순서를 검사하므로, `magic-card` 안에서만 번호를 맞추면 나중에 `main` 병합에서 순서가 깨진다.
+- WordOnlineDatabase 는 pull request 를 한 줄로 쌓는다. 마이그레이션 번호는 `main` 의 최고 번호보다 커야 하고, 열려 있는 pull request 가 이미 잡아 둔 번호보다도 커야 한다. 두 파일이 같은 번호를 잡으면 Flyway 가 아무것도 실행하지 않는다. 작성 시점 `main` 의 최고 번호는 `V074` 이고 열린 chain 이 `V082` 까지 잡고 있어서 magic-card 는 `V083` 부터 쓴다. 원격 브랜치 전체에서 최고 번호를 직접 확인한다. `validate_migrations.yml` 은 pull request 의 base branch 기준으로만 순서를 검사하므로, `magic-card` 안에서만 번호를 맞추면 나중에 `main` 병합에서 순서가 깨진다.
 - 버전은 pull request 마다 올리지 않는다. promotion 때 `deploy` 스킬이 한 번 올린다. 프로토콜이 깨지는 변경이므로 commit 메시지를 정확히 써야 MAJOR 로 올라간다.
 
 ## 전환 순서
