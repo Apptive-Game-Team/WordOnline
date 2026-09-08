@@ -77,6 +77,65 @@ account, website, infra 는 바뀌지 않는다.
 - 손패 6장, 1초 draw, fever 간격 절반.
 - 매칭이 게임 서버에 넘기는 payload. 지금도 세션 식별자와 사용자 id 만 넘기고 덱 내용은 게임 서버가 데이터베이스에서 직접 읽는다.
 
+## 트랙이 공유하는 계약
+
+저장소 5개가 동시에 움직이므로 경계면을 먼저 못 박는다. 아래 형식이 기준이고, 바꾸려면 이 문서를 먼저 고친다.
+
+### 데이터베이스 목표 스키마
+
+```sql
+magics(id bigserial primary key,
+       name varchar(255) not null unique,
+       element varchar(10) not null default 'None',   -- Fire|Water|Lightning|Rock|Nature|Wind|None
+       access_type varchar(10) not null default 'DEFAULT')
+
+user_magics(id bigserial primary key, user_id bigint, magic_id bigint,
+            count integer not null default 3,
+            unique(user_id, magic_id))
+
+deck_cards(id bigserial primary key, deck_id bigint, magic_id bigint references magics,
+           count integer not null default 1,
+           unique(magic_id, deck_id))
+```
+
+- `element` 는 Postgres enum 이 아니라 `varchar(10)` 에 check 제약을 건다. `card_type` enum 은 지운다.
+- `deck_cards` 는 표 이름을 그대로 두고 `card_id` 만 `magic_id` 로 바꾼다. `decks` 와 `users.selected_deck_id` 는 그대로다.
+- `game_objects.name` 이 `magics.name` 과 같다. `parameters` 에 `mana_cost`, `range`, `aim_shape` 가 있고 `aim_shape` 는 `1` 이면 직선, `0` 이면 원이다.
+- 통계는 `statistic_game_magics` 하나로 합치고 사용 횟수 컬럼을 둔다.
+
+### 시전 프로토콜
+
+STOMP 목적지는 지금과 같은 `/app/game/input/{sessionId}/{userId}` 다.
+
+```json
+{ "type": "useMagic",     "magicId": 34, "id": 7, "position": { "x": 9.0, "y": 0.0, "z": 5.0 } }
+{ "type": "selectCard",   "magicId": 34, "id": 7 }
+{ "type": "unselectCard", "magicId": 34, "id": 7 }
+```
+
+- `card` 와 `cards` 필드는 없어진다. `toggleCard` 와 `cancelCard` 도 없앤다. 한 번에 한 장만 고르므로 `unselectCard` 하나면 된다.
+- `selectCard` 는 지금처럼 시전자에게 그 원소의 idle aura 를 붙이는 용도다. 원소는 서버가 `magics.element` 에서 찾는다.
+- `id` 는 클라이언트가 매기는 요청 번호이고 `InputResponseDto` 가 그대로 돌려준다. `InputResponseDto` 형식은 바뀌지 않는다.
+- frame 의 `cards.added` 는 카드 이름 문자열 목록에서 마법 id 목록(`long`)이 된다.
+
+### 마법 목록 응답
+
+`GET /api/data/magics`:
+
+```json
+{ "requiresRefresh": true, "version": 13, "source_url": "...",
+  "magics": [ { "id": 34, "name": "leafair", "text": "...",
+                "element": "Nature", "manaCost": 3, "aimShape": 0 } ] }
+```
+
+`castType` 과 `cards` 를 뺀다.
+
+### 덱과 카드 목록 API
+
+- `GET /api/users/mine/cards`, `GET /api/users/mine/cardLists` 의 항목은 `{ id, name, element, manaCost, count, unlocked, unlockText, progressText }` 다. `id` 는 `magics.id` 다.
+- `POST`, `PUT /api/users/mine/decks` 의 본문은 `{ name, cardIds }` 형식을 그대로 둔다. 값만 `magics.id` 가 된다. 서버와 클라이언트 양쪽의 필드 이름 변경을 줄이려는 결정이다.
+- 덱 규칙은 15장, 같은 마법 카드 최대 3장, 서로 다른 원소 2종 이상이다.
+
 ## 작업 규칙
 
 - 각 저장소의 이슈 브랜치는 `magic-card` 에서 따고 `magic-card` 로 병합한다. base 를 `main` 으로 두지 않는다.
