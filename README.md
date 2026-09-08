@@ -2,6 +2,16 @@
 
 WordOnline은 Unity 클라이언트와 독립적으로 배포되는 여러 백엔드 서비스로 구성된 온라인 멀티플레이어 게임 플랫폼입니다. 이 저장소는 각 구성 요소를 Git 서브모듈로 관리하며, 시스템 전반의 개발 진입점 역할을 합니다.
 
+## 이 브랜치: magic-card
+
+`magic-card` 는 카드 하나가 마법 하나가 되는 개편을 담는 브랜치입니다. 지금까지는 원소 카드를 조합해서 마법을 만들었지만, 이 브랜치에서는 덱과 손패와 시전이 모두 마법 카드 한 장 단위로 움직입니다. 원소는 마법의 속성으로 남고, 시전 종류(Shoot·Drop·Build·Spawn·Explode)는 없어집니다.
+
+데이터베이스 스키마와 시전 프로토콜과 덱 API 가 한꺼번에 바뀌어서 `main` 에 조금씩 넣을 수 없습니다. 그래서 `client`, `game`, `lobby`, `admin`, `database` 와 이 저장소가 각각 같은 이름의 `magic-card` 브랜치를 쓰고, 이슈는 저장소마다 `magic-card` 마일스톤으로 묶습니다. 이슈 브랜치는 `magic-card` 에서 따고 `magic-card` 로 병합합니다. `main` 을 base 로 두지 않습니다.
+
+- 설계: [`docs/magic-card.md`](docs/magic-card.md)
+- 계획: [`.plan/issues/2026-09-08-issue-23-magic-card-redesign.md`](.plan/issues/2026-09-08-issue-23-magic-card-redesign.md)
+- 전환: [WordOnline#25](https://github.com/Apptive-Game-Team/WordOnline/issues/25)
+
 ## 저장소 구조
 
 | 경로 | 역할 | 주요 기술 |
