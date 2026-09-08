@@ -102,6 +102,8 @@ deck_cards(id bigserial primary key, deck_id bigint, magic_id bigint references 
 - `deck_cards` 는 표 이름을 그대로 두고 `card_id` 만 `magic_id` 로 바꾼다. `decks` 와 `users.selected_deck_id` 는 그대로다.
 - `game_objects.name` 이 `magics.name` 과 같다. `parameters` 에 `mana_cost`, `range`, `aim_shape` 가 있고 `aim_shape` 는 `1` 이면 직선, `0` 이면 원이다.
 - 통계는 `statistic_game_magics` 하나로 합치고 사용 횟수 컬럼을 둔다.
+- `magics.cast_type` 은 운영 데이터베이스에 있지만 이 저장소의 마이그레이션 어디에서도 만들지 않는다. `V000` 이 덤프라서 생긴 기존 drift 다. 시전 종류를 없애므로 이 컬럼도 `drop column if exists` 로 지운다. 지금 이 컬럼을 읽는 곳은 lobby 의 `magic/domain/Magic.java` 다.
+- `aim_shape` 초기값은 `magics.cast_type` 이 있으면 그 값에서, 없으면 조합에 `Shoot` 이 들어 있는지에서 정한다.
 
 ### 시전 프로토콜
 
